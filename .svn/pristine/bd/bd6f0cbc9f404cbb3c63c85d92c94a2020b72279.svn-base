@@ -1,0 +1,38 @@
+\hypertarget{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1TrustInformationRequestOrBuilder}{\section{eu.\+uloop.\+messages.\+Uloop\+Messages.\+Trust\+Information\+Request\+Or\+Builder Interface Reference}
+\label{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1TrustInformationRequestOrBuilder}\index{eu.\+uloop.\+messages.\+Uloop\+Messages.\+Trust\+Information\+Request\+Or\+Builder@{eu.\+uloop.\+messages.\+Uloop\+Messages.\+Trust\+Information\+Request\+Or\+Builder}}
+}
+Inheritance diagram for eu.\+uloop.\+messages.\+Uloop\+Messages.\+Trust\+Information\+Request\+Or\+Builder\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1TrustInformationRequestOrBuilder}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+boolean \hyperlink{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1TrustInformationRequestOrBuilder_a3a611d6db786591af6cd754e158e934b}{has\+Map} ()
+\item 
+com.\+google.\+protobuf.\+Byte\+String \hyperlink{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1TrustInformationRequestOrBuilder_aaf3aef372874a0615556004381c6d855}{get\+Map} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1TrustInformationRequestOrBuilder_aaf3aef372874a0615556004381c6d855}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Trust\+Information\+Request\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Trust\+Information\+Request\+Or\+Builder}!get\+Map@{get\+Map}}
+\index{get\+Map@{get\+Map}!eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Trust\+Information\+Request\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Trust\+Information\+Request\+Or\+Builder}}
+\subsubsection[{get\+Map}]{\setlength{\rightskip}{0pt plus 5cm}com.\+google.\+protobuf.\+Byte\+String eu.\+uloop.\+messages.\+Uloop\+Messages.\+Trust\+Information\+Request\+Or\+Builder.\+get\+Map (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1TrustInformationRequestOrBuilder_aaf3aef372874a0615556004381c6d855}
+\hypertarget{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1TrustInformationRequestOrBuilder_a3a611d6db786591af6cd754e158e934b}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Trust\+Information\+Request\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Trust\+Information\+Request\+Or\+Builder}!has\+Map@{has\+Map}}
+\index{has\+Map@{has\+Map}!eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Trust\+Information\+Request\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Trust\+Information\+Request\+Or\+Builder}}
+\subsubsection[{has\+Map}]{\setlength{\rightskip}{0pt plus 5cm}boolean eu.\+uloop.\+messages.\+Uloop\+Messages.\+Trust\+Information\+Request\+Or\+Builder.\+has\+Map (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1TrustInformationRequestOrBuilder_a3a611d6db786591af6cd754e158e934b}
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/eu/uloop/messages/\hyperlink{UloopMessages_8java}{Uloop\+Messages.\+java}\end{DoxyCompactItemize}

@@ -1,0 +1,35 @@
+/*
+ * version 3.0 - ULOOP software - M33
+ * Copyright ULOOP project (European Commission FP7) - 2013
+ * 
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Lesser General Public License as
+ * published by  the Free Software Foundation, either version 3 of the
+ * License, or (at your option) any later version.
+ * 
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ * 
+ * You should have received a copy of the GNU Lesser General Public
+ * License along with this program.  If not, see
+ * <http://www.gnu.org/licenses/>.
+ * 
+ */
+
+Mobility Tracker (MTracker)
+---------------------------
+
+Mtracker is an Android app that collects information concerning visited APs. It computes a rank and then estimates a potential handover - time and target AP. It is composed of a Service and an Activity. The MTrackerService will run in background, getting WI-FI parameters and storing the required information in the database. MTrackerApplication is the front-end of the android application. It extends ListActivity to show the list of visited access points as a ListView.  It starts the MTracker server, if not running already.
+
+Binary
+-------
+
+The MTracker application compilation generates an .apk, that could be installed in he Android device.
+
+Building
+--------
+
+The Mtracker code provide Eclipse project files (as well as Android Studio beta version). After configuring the project with the correct paths, the application could be build directly from Eclipse. Note that ULOOP interfaces are needed by this application.
+

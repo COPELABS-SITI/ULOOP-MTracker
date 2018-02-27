@@ -1,0 +1,74 @@
+\hypertarget{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1QoSMessageOrBuilder}{\section{eu.\+uloop.\+messages.\+Uloop\+Messages.\+Qo\+S\+Message\+Or\+Builder Interface Reference}
+\label{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1QoSMessageOrBuilder}\index{eu.\+uloop.\+messages.\+Uloop\+Messages.\+Qo\+S\+Message\+Or\+Builder@{eu.\+uloop.\+messages.\+Uloop\+Messages.\+Qo\+S\+Message\+Or\+Builder}}
+}
+Inheritance diagram for eu.\+uloop.\+messages.\+Uloop\+Messages.\+Qo\+S\+Message\+Or\+Builder\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1QoSMessageOrBuilder}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+boolean \hyperlink{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1QoSMessageOrBuilder_ae71c834c8de416f3abbf62c8068cc34b}{has\+Tuple} ()
+\item 
+eu.\+uloop.\+messages.\+Uloop\+Messages.\+Qo\+S\+Tuple \hyperlink{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1QoSMessageOrBuilder_a2b85843bf8226e5de1c86a781b36f50e}{get\+Tuple} ()
+\item 
+\hyperlink{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1QoSTupleOrBuilder}{eu.\+uloop.\+messages.\+Uloop\+Messages.\+Qo\+S\+Tuple\+Or\+Builder} \hyperlink{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1QoSMessageOrBuilder_a7168aa65339f894276f11cb45fd53dd4}{get\+Tuple\+Or\+Builder} ()
+\item 
+boolean \hyperlink{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1QoSMessageOrBuilder_a791f44dad5bc28b88db7d9f731a282b7}{has\+Req} ()
+\item 
+eu.\+uloop.\+messages.\+Uloop\+Messages.\+Qos\+Request \hyperlink{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1QoSMessageOrBuilder_ab401d6931e2b348e25fc5c8656138245}{get\+Req} ()
+\item 
+\hyperlink{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1QosRequestOrBuilder}{eu.\+uloop.\+messages.\+Uloop\+Messages.\+Qos\+Request\+Or\+Builder} \hyperlink{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1QoSMessageOrBuilder_a38597d3c36d910f717a28502b0ce9ed5}{get\+Req\+Or\+Builder} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1QoSMessageOrBuilder_ab401d6931e2b348e25fc5c8656138245}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Qo\+S\+Message\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Qo\+S\+Message\+Or\+Builder}!get\+Req@{get\+Req}}
+\index{get\+Req@{get\+Req}!eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Qo\+S\+Message\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Qo\+S\+Message\+Or\+Builder}}
+\subsubsection[{get\+Req}]{\setlength{\rightskip}{0pt plus 5cm}eu.\+uloop.\+messages.\+Uloop\+Messages.\+Qos\+Request eu.\+uloop.\+messages.\+Uloop\+Messages.\+Qo\+S\+Message\+Or\+Builder.\+get\+Req (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1QoSMessageOrBuilder_ab401d6931e2b348e25fc5c8656138245}
+\hypertarget{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1QoSMessageOrBuilder_a38597d3c36d910f717a28502b0ce9ed5}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Qo\+S\+Message\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Qo\+S\+Message\+Or\+Builder}!get\+Req\+Or\+Builder@{get\+Req\+Or\+Builder}}
+\index{get\+Req\+Or\+Builder@{get\+Req\+Or\+Builder}!eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Qo\+S\+Message\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Qo\+S\+Message\+Or\+Builder}}
+\subsubsection[{get\+Req\+Or\+Builder}]{\setlength{\rightskip}{0pt plus 5cm}{\bf eu.\+uloop.\+messages.\+Uloop\+Messages.\+Qos\+Request\+Or\+Builder} eu.\+uloop.\+messages.\+Uloop\+Messages.\+Qo\+S\+Message\+Or\+Builder.\+get\+Req\+Or\+Builder (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1QoSMessageOrBuilder_a38597d3c36d910f717a28502b0ce9ed5}
+\hypertarget{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1QoSMessageOrBuilder_a2b85843bf8226e5de1c86a781b36f50e}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Qo\+S\+Message\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Qo\+S\+Message\+Or\+Builder}!get\+Tuple@{get\+Tuple}}
+\index{get\+Tuple@{get\+Tuple}!eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Qo\+S\+Message\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Qo\+S\+Message\+Or\+Builder}}
+\subsubsection[{get\+Tuple}]{\setlength{\rightskip}{0pt plus 5cm}eu.\+uloop.\+messages.\+Uloop\+Messages.\+Qo\+S\+Tuple eu.\+uloop.\+messages.\+Uloop\+Messages.\+Qo\+S\+Message\+Or\+Builder.\+get\+Tuple (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1QoSMessageOrBuilder_a2b85843bf8226e5de1c86a781b36f50e}
+\hypertarget{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1QoSMessageOrBuilder_a7168aa65339f894276f11cb45fd53dd4}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Qo\+S\+Message\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Qo\+S\+Message\+Or\+Builder}!get\+Tuple\+Or\+Builder@{get\+Tuple\+Or\+Builder}}
+\index{get\+Tuple\+Or\+Builder@{get\+Tuple\+Or\+Builder}!eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Qo\+S\+Message\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Qo\+S\+Message\+Or\+Builder}}
+\subsubsection[{get\+Tuple\+Or\+Builder}]{\setlength{\rightskip}{0pt plus 5cm}{\bf eu.\+uloop.\+messages.\+Uloop\+Messages.\+Qo\+S\+Tuple\+Or\+Builder} eu.\+uloop.\+messages.\+Uloop\+Messages.\+Qo\+S\+Message\+Or\+Builder.\+get\+Tuple\+Or\+Builder (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1QoSMessageOrBuilder_a7168aa65339f894276f11cb45fd53dd4}
+\hypertarget{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1QoSMessageOrBuilder_a791f44dad5bc28b88db7d9f731a282b7}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Qo\+S\+Message\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Qo\+S\+Message\+Or\+Builder}!has\+Req@{has\+Req}}
+\index{has\+Req@{has\+Req}!eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Qo\+S\+Message\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Qo\+S\+Message\+Or\+Builder}}
+\subsubsection[{has\+Req}]{\setlength{\rightskip}{0pt plus 5cm}boolean eu.\+uloop.\+messages.\+Uloop\+Messages.\+Qo\+S\+Message\+Or\+Builder.\+has\+Req (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1QoSMessageOrBuilder_a791f44dad5bc28b88db7d9f731a282b7}
+\hypertarget{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1QoSMessageOrBuilder_ae71c834c8de416f3abbf62c8068cc34b}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Qo\+S\+Message\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Qo\+S\+Message\+Or\+Builder}!has\+Tuple@{has\+Tuple}}
+\index{has\+Tuple@{has\+Tuple}!eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Qo\+S\+Message\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Qo\+S\+Message\+Or\+Builder}}
+\subsubsection[{has\+Tuple}]{\setlength{\rightskip}{0pt plus 5cm}boolean eu.\+uloop.\+messages.\+Uloop\+Messages.\+Qo\+S\+Message\+Or\+Builder.\+has\+Tuple (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1QoSMessageOrBuilder_ae71c834c8de416f3abbf62c8068cc34b}
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/eu/uloop/messages/\hyperlink{UloopMessages_8java}{Uloop\+Messages.\+java}\end{DoxyCompactItemize}

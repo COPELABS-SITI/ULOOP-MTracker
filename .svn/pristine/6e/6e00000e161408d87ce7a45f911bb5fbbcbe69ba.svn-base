@@ -1,0 +1,38 @@
+\hypertarget{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1ServiceUpdateOrBuilder}{\section{eu.\+uloop.\+messages.\+Uloop\+Messages.\+Service\+Update\+Or\+Builder Interface Reference}
+\label{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1ServiceUpdateOrBuilder}\index{eu.\+uloop.\+messages.\+Uloop\+Messages.\+Service\+Update\+Or\+Builder@{eu.\+uloop.\+messages.\+Uloop\+Messages.\+Service\+Update\+Or\+Builder}}
+}
+Inheritance diagram for eu.\+uloop.\+messages.\+Uloop\+Messages.\+Service\+Update\+Or\+Builder\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1ServiceUpdateOrBuilder}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+boolean \hyperlink{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1ServiceUpdateOrBuilder_a15241d25a1c3db88ecb538ca988270df}{has\+Cryptoid} ()
+\item 
+com.\+google.\+protobuf.\+Byte\+String \hyperlink{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1ServiceUpdateOrBuilder_a1377c7c0cf844b024a8a2c882a306ab0}{get\+Cryptoid} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1ServiceUpdateOrBuilder_a1377c7c0cf844b024a8a2c882a306ab0}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Service\+Update\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Service\+Update\+Or\+Builder}!get\+Cryptoid@{get\+Cryptoid}}
+\index{get\+Cryptoid@{get\+Cryptoid}!eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Service\+Update\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Service\+Update\+Or\+Builder}}
+\subsubsection[{get\+Cryptoid}]{\setlength{\rightskip}{0pt plus 5cm}com.\+google.\+protobuf.\+Byte\+String eu.\+uloop.\+messages.\+Uloop\+Messages.\+Service\+Update\+Or\+Builder.\+get\+Cryptoid (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1ServiceUpdateOrBuilder_a1377c7c0cf844b024a8a2c882a306ab0}
+\hypertarget{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1ServiceUpdateOrBuilder_a15241d25a1c3db88ecb538ca988270df}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Service\+Update\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Service\+Update\+Or\+Builder}!has\+Cryptoid@{has\+Cryptoid}}
+\index{has\+Cryptoid@{has\+Cryptoid}!eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Service\+Update\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Service\+Update\+Or\+Builder}}
+\subsubsection[{has\+Cryptoid}]{\setlength{\rightskip}{0pt plus 5cm}boolean eu.\+uloop.\+messages.\+Uloop\+Messages.\+Service\+Update\+Or\+Builder.\+has\+Cryptoid (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1ServiceUpdateOrBuilder_a15241d25a1c3db88ecb538ca988270df}
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/eu/uloop/messages/\hyperlink{UloopMessages_8java}{Uloop\+Messages.\+java}\end{DoxyCompactItemize}

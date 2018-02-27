@@ -1,0 +1,124 @@
+\hypertarget{classlib_1_1api_1_1UloopMTrackerMessage}{\section{lib.\+api.\+Uloop\+M\+Tracker\+Message Class Reference}
+\label{classlib_1_1api_1_1UloopMTrackerMessage}\index{lib.\+api.\+Uloop\+M\+Tracker\+Message@{lib.\+api.\+Uloop\+M\+Tracker\+Message}}
+}
+Inheritance diagram for lib.\+api.\+Uloop\+M\+Tracker\+Message\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classlib_1_1api_1_1UloopMTrackerMessage}
+\end{center}
+\end{figure}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classlib_1_1api_1_1UloopMTrackerMessage_1_1MTrackerPredictedM}{M\+Tracker\+Predicted\+M}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classlib_1_1api_1_1UloopMTrackerMessage_af2ffccec9a97a071632d90567b5af784}{Uloop\+M\+Tracker\+Message} ()
+\item 
+void \hyperlink{classlib_1_1api_1_1UloopMTrackerMessage_acae9940756ba963f4c9a703baf738710}{set\+Time\+For\+Next\+Move} (long time)
+\item 
+void \hyperlink{classlib_1_1api_1_1UloopMTrackerMessage_a2e3de78be834a4e61d5b0f1a3e37eb8d}{set\+Current\+Stationary\+Time} (long time)
+\item 
+void \hyperlink{classlib_1_1api_1_1UloopMTrackerMessage_a107cb0a2253da877df8d55c2c77c7350}{add\+Next\+Gateway} (\hyperlink{classlib_1_1api_1_1UloopMTrackerMessage_1_1MTrackerPredictedM}{M\+Tracker\+Predicted\+M} next)
+\item 
+\hyperlink{interfacelib_1_1api_1_1UloopAbstractMessage}{Uloop\+Abstract\+Message} \hyperlink{classlib_1_1api_1_1UloopMTrackerMessage_a3251cbbabd745f22290f334c475d4c97}{decode} (Uloop\+Message ulm)  throws Runtime\+Exception 
+\item 
+Builder \hyperlink{classlib_1_1api_1_1UloopMTrackerMessage_a9d9ff3e73a53ae13088b52df395de90a}{encode} ()
+\item 
+void \hyperlink{classlib_1_1api_1_1UloopMTrackerMessage_ad8747254f5616590148266b72b088421}{print} ()
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+long \hyperlink{classlib_1_1api_1_1UloopMTrackerMessage_a93952c4aff54e16ddac6099ff2dce1b1}{time\+For\+Next\+Move}
+\item 
+long \hyperlink{classlib_1_1api_1_1UloopMTrackerMessage_a73fcf2704001aafa37e8f4fe716cefe6}{current\+Stationary\+Time}
+\item 
+List$<$ \hyperlink{classlib_1_1api_1_1UloopMTrackerMessage_1_1MTrackerPredictedM}{M\+Tracker\+Predicted\+M} $>$ \hyperlink{classlib_1_1api_1_1UloopMTrackerMessage_a4faa2b9d0289c4803f5060f5b76d4d41}{Next\+Gateway\+List}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classlib_1_1api_1_1UloopMTrackerMessage_af2ffccec9a97a071632d90567b5af784}{\index{lib\+::api\+::\+Uloop\+M\+Tracker\+Message@{lib\+::api\+::\+Uloop\+M\+Tracker\+Message}!Uloop\+M\+Tracker\+Message@{Uloop\+M\+Tracker\+Message}}
+\index{Uloop\+M\+Tracker\+Message@{Uloop\+M\+Tracker\+Message}!lib\+::api\+::\+Uloop\+M\+Tracker\+Message@{lib\+::api\+::\+Uloop\+M\+Tracker\+Message}}
+\subsubsection[{Uloop\+M\+Tracker\+Message}]{\setlength{\rightskip}{0pt plus 5cm}lib.\+api.\+Uloop\+M\+Tracker\+Message.\+Uloop\+M\+Tracker\+Message (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classlib_1_1api_1_1UloopMTrackerMessage_af2ffccec9a97a071632d90567b5af784}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classlib_1_1api_1_1UloopMTrackerMessage_a107cb0a2253da877df8d55c2c77c7350}{\index{lib\+::api\+::\+Uloop\+M\+Tracker\+Message@{lib\+::api\+::\+Uloop\+M\+Tracker\+Message}!add\+Next\+Gateway@{add\+Next\+Gateway}}
+\index{add\+Next\+Gateway@{add\+Next\+Gateway}!lib\+::api\+::\+Uloop\+M\+Tracker\+Message@{lib\+::api\+::\+Uloop\+M\+Tracker\+Message}}
+\subsubsection[{add\+Next\+Gateway}]{\setlength{\rightskip}{0pt plus 5cm}void lib.\+api.\+Uloop\+M\+Tracker\+Message.\+add\+Next\+Gateway (
+\begin{DoxyParamCaption}
+\item[{{\bf M\+Tracker\+Predicted\+M}}]{next}
+\end{DoxyParamCaption}
+)}}\label{classlib_1_1api_1_1UloopMTrackerMessage_a107cb0a2253da877df8d55c2c77c7350}
+\hypertarget{classlib_1_1api_1_1UloopMTrackerMessage_a3251cbbabd745f22290f334c475d4c97}{\index{lib\+::api\+::\+Uloop\+M\+Tracker\+Message@{lib\+::api\+::\+Uloop\+M\+Tracker\+Message}!decode@{decode}}
+\index{decode@{decode}!lib\+::api\+::\+Uloop\+M\+Tracker\+Message@{lib\+::api\+::\+Uloop\+M\+Tracker\+Message}}
+\subsubsection[{decode}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Uloop\+Abstract\+Message} lib.\+api.\+Uloop\+M\+Tracker\+Message.\+decode (
+\begin{DoxyParamCaption}
+\item[{Uloop\+Message}]{ulm}
+\end{DoxyParamCaption}
+) throws Runtime\+Exception}}\label{classlib_1_1api_1_1UloopMTrackerMessage_a3251cbbabd745f22290f334c475d4c97}
+
+
+Implements \hyperlink{interfacelib_1_1api_1_1UloopAbstractMessage_a1a650d00338402b7d2a5f46575241986}{lib.\+api.\+Uloop\+Abstract\+Message}.
+
+\hypertarget{classlib_1_1api_1_1UloopMTrackerMessage_a9d9ff3e73a53ae13088b52df395de90a}{\index{lib\+::api\+::\+Uloop\+M\+Tracker\+Message@{lib\+::api\+::\+Uloop\+M\+Tracker\+Message}!encode@{encode}}
+\index{encode@{encode}!lib\+::api\+::\+Uloop\+M\+Tracker\+Message@{lib\+::api\+::\+Uloop\+M\+Tracker\+Message}}
+\subsubsection[{encode}]{\setlength{\rightskip}{0pt plus 5cm}Builder lib.\+api.\+Uloop\+M\+Tracker\+Message.\+encode (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classlib_1_1api_1_1UloopMTrackerMessage_a9d9ff3e73a53ae13088b52df395de90a}
+
+
+Implements \hyperlink{interfacelib_1_1api_1_1UloopAbstractMessage_a00e05a40924dadb7ee429c811628aea3}{lib.\+api.\+Uloop\+Abstract\+Message}.
+
+\hypertarget{classlib_1_1api_1_1UloopMTrackerMessage_ad8747254f5616590148266b72b088421}{\index{lib\+::api\+::\+Uloop\+M\+Tracker\+Message@{lib\+::api\+::\+Uloop\+M\+Tracker\+Message}!print@{print}}
+\index{print@{print}!lib\+::api\+::\+Uloop\+M\+Tracker\+Message@{lib\+::api\+::\+Uloop\+M\+Tracker\+Message}}
+\subsubsection[{print}]{\setlength{\rightskip}{0pt plus 5cm}void lib.\+api.\+Uloop\+M\+Tracker\+Message.\+print (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classlib_1_1api_1_1UloopMTrackerMessage_ad8747254f5616590148266b72b088421}
+
+
+Implements \hyperlink{interfacelib_1_1api_1_1UloopAbstractMessage_a116bcd258e6e384507888f4a2e2100a9}{lib.\+api.\+Uloop\+Abstract\+Message}.
+
+\hypertarget{classlib_1_1api_1_1UloopMTrackerMessage_a2e3de78be834a4e61d5b0f1a3e37eb8d}{\index{lib\+::api\+::\+Uloop\+M\+Tracker\+Message@{lib\+::api\+::\+Uloop\+M\+Tracker\+Message}!set\+Current\+Stationary\+Time@{set\+Current\+Stationary\+Time}}
+\index{set\+Current\+Stationary\+Time@{set\+Current\+Stationary\+Time}!lib\+::api\+::\+Uloop\+M\+Tracker\+Message@{lib\+::api\+::\+Uloop\+M\+Tracker\+Message}}
+\subsubsection[{set\+Current\+Stationary\+Time}]{\setlength{\rightskip}{0pt plus 5cm}void lib.\+api.\+Uloop\+M\+Tracker\+Message.\+set\+Current\+Stationary\+Time (
+\begin{DoxyParamCaption}
+\item[{long}]{time}
+\end{DoxyParamCaption}
+)}}\label{classlib_1_1api_1_1UloopMTrackerMessage_a2e3de78be834a4e61d5b0f1a3e37eb8d}
+\hypertarget{classlib_1_1api_1_1UloopMTrackerMessage_acae9940756ba963f4c9a703baf738710}{\index{lib\+::api\+::\+Uloop\+M\+Tracker\+Message@{lib\+::api\+::\+Uloop\+M\+Tracker\+Message}!set\+Time\+For\+Next\+Move@{set\+Time\+For\+Next\+Move}}
+\index{set\+Time\+For\+Next\+Move@{set\+Time\+For\+Next\+Move}!lib\+::api\+::\+Uloop\+M\+Tracker\+Message@{lib\+::api\+::\+Uloop\+M\+Tracker\+Message}}
+\subsubsection[{set\+Time\+For\+Next\+Move}]{\setlength{\rightskip}{0pt plus 5cm}void lib.\+api.\+Uloop\+M\+Tracker\+Message.\+set\+Time\+For\+Next\+Move (
+\begin{DoxyParamCaption}
+\item[{long}]{time}
+\end{DoxyParamCaption}
+)}}\label{classlib_1_1api_1_1UloopMTrackerMessage_acae9940756ba963f4c9a703baf738710}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classlib_1_1api_1_1UloopMTrackerMessage_a73fcf2704001aafa37e8f4fe716cefe6}{\index{lib\+::api\+::\+Uloop\+M\+Tracker\+Message@{lib\+::api\+::\+Uloop\+M\+Tracker\+Message}!current\+Stationary\+Time@{current\+Stationary\+Time}}
+\index{current\+Stationary\+Time@{current\+Stationary\+Time}!lib\+::api\+::\+Uloop\+M\+Tracker\+Message@{lib\+::api\+::\+Uloop\+M\+Tracker\+Message}}
+\subsubsection[{current\+Stationary\+Time}]{\setlength{\rightskip}{0pt plus 5cm}long lib.\+api.\+Uloop\+M\+Tracker\+Message.\+current\+Stationary\+Time\hspace{0.3cm}{\ttfamily [private]}}}\label{classlib_1_1api_1_1UloopMTrackerMessage_a73fcf2704001aafa37e8f4fe716cefe6}
+\hypertarget{classlib_1_1api_1_1UloopMTrackerMessage_a4faa2b9d0289c4803f5060f5b76d4d41}{\index{lib\+::api\+::\+Uloop\+M\+Tracker\+Message@{lib\+::api\+::\+Uloop\+M\+Tracker\+Message}!Next\+Gateway\+List@{Next\+Gateway\+List}}
+\index{Next\+Gateway\+List@{Next\+Gateway\+List}!lib\+::api\+::\+Uloop\+M\+Tracker\+Message@{lib\+::api\+::\+Uloop\+M\+Tracker\+Message}}
+\subsubsection[{Next\+Gateway\+List}]{\setlength{\rightskip}{0pt plus 5cm}List$<${\bf M\+Tracker\+Predicted\+M}$>$ lib.\+api.\+Uloop\+M\+Tracker\+Message.\+Next\+Gateway\+List\hspace{0.3cm}{\ttfamily [private]}}}\label{classlib_1_1api_1_1UloopMTrackerMessage_a4faa2b9d0289c4803f5060f5b76d4d41}
+\hypertarget{classlib_1_1api_1_1UloopMTrackerMessage_a93952c4aff54e16ddac6099ff2dce1b1}{\index{lib\+::api\+::\+Uloop\+M\+Tracker\+Message@{lib\+::api\+::\+Uloop\+M\+Tracker\+Message}!time\+For\+Next\+Move@{time\+For\+Next\+Move}}
+\index{time\+For\+Next\+Move@{time\+For\+Next\+Move}!lib\+::api\+::\+Uloop\+M\+Tracker\+Message@{lib\+::api\+::\+Uloop\+M\+Tracker\+Message}}
+\subsubsection[{time\+For\+Next\+Move}]{\setlength{\rightskip}{0pt plus 5cm}long lib.\+api.\+Uloop\+M\+Tracker\+Message.\+time\+For\+Next\+Move\hspace{0.3cm}{\ttfamily [private]}}}\label{classlib_1_1api_1_1UloopMTrackerMessage_a93952c4aff54e16ddac6099ff2dce1b1}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/lib/api/\hyperlink{UloopMTrackerMessage_8java}{Uloop\+M\+Tracker\+Message.\+java}\end{DoxyCompactItemize}

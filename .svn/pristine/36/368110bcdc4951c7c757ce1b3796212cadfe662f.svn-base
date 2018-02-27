@@ -1,0 +1,187 @@
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerSQLiteHelper}{\section{eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+S\+Q\+Lite\+Helper Class Reference}
+\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerSQLiteHelper}\index{eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+S\+Q\+Lite\+Helper@{eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+S\+Q\+Lite\+Helper}}
+}
+Inheritance diagram for eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+S\+Q\+Lite\+Helper\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerSQLiteHelper}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerSQLiteHelper_a1ca4249f4dfa52e61e08778b12b5c056}{M\+Tracker\+S\+Q\+Lite\+Helper} (Context context)
+\item 
+void \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerSQLiteHelper_ac080af460b5d652bf95d1ef50f97cde1}{on\+Create} (S\+Q\+Lite\+Database data\+Base)
+\item 
+void \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerSQLiteHelper_a4fa12861aa7595d6dd4a80d3f192adad}{on\+Upgrade} (S\+Q\+Lite\+Database data\+Base, int old\+Version, int new\+Version)
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final String \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerSQLiteHelper_aa89b29bbc519ff0ae0ce75eedc22eed0}{T\+A\+B\+L\+E\+\_\+\+A\+C\+C\+E\+S\+S\+P\+O\+I\+N\+T\+S} = \char`\"{}accesspoints\char`\"{}
+\item 
+static final String \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerSQLiteHelper_ab293b3268a1eb8edf543718500f3e39b}{T\+A\+B\+L\+E\+\_\+\+V\+I\+S\+I\+T\+S} = \char`\"{}visits\char`\"{}
+\item 
+static final String \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerSQLiteHelper_a4fdfca87f269093d65f48fae8cc762ed}{T\+A\+B\+L\+E\+\_\+\+C\+O\+N\+T\+E\+X\+T} = \char`\"{}context\char`\"{}
+\item 
+static final String \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerSQLiteHelper_a936bbd64784241550843b756745f60b4}{C\+O\+L\+U\+M\+N\+\_\+\+I\+D} = \char`\"{}\+\_\+id\char`\"{}
+\item 
+static final String \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerSQLiteHelper_af6bb71aa2cc6175bcb321e18a1e9661a}{C\+O\+L\+U\+M\+N\+\_\+\+S\+S\+I\+D} = \char`\"{}ssid\char`\"{}
+\item 
+static final String \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerSQLiteHelper_a482a1e79eb5a97433e61eb70ca7b6ae5}{C\+O\+L\+U\+M\+N\+\_\+\+B\+S\+S\+I\+D} = \char`\"{}bssid\char`\"{}
+\item 
+static final String \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerSQLiteHelper_a98c0cd9d0f3c95f884ebe211ab31275e}{C\+O\+L\+U\+M\+N\+\_\+\+G\+R\+O\+U\+P\+I\+D} = \char`\"{}groupid\char`\"{}
+\item 
+static final String \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerSQLiteHelper_a41b26bdadaacd6e05385c6190d4f3a58}{C\+O\+L\+U\+M\+N\+\_\+\+A\+T\+T\+R\+A\+C\+T\+I\+V\+E\+N\+E\+S\+S} = \char`\"{}attractiveness\char`\"{}
+\item 
+static final String \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerSQLiteHelper_a90da61fce9755e3b09097773cac0b693}{C\+O\+L\+U\+M\+N\+\_\+\+L\+A\+S\+T\+G\+A\+T\+E\+W\+A\+Y\+I\+P} = \char`\"{}lastgatewayip\char`\"{}
+\item 
+static final String \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerSQLiteHelper_aa2b425e08d18a595ea42c70fd9de4423}{C\+O\+L\+U\+M\+N\+\_\+\+T\+I\+M\+E\+O\+N} = \char`\"{}timeon\char`\"{}
+\item 
+static final String \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerSQLiteHelper_a761812af62579d365fde6a593cf31866}{C\+O\+L\+U\+M\+N\+\_\+\+T\+I\+M\+E\+O\+U\+T} = \char`\"{}timeout\char`\"{}
+\item 
+static final String \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerSQLiteHelper_a3a9dfdbca4fb3d30b30172c0a487a7c5}{C\+O\+L\+U\+M\+N\+\_\+\+D\+A\+Y\+O\+F\+T\+H\+E\+W\+E\+E\+K} = \char`\"{}dayoftheweek\char`\"{}
+\item 
+static final String \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerSQLiteHelper_ab751362436de50053ae1ca3658d9daf7}{C\+O\+L\+U\+M\+N\+\_\+\+H\+O\+U\+R} = \char`\"{}hour\char`\"{}
+\end{DoxyCompactItemize}
+\subsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final String \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerSQLiteHelper_a1f7f36d98e2029a6762570819316845b}{D\+A\+T\+A\+B\+A\+S\+E\+\_\+\+N\+A\+M\+E} = \char`\"{}mtracker.\+db\char`\"{}
+\item 
+static final int \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerSQLiteHelper_a7b466275dbb75ef6c54d3f042da1e571}{D\+A\+T\+A\+B\+A\+S\+E\+\_\+\+V\+E\+R\+S\+I\+O\+N} = 1
+\item 
+static final String \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerSQLiteHelper_aa30b15bfbdcf226965b5ef3bf9a4a164}{C\+R\+E\+A\+T\+E\+\_\+\+A\+C\+C\+E\+S\+S\+P\+O\+I\+N\+T\+S\+\_\+\+T\+A\+B\+L\+E}
+\item 
+static final String \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerSQLiteHelper_a6c7b3e25a18753bd6115f606d7d9c1fc}{C\+R\+E\+A\+T\+E\+\_\+\+V\+I\+S\+I\+T\+S\+\_\+\+T\+A\+B\+L\+E}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This class extends the S\+Q\+Lite\+Open\+Helper android class.
+
+\begin{DoxyAuthor}{Author}
+Jonnahtan Saltarin (U\+L\+H\+T) 
+
+Rute Sofia (U\+L\+H\+T) 
+
+Christian da Silva Pereira (U\+L\+H\+T) 
+
+Luis Amaral Lopes (U\+L\+H\+T)
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+3.\+0 
+\end{DoxyVersion}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerSQLiteHelper_a1ca4249f4dfa52e61e08778b12b5c056}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+S\+Q\+Lite\+Helper@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+S\+Q\+Lite\+Helper}!M\+Tracker\+S\+Q\+Lite\+Helper@{M\+Tracker\+S\+Q\+Lite\+Helper}}
+\index{M\+Tracker\+S\+Q\+Lite\+Helper@{M\+Tracker\+S\+Q\+Lite\+Helper}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+S\+Q\+Lite\+Helper@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+S\+Q\+Lite\+Helper}}
+\subsubsection[{M\+Tracker\+S\+Q\+Lite\+Helper}]{\setlength{\rightskip}{0pt plus 5cm}eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+S\+Q\+Lite\+Helper.\+M\+Tracker\+S\+Q\+Lite\+Helper (
+\begin{DoxyParamCaption}
+\item[{Context}]{context}
+\end{DoxyParamCaption}
+)}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerSQLiteHelper_a1ca4249f4dfa52e61e08778b12b5c056}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerSQLiteHelper_ac080af460b5d652bf95d1ef50f97cde1}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+S\+Q\+Lite\+Helper@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+S\+Q\+Lite\+Helper}!on\+Create@{on\+Create}}
+\index{on\+Create@{on\+Create}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+S\+Q\+Lite\+Helper@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+S\+Q\+Lite\+Helper}}
+\subsubsection[{on\+Create}]{\setlength{\rightskip}{0pt plus 5cm}void eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+S\+Q\+Lite\+Helper.\+on\+Create (
+\begin{DoxyParamCaption}
+\item[{S\+Q\+Lite\+Database}]{data\+Base}
+\end{DoxyParamCaption}
+)}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerSQLiteHelper_ac080af460b5d652bf95d1ef50f97cde1}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerSQLiteHelper_a4fa12861aa7595d6dd4a80d3f192adad}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+S\+Q\+Lite\+Helper@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+S\+Q\+Lite\+Helper}!on\+Upgrade@{on\+Upgrade}}
+\index{on\+Upgrade@{on\+Upgrade}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+S\+Q\+Lite\+Helper@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+S\+Q\+Lite\+Helper}}
+\subsubsection[{on\+Upgrade}]{\setlength{\rightskip}{0pt plus 5cm}void eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+S\+Q\+Lite\+Helper.\+on\+Upgrade (
+\begin{DoxyParamCaption}
+\item[{S\+Q\+Lite\+Database}]{data\+Base, }
+\item[{int}]{old\+Version, }
+\item[{int}]{new\+Version}
+\end{DoxyParamCaption}
+)}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerSQLiteHelper_a4fa12861aa7595d6dd4a80d3f192adad}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerSQLiteHelper_a41b26bdadaacd6e05385c6190d4f3a58}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+S\+Q\+Lite\+Helper@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+S\+Q\+Lite\+Helper}!C\+O\+L\+U\+M\+N\+\_\+\+A\+T\+T\+R\+A\+C\+T\+I\+V\+E\+N\+E\+S\+S@{C\+O\+L\+U\+M\+N\+\_\+\+A\+T\+T\+R\+A\+C\+T\+I\+V\+E\+N\+E\+S\+S}}
+\index{C\+O\+L\+U\+M\+N\+\_\+\+A\+T\+T\+R\+A\+C\+T\+I\+V\+E\+N\+E\+S\+S@{C\+O\+L\+U\+M\+N\+\_\+\+A\+T\+T\+R\+A\+C\+T\+I\+V\+E\+N\+E\+S\+S}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+S\+Q\+Lite\+Helper@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+S\+Q\+Lite\+Helper}}
+\subsubsection[{C\+O\+L\+U\+M\+N\+\_\+\+A\+T\+T\+R\+A\+C\+T\+I\+V\+E\+N\+E\+S\+S}]{\setlength{\rightskip}{0pt plus 5cm}final String eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+S\+Q\+Lite\+Helper.\+C\+O\+L\+U\+M\+N\+\_\+\+A\+T\+T\+R\+A\+C\+T\+I\+V\+E\+N\+E\+S\+S = \char`\"{}attractiveness\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerSQLiteHelper_a41b26bdadaacd6e05385c6190d4f3a58}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerSQLiteHelper_a482a1e79eb5a97433e61eb70ca7b6ae5}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+S\+Q\+Lite\+Helper@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+S\+Q\+Lite\+Helper}!C\+O\+L\+U\+M\+N\+\_\+\+B\+S\+S\+I\+D@{C\+O\+L\+U\+M\+N\+\_\+\+B\+S\+S\+I\+D}}
+\index{C\+O\+L\+U\+M\+N\+\_\+\+B\+S\+S\+I\+D@{C\+O\+L\+U\+M\+N\+\_\+\+B\+S\+S\+I\+D}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+S\+Q\+Lite\+Helper@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+S\+Q\+Lite\+Helper}}
+\subsubsection[{C\+O\+L\+U\+M\+N\+\_\+\+B\+S\+S\+I\+D}]{\setlength{\rightskip}{0pt plus 5cm}final String eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+S\+Q\+Lite\+Helper.\+C\+O\+L\+U\+M\+N\+\_\+\+B\+S\+S\+I\+D = \char`\"{}bssid\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerSQLiteHelper_a482a1e79eb5a97433e61eb70ca7b6ae5}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerSQLiteHelper_a3a9dfdbca4fb3d30b30172c0a487a7c5}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+S\+Q\+Lite\+Helper@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+S\+Q\+Lite\+Helper}!C\+O\+L\+U\+M\+N\+\_\+\+D\+A\+Y\+O\+F\+T\+H\+E\+W\+E\+E\+K@{C\+O\+L\+U\+M\+N\+\_\+\+D\+A\+Y\+O\+F\+T\+H\+E\+W\+E\+E\+K}}
+\index{C\+O\+L\+U\+M\+N\+\_\+\+D\+A\+Y\+O\+F\+T\+H\+E\+W\+E\+E\+K@{C\+O\+L\+U\+M\+N\+\_\+\+D\+A\+Y\+O\+F\+T\+H\+E\+W\+E\+E\+K}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+S\+Q\+Lite\+Helper@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+S\+Q\+Lite\+Helper}}
+\subsubsection[{C\+O\+L\+U\+M\+N\+\_\+\+D\+A\+Y\+O\+F\+T\+H\+E\+W\+E\+E\+K}]{\setlength{\rightskip}{0pt plus 5cm}final String eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+S\+Q\+Lite\+Helper.\+C\+O\+L\+U\+M\+N\+\_\+\+D\+A\+Y\+O\+F\+T\+H\+E\+W\+E\+E\+K = \char`\"{}dayoftheweek\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerSQLiteHelper_a3a9dfdbca4fb3d30b30172c0a487a7c5}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerSQLiteHelper_a98c0cd9d0f3c95f884ebe211ab31275e}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+S\+Q\+Lite\+Helper@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+S\+Q\+Lite\+Helper}!C\+O\+L\+U\+M\+N\+\_\+\+G\+R\+O\+U\+P\+I\+D@{C\+O\+L\+U\+M\+N\+\_\+\+G\+R\+O\+U\+P\+I\+D}}
+\index{C\+O\+L\+U\+M\+N\+\_\+\+G\+R\+O\+U\+P\+I\+D@{C\+O\+L\+U\+M\+N\+\_\+\+G\+R\+O\+U\+P\+I\+D}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+S\+Q\+Lite\+Helper@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+S\+Q\+Lite\+Helper}}
+\subsubsection[{C\+O\+L\+U\+M\+N\+\_\+\+G\+R\+O\+U\+P\+I\+D}]{\setlength{\rightskip}{0pt plus 5cm}final String eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+S\+Q\+Lite\+Helper.\+C\+O\+L\+U\+M\+N\+\_\+\+G\+R\+O\+U\+P\+I\+D = \char`\"{}groupid\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerSQLiteHelper_a98c0cd9d0f3c95f884ebe211ab31275e}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerSQLiteHelper_ab751362436de50053ae1ca3658d9daf7}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+S\+Q\+Lite\+Helper@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+S\+Q\+Lite\+Helper}!C\+O\+L\+U\+M\+N\+\_\+\+H\+O\+U\+R@{C\+O\+L\+U\+M\+N\+\_\+\+H\+O\+U\+R}}
+\index{C\+O\+L\+U\+M\+N\+\_\+\+H\+O\+U\+R@{C\+O\+L\+U\+M\+N\+\_\+\+H\+O\+U\+R}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+S\+Q\+Lite\+Helper@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+S\+Q\+Lite\+Helper}}
+\subsubsection[{C\+O\+L\+U\+M\+N\+\_\+\+H\+O\+U\+R}]{\setlength{\rightskip}{0pt plus 5cm}final String eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+S\+Q\+Lite\+Helper.\+C\+O\+L\+U\+M\+N\+\_\+\+H\+O\+U\+R = \char`\"{}hour\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerSQLiteHelper_ab751362436de50053ae1ca3658d9daf7}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerSQLiteHelper_a936bbd64784241550843b756745f60b4}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+S\+Q\+Lite\+Helper@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+S\+Q\+Lite\+Helper}!C\+O\+L\+U\+M\+N\+\_\+\+I\+D@{C\+O\+L\+U\+M\+N\+\_\+\+I\+D}}
+\index{C\+O\+L\+U\+M\+N\+\_\+\+I\+D@{C\+O\+L\+U\+M\+N\+\_\+\+I\+D}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+S\+Q\+Lite\+Helper@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+S\+Q\+Lite\+Helper}}
+\subsubsection[{C\+O\+L\+U\+M\+N\+\_\+\+I\+D}]{\setlength{\rightskip}{0pt plus 5cm}final String eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+S\+Q\+Lite\+Helper.\+C\+O\+L\+U\+M\+N\+\_\+\+I\+D = \char`\"{}\+\_\+id\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerSQLiteHelper_a936bbd64784241550843b756745f60b4}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerSQLiteHelper_a90da61fce9755e3b09097773cac0b693}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+S\+Q\+Lite\+Helper@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+S\+Q\+Lite\+Helper}!C\+O\+L\+U\+M\+N\+\_\+\+L\+A\+S\+T\+G\+A\+T\+E\+W\+A\+Y\+I\+P@{C\+O\+L\+U\+M\+N\+\_\+\+L\+A\+S\+T\+G\+A\+T\+E\+W\+A\+Y\+I\+P}}
+\index{C\+O\+L\+U\+M\+N\+\_\+\+L\+A\+S\+T\+G\+A\+T\+E\+W\+A\+Y\+I\+P@{C\+O\+L\+U\+M\+N\+\_\+\+L\+A\+S\+T\+G\+A\+T\+E\+W\+A\+Y\+I\+P}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+S\+Q\+Lite\+Helper@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+S\+Q\+Lite\+Helper}}
+\subsubsection[{C\+O\+L\+U\+M\+N\+\_\+\+L\+A\+S\+T\+G\+A\+T\+E\+W\+A\+Y\+I\+P}]{\setlength{\rightskip}{0pt plus 5cm}final String eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+S\+Q\+Lite\+Helper.\+C\+O\+L\+U\+M\+N\+\_\+\+L\+A\+S\+T\+G\+A\+T\+E\+W\+A\+Y\+I\+P = \char`\"{}lastgatewayip\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerSQLiteHelper_a90da61fce9755e3b09097773cac0b693}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerSQLiteHelper_af6bb71aa2cc6175bcb321e18a1e9661a}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+S\+Q\+Lite\+Helper@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+S\+Q\+Lite\+Helper}!C\+O\+L\+U\+M\+N\+\_\+\+S\+S\+I\+D@{C\+O\+L\+U\+M\+N\+\_\+\+S\+S\+I\+D}}
+\index{C\+O\+L\+U\+M\+N\+\_\+\+S\+S\+I\+D@{C\+O\+L\+U\+M\+N\+\_\+\+S\+S\+I\+D}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+S\+Q\+Lite\+Helper@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+S\+Q\+Lite\+Helper}}
+\subsubsection[{C\+O\+L\+U\+M\+N\+\_\+\+S\+S\+I\+D}]{\setlength{\rightskip}{0pt plus 5cm}final String eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+S\+Q\+Lite\+Helper.\+C\+O\+L\+U\+M\+N\+\_\+\+S\+S\+I\+D = \char`\"{}ssid\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerSQLiteHelper_af6bb71aa2cc6175bcb321e18a1e9661a}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerSQLiteHelper_aa2b425e08d18a595ea42c70fd9de4423}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+S\+Q\+Lite\+Helper@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+S\+Q\+Lite\+Helper}!C\+O\+L\+U\+M\+N\+\_\+\+T\+I\+M\+E\+O\+N@{C\+O\+L\+U\+M\+N\+\_\+\+T\+I\+M\+E\+O\+N}}
+\index{C\+O\+L\+U\+M\+N\+\_\+\+T\+I\+M\+E\+O\+N@{C\+O\+L\+U\+M\+N\+\_\+\+T\+I\+M\+E\+O\+N}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+S\+Q\+Lite\+Helper@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+S\+Q\+Lite\+Helper}}
+\subsubsection[{C\+O\+L\+U\+M\+N\+\_\+\+T\+I\+M\+E\+O\+N}]{\setlength{\rightskip}{0pt plus 5cm}final String eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+S\+Q\+Lite\+Helper.\+C\+O\+L\+U\+M\+N\+\_\+\+T\+I\+M\+E\+O\+N = \char`\"{}timeon\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerSQLiteHelper_aa2b425e08d18a595ea42c70fd9de4423}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerSQLiteHelper_a761812af62579d365fde6a593cf31866}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+S\+Q\+Lite\+Helper@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+S\+Q\+Lite\+Helper}!C\+O\+L\+U\+M\+N\+\_\+\+T\+I\+M\+E\+O\+U\+T@{C\+O\+L\+U\+M\+N\+\_\+\+T\+I\+M\+E\+O\+U\+T}}
+\index{C\+O\+L\+U\+M\+N\+\_\+\+T\+I\+M\+E\+O\+U\+T@{C\+O\+L\+U\+M\+N\+\_\+\+T\+I\+M\+E\+O\+U\+T}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+S\+Q\+Lite\+Helper@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+S\+Q\+Lite\+Helper}}
+\subsubsection[{C\+O\+L\+U\+M\+N\+\_\+\+T\+I\+M\+E\+O\+U\+T}]{\setlength{\rightskip}{0pt plus 5cm}final String eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+S\+Q\+Lite\+Helper.\+C\+O\+L\+U\+M\+N\+\_\+\+T\+I\+M\+E\+O\+U\+T = \char`\"{}timeout\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerSQLiteHelper_a761812af62579d365fde6a593cf31866}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerSQLiteHelper_aa30b15bfbdcf226965b5ef3bf9a4a164}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+S\+Q\+Lite\+Helper@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+S\+Q\+Lite\+Helper}!C\+R\+E\+A\+T\+E\+\_\+\+A\+C\+C\+E\+S\+S\+P\+O\+I\+N\+T\+S\+\_\+\+T\+A\+B\+L\+E@{C\+R\+E\+A\+T\+E\+\_\+\+A\+C\+C\+E\+S\+S\+P\+O\+I\+N\+T\+S\+\_\+\+T\+A\+B\+L\+E}}
+\index{C\+R\+E\+A\+T\+E\+\_\+\+A\+C\+C\+E\+S\+S\+P\+O\+I\+N\+T\+S\+\_\+\+T\+A\+B\+L\+E@{C\+R\+E\+A\+T\+E\+\_\+\+A\+C\+C\+E\+S\+S\+P\+O\+I\+N\+T\+S\+\_\+\+T\+A\+B\+L\+E}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+S\+Q\+Lite\+Helper@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+S\+Q\+Lite\+Helper}}
+\subsubsection[{C\+R\+E\+A\+T\+E\+\_\+\+A\+C\+C\+E\+S\+S\+P\+O\+I\+N\+T\+S\+\_\+\+T\+A\+B\+L\+E}]{\setlength{\rightskip}{0pt plus 5cm}final String eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+S\+Q\+Lite\+Helper.\+C\+R\+E\+A\+T\+E\+\_\+\+A\+C\+C\+E\+S\+S\+P\+O\+I\+N\+T\+S\+\_\+\+T\+A\+B\+L\+E\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerSQLiteHelper_aa30b15bfbdcf226965b5ef3bf9a4a164}
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+= \textcolor{stringliteral}{"create table "}
+                      + \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerSQLiteHelper_aa89b29bbc519ff0ae0ce75eedc22eed0}{TABLE\_ACCESSPOINTS} + \textcolor{stringliteral}{"("}
+                      + \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerSQLiteHelper_a936bbd64784241550843b756745f60b4}{COLUMN\_ID} + \textcolor{stringliteral}{" integer primary key autoincrement, "}
+                      + \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerSQLiteHelper_a482a1e79eb5a97433e61eb70ca7b6ae5}{COLUMN\_BSSID} + \textcolor{stringliteral}{" text not null unique, "}
+                      + \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerSQLiteHelper_af6bb71aa2cc6175bcb321e18a1e9661a}{COLUMN\_SSID} + \textcolor{stringliteral}{" text not null unique, "}
+                      + \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerSQLiteHelper_a41b26bdadaacd6e05385c6190d4f3a58}{COLUMN\_ATTRACTIVENESS} + \textcolor{stringliteral}{" integer not null, "}
+                      + \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerSQLiteHelper_a90da61fce9755e3b09097773cac0b693}{COLUMN\_LASTGATEWAYIP} + \textcolor{stringliteral}{" text"}
+                      + \textcolor{stringliteral}{");"}
+\end{DoxyCode}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerSQLiteHelper_a6c7b3e25a18753bd6115f606d7d9c1fc}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+S\+Q\+Lite\+Helper@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+S\+Q\+Lite\+Helper}!C\+R\+E\+A\+T\+E\+\_\+\+V\+I\+S\+I\+T\+S\+\_\+\+T\+A\+B\+L\+E@{C\+R\+E\+A\+T\+E\+\_\+\+V\+I\+S\+I\+T\+S\+\_\+\+T\+A\+B\+L\+E}}
+\index{C\+R\+E\+A\+T\+E\+\_\+\+V\+I\+S\+I\+T\+S\+\_\+\+T\+A\+B\+L\+E@{C\+R\+E\+A\+T\+E\+\_\+\+V\+I\+S\+I\+T\+S\+\_\+\+T\+A\+B\+L\+E}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+S\+Q\+Lite\+Helper@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+S\+Q\+Lite\+Helper}}
+\subsubsection[{C\+R\+E\+A\+T\+E\+\_\+\+V\+I\+S\+I\+T\+S\+\_\+\+T\+A\+B\+L\+E}]{\setlength{\rightskip}{0pt plus 5cm}final String eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+S\+Q\+Lite\+Helper.\+C\+R\+E\+A\+T\+E\+\_\+\+V\+I\+S\+I\+T\+S\+\_\+\+T\+A\+B\+L\+E\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerSQLiteHelper_a6c7b3e25a18753bd6115f606d7d9c1fc}
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+= \textcolor{stringliteral}{"create table "}
+                      + \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerSQLiteHelper_ab293b3268a1eb8edf543718500f3e39b}{TABLE\_VISITS} + \textcolor{stringliteral}{"("}
+                      + \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerSQLiteHelper_a936bbd64784241550843b756745f60b4}{COLUMN\_ID} + \textcolor{stringliteral}{" integer primary key autoincrement, "}
+                      + \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerSQLiteHelper_af6bb71aa2cc6175bcb321e18a1e9661a}{COLUMN\_SSID} + \textcolor{stringliteral}{" text not null, "}
+                      + \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerSQLiteHelper_a482a1e79eb5a97433e61eb70ca7b6ae5}{COLUMN\_BSSID} + \textcolor{stringliteral}{" text not null, "}
+                      + \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerSQLiteHelper_aa2b425e08d18a595ea42c70fd9de4423}{COLUMN\_TIMEON} + \textcolor{stringliteral}{" integer, "}
+                      + \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerSQLiteHelper_a761812af62579d365fde6a593cf31866}{COLUMN\_TIMEOUT} + \textcolor{stringliteral}{" integer, "}
+                      + \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerSQLiteHelper_a3a9dfdbca4fb3d30b30172c0a487a7c5}{COLUMN\_DAYOFTHEWEEK} + \textcolor{stringliteral}{" integer, "}
+                      + \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerSQLiteHelper_ab751362436de50053ae1ca3658d9daf7}{COLUMN\_HOUR} + \textcolor{stringliteral}{" integer"}
+                      + \textcolor{stringliteral}{");"}
+\end{DoxyCode}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerSQLiteHelper_a1f7f36d98e2029a6762570819316845b}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+S\+Q\+Lite\+Helper@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+S\+Q\+Lite\+Helper}!D\+A\+T\+A\+B\+A\+S\+E\+\_\+\+N\+A\+M\+E@{D\+A\+T\+A\+B\+A\+S\+E\+\_\+\+N\+A\+M\+E}}
+\index{D\+A\+T\+A\+B\+A\+S\+E\+\_\+\+N\+A\+M\+E@{D\+A\+T\+A\+B\+A\+S\+E\+\_\+\+N\+A\+M\+E}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+S\+Q\+Lite\+Helper@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+S\+Q\+Lite\+Helper}}
+\subsubsection[{D\+A\+T\+A\+B\+A\+S\+E\+\_\+\+N\+A\+M\+E}]{\setlength{\rightskip}{0pt plus 5cm}final String eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+S\+Q\+Lite\+Helper.\+D\+A\+T\+A\+B\+A\+S\+E\+\_\+\+N\+A\+M\+E = \char`\"{}mtracker.\+db\char`\"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerSQLiteHelper_a1f7f36d98e2029a6762570819316845b}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerSQLiteHelper_a7b466275dbb75ef6c54d3f042da1e571}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+S\+Q\+Lite\+Helper@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+S\+Q\+Lite\+Helper}!D\+A\+T\+A\+B\+A\+S\+E\+\_\+\+V\+E\+R\+S\+I\+O\+N@{D\+A\+T\+A\+B\+A\+S\+E\+\_\+\+V\+E\+R\+S\+I\+O\+N}}
+\index{D\+A\+T\+A\+B\+A\+S\+E\+\_\+\+V\+E\+R\+S\+I\+O\+N@{D\+A\+T\+A\+B\+A\+S\+E\+\_\+\+V\+E\+R\+S\+I\+O\+N}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+S\+Q\+Lite\+Helper@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+S\+Q\+Lite\+Helper}}
+\subsubsection[{D\+A\+T\+A\+B\+A\+S\+E\+\_\+\+V\+E\+R\+S\+I\+O\+N}]{\setlength{\rightskip}{0pt plus 5cm}final int eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+S\+Q\+Lite\+Helper.\+D\+A\+T\+A\+B\+A\+S\+E\+\_\+\+V\+E\+R\+S\+I\+O\+N = 1\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerSQLiteHelper_a7b466275dbb75ef6c54d3f042da1e571}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerSQLiteHelper_aa89b29bbc519ff0ae0ce75eedc22eed0}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+S\+Q\+Lite\+Helper@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+S\+Q\+Lite\+Helper}!T\+A\+B\+L\+E\+\_\+\+A\+C\+C\+E\+S\+S\+P\+O\+I\+N\+T\+S@{T\+A\+B\+L\+E\+\_\+\+A\+C\+C\+E\+S\+S\+P\+O\+I\+N\+T\+S}}
+\index{T\+A\+B\+L\+E\+\_\+\+A\+C\+C\+E\+S\+S\+P\+O\+I\+N\+T\+S@{T\+A\+B\+L\+E\+\_\+\+A\+C\+C\+E\+S\+S\+P\+O\+I\+N\+T\+S}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+S\+Q\+Lite\+Helper@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+S\+Q\+Lite\+Helper}}
+\subsubsection[{T\+A\+B\+L\+E\+\_\+\+A\+C\+C\+E\+S\+S\+P\+O\+I\+N\+T\+S}]{\setlength{\rightskip}{0pt plus 5cm}final String eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+S\+Q\+Lite\+Helper.\+T\+A\+B\+L\+E\+\_\+\+A\+C\+C\+E\+S\+S\+P\+O\+I\+N\+T\+S = \char`\"{}accesspoints\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerSQLiteHelper_aa89b29bbc519ff0ae0ce75eedc22eed0}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerSQLiteHelper_a4fdfca87f269093d65f48fae8cc762ed}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+S\+Q\+Lite\+Helper@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+S\+Q\+Lite\+Helper}!T\+A\+B\+L\+E\+\_\+\+C\+O\+N\+T\+E\+X\+T@{T\+A\+B\+L\+E\+\_\+\+C\+O\+N\+T\+E\+X\+T}}
+\index{T\+A\+B\+L\+E\+\_\+\+C\+O\+N\+T\+E\+X\+T@{T\+A\+B\+L\+E\+\_\+\+C\+O\+N\+T\+E\+X\+T}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+S\+Q\+Lite\+Helper@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+S\+Q\+Lite\+Helper}}
+\subsubsection[{T\+A\+B\+L\+E\+\_\+\+C\+O\+N\+T\+E\+X\+T}]{\setlength{\rightskip}{0pt plus 5cm}final String eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+S\+Q\+Lite\+Helper.\+T\+A\+B\+L\+E\+\_\+\+C\+O\+N\+T\+E\+X\+T = \char`\"{}context\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerSQLiteHelper_a4fdfca87f269093d65f48fae8cc762ed}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerSQLiteHelper_ab293b3268a1eb8edf543718500f3e39b}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+S\+Q\+Lite\+Helper@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+S\+Q\+Lite\+Helper}!T\+A\+B\+L\+E\+\_\+\+V\+I\+S\+I\+T\+S@{T\+A\+B\+L\+E\+\_\+\+V\+I\+S\+I\+T\+S}}
+\index{T\+A\+B\+L\+E\+\_\+\+V\+I\+S\+I\+T\+S@{T\+A\+B\+L\+E\+\_\+\+V\+I\+S\+I\+T\+S}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+S\+Q\+Lite\+Helper@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+S\+Q\+Lite\+Helper}}
+\subsubsection[{T\+A\+B\+L\+E\+\_\+\+V\+I\+S\+I\+T\+S}]{\setlength{\rightskip}{0pt plus 5cm}final String eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+S\+Q\+Lite\+Helper.\+T\+A\+B\+L\+E\+\_\+\+V\+I\+S\+I\+T\+S = \char`\"{}visits\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerSQLiteHelper_ab293b3268a1eb8edf543718500f3e39b}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/eu/uloop/mobilitytracker/\hyperlink{MTrackerSQLiteHelper_8java}{M\+Tracker\+S\+Q\+Lite\+Helper.\+java}\end{DoxyCompactItemize}

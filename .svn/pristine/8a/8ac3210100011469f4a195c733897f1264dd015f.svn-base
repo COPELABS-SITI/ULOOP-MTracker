@@ -1,0 +1,161 @@
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerApplication}{\section{eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Application Class Reference}
+\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerApplication}\index{eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Application@{eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Application}}
+}
+Inheritance diagram for eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Application\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerApplication}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+boolean \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerApplication_a5c70e976a690da29761f108c08b787d2}{on\+Create\+Options\+Menu} (Menu menu)
+\item 
+boolean \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerApplication_a631a41a9ee16147f50de66b940fd02e7}{on\+Options\+Item\+Selected} (Menu\+Item item)
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerApplication_abf76939c15ce778a376e587eb8f84ded}{on\+Create} (Bundle saved\+Instance\+State)
+\item 
+void \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerApplication_afdfea9b1742debe6a97c543af244f8bf}{on\+Start} ()
+\item 
+void \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerApplication_ad9a1d28fe98db398cda3e4659e541198}{on\+Stop} ()
+\item 
+void \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerApplication_a0a015a098e6001e4028af096330cc511}{on\+Destroy} ()
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerApplication_ae60069051b3aba4ff06e6635dcd3de29}{update\+List\+View} (List$<$ \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerAP}{M\+Tracker\+A\+P} $>$ ap\+Entries)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerService}{M\+Tracker\+Service} \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerApplication_a731fac56b39d015f69211a9f6a3759e5}{m\+Bound\+Service}
+\item 
+boolean \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerApplication_a34c00e829a9027258db6291a829fa7e0}{m\+Is\+Service\+Bound} = false
+\item 
+Service\+Connection \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerApplication_a17bc5aed91845f4985a42439d6020bbb}{m\+Connection}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The Class \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerApplication}{M\+Tracker\+Application} is the front-\/end of the android application. It extends List\+Activity to show the list of visited access points as a List\+View. It starts the M\+Tracker server, if not running already.
+
+\begin{DoxyAuthor}{Author}
+Jonnahtan Saltarin (U\+L\+H\+T) 
+
+Rute Sofia (U\+L\+H\+T) 
+
+Christian da Silva Pereira (U\+L\+H\+T) 
+
+Luis Amaral Lopes (U\+L\+H\+T)
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+3.\+0 
+\end{DoxyVersion}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerApplication_abf76939c15ce778a376e587eb8f84ded}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Application@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Application}!on\+Create@{on\+Create}}
+\index{on\+Create@{on\+Create}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Application@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Application}}
+\subsubsection[{on\+Create}]{\setlength{\rightskip}{0pt plus 5cm}void eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Application.\+on\+Create (
+\begin{DoxyParamCaption}
+\item[{Bundle}]{saved\+Instance\+State}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerApplication_abf76939c15ce778a376e587eb8f84ded}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerApplication_a5c70e976a690da29761f108c08b787d2}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Application@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Application}!on\+Create\+Options\+Menu@{on\+Create\+Options\+Menu}}
+\index{on\+Create\+Options\+Menu@{on\+Create\+Options\+Menu}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Application@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Application}}
+\subsubsection[{on\+Create\+Options\+Menu}]{\setlength{\rightskip}{0pt plus 5cm}boolean eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Application.\+on\+Create\+Options\+Menu (
+\begin{DoxyParamCaption}
+\item[{Menu}]{menu}
+\end{DoxyParamCaption}
+)}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerApplication_a5c70e976a690da29761f108c08b787d2}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerApplication_a0a015a098e6001e4028af096330cc511}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Application@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Application}!on\+Destroy@{on\+Destroy}}
+\index{on\+Destroy@{on\+Destroy}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Application@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Application}}
+\subsubsection[{on\+Destroy}]{\setlength{\rightskip}{0pt plus 5cm}void eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Application.\+on\+Destroy (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerApplication_a0a015a098e6001e4028af096330cc511}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerApplication_a631a41a9ee16147f50de66b940fd02e7}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Application@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Application}!on\+Options\+Item\+Selected@{on\+Options\+Item\+Selected}}
+\index{on\+Options\+Item\+Selected@{on\+Options\+Item\+Selected}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Application@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Application}}
+\subsubsection[{on\+Options\+Item\+Selected}]{\setlength{\rightskip}{0pt plus 5cm}boolean eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Application.\+on\+Options\+Item\+Selected (
+\begin{DoxyParamCaption}
+\item[{Menu\+Item}]{item}
+\end{DoxyParamCaption}
+)}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerApplication_a631a41a9ee16147f50de66b940fd02e7}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerApplication_afdfea9b1742debe6a97c543af244f8bf}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Application@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Application}!on\+Start@{on\+Start}}
+\index{on\+Start@{on\+Start}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Application@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Application}}
+\subsubsection[{on\+Start}]{\setlength{\rightskip}{0pt plus 5cm}void eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Application.\+on\+Start (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerApplication_afdfea9b1742debe6a97c543af244f8bf}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerApplication_ad9a1d28fe98db398cda3e4659e541198}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Application@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Application}!on\+Stop@{on\+Stop}}
+\index{on\+Stop@{on\+Stop}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Application@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Application}}
+\subsubsection[{on\+Stop}]{\setlength{\rightskip}{0pt plus 5cm}void eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Application.\+on\+Stop (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerApplication_ad9a1d28fe98db398cda3e4659e541198}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerApplication_ae60069051b3aba4ff06e6635dcd3de29}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Application@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Application}!update\+List\+View@{update\+List\+View}}
+\index{update\+List\+View@{update\+List\+View}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Application@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Application}}
+\subsubsection[{update\+List\+View}]{\setlength{\rightskip}{0pt plus 5cm}void eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Application.\+update\+List\+View (
+\begin{DoxyParamCaption}
+\item[{List$<$ {\bf M\+Tracker\+A\+P} $>$}]{ap\+Entries}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerApplication_ae60069051b3aba4ff06e6635dcd3de29}
+Update the List\+View, cleaning the actual values and populating it with the values on ap\+Entries.
+
+
+\begin{DoxyParams}{Parameters}
+{\em ap\+Entries} & the new access point entries to be shown. \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerApplication_a731fac56b39d015f69211a9f6a3759e5}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Application@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Application}!m\+Bound\+Service@{m\+Bound\+Service}}
+\index{m\+Bound\+Service@{m\+Bound\+Service}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Application@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Application}}
+\subsubsection[{m\+Bound\+Service}]{\setlength{\rightskip}{0pt plus 5cm}{\bf M\+Tracker\+Service} eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Application.\+m\+Bound\+Service\hspace{0.3cm}{\ttfamily [private]}}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerApplication_a731fac56b39d015f69211a9f6a3759e5}
+The M\+Tracker service to be bounded. \hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerApplication_a17bc5aed91845f4985a42439d6020bbb}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Application@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Application}!m\+Connection@{m\+Connection}}
+\index{m\+Connection@{m\+Connection}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Application@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Application}}
+\subsubsection[{m\+Connection}]{\setlength{\rightskip}{0pt plus 5cm}Service\+Connection eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Application.\+m\+Connection\hspace{0.3cm}{\ttfamily [private]}}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerApplication_a17bc5aed91845f4985a42439d6020bbb}
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+= \textcolor{keyword}{new} ServiceConnection() \{
+            \textcolor{keyword}{public} \textcolor{keywordtype}{void} onServiceConnected(ComponentName className, IBinder service) \{
+                \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerApplication_a731fac56b39d015f69211a9f6a3759e5}{mBoundService} = ((MTrackerService.LocalBinder)service).getService();
+                        \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerApplication_a34c00e829a9027258db6291a829fa7e0}{mIsServiceBound} = \textcolor{keyword}{true};
+                        \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerApplication_ae60069051b3aba4ff06e6635dcd3de29}{updateListView} (\hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerApplication_a731fac56b39d015f69211a9f6a3759e5}{mBoundService}.
+      \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerService_ace7c25f76f1ec7b2cfc4e5a4b28f68e9}{getData}());
+                        \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerApplication_a731fac56b39d015f69211a9f6a3759e5}{mBoundService}.\hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerService_a5332e648f938ae1255c4b12aa0d82054}{setOnStateChangeListener}(
+                            \textcolor{keyword}{new} DataBaseChangeListener() \{
+                                \textcolor{keyword}{public} \textcolor{keywordtype}{void} onDataBaseChange(List<MTrackerAP> apEntries) \{
+                                        \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerApplication_ae60069051b3aba4ff06e6635dcd3de29}{updateListView} (apEntries);
+                                \}
+                                \textcolor{keyword}{public} \textcolor{keywordtype}{void} onStatusMessageChange(String newMessage)  \{
+                                        ((TextView)findViewById(R.id.infoText)).setText(newMessage);
+                                \}
+                                \}
+                        );
+            \}
+
+            \textcolor{keyword}{public} \textcolor{keywordtype}{void} onServiceDisconnected(ComponentName className) \{
+                \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerApplication_a731fac56b39d015f69211a9f6a3759e5}{mBoundService}.\hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerService_a5f1b2bb03919db654a59d69681a575e7}{clearOnStateChangeListeners} ();
+                \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerApplication_a731fac56b39d015f69211a9f6a3759e5}{mBoundService} = null;
+                \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerApplication_a34c00e829a9027258db6291a829fa7e0}{mIsServiceBound} = \textcolor{keyword}{false};
+            \}
+        \}
+\end{DoxyCode}
+The Connection to the M\+Tracker service. When the service is successfully connected, it loads the List\+View with the initial data and creates a listener on the M\+Tracker service that re-\/populates the data on the List\+View any tame the Data\+Base changes \hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerApplication_a34c00e829a9027258db6291a829fa7e0}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Application@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Application}!m\+Is\+Service\+Bound@{m\+Is\+Service\+Bound}}
+\index{m\+Is\+Service\+Bound@{m\+Is\+Service\+Bound}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Application@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Application}}
+\subsubsection[{m\+Is\+Service\+Bound}]{\setlength{\rightskip}{0pt plus 5cm}boolean eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Application.\+m\+Is\+Service\+Bound = false\hspace{0.3cm}{\ttfamily [private]}}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerApplication_a34c00e829a9027258db6291a829fa7e0}
+Indicates if the M\+Tracker service has been bounded successfully. 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/eu/uloop/mobilitytracker/\hyperlink{MTrackerApplication_8java}{M\+Tracker\+Application.\+java}\end{DoxyCompactItemize}

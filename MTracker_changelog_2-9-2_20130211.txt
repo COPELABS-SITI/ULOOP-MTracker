@@ -1,0 +1,26 @@
+CHANGELOG:
+
+Date: 11/02/2013
+Version: 2.9.2
+
+- The application is now composed of a Service and an Activity:
+
+-- The service keeps running on background, even if the activity is closed.
+-- When the activity start (The user click on the application Icon) it connects to the service.
+-- Whenever the service updates any data, it announce it to the activity. (and other listeners)
+
+
+- The historic information is now stored on an SQLite DataBase:
+
+-- A class has been developed to handle database connection.
+-- It is stil possible to store data to a text file, for other uses.
+-- TODO: Store database in a visible path.
+-- TODO: Use the information of each visit to improve rank computation.
+
+
+- Changes in the way information is collected:
+
+-- Scan results are now processed when available, to avoid reusing old results. (WifiManager.SCAN_RESULTS_AVAILABLE_ACTION)
+-- When wifi is unavailable/off, the application avoid requesting any scan. (WifiManager.WIFI_STATE_CHANGED_ACTION)
+-- Connection time counts since the connection is ready for use. (WifiManager.NETWORK_STATE_CHANGED_ACTION)
+-- TODO: Exhaustive testing of connectivity.

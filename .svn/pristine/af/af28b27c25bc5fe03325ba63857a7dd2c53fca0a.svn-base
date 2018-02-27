@@ -1,0 +1,59 @@
+\hypertarget{interfacelib_1_1api_1_1UloopAbstractMessage}{\section{lib.\+api.\+Uloop\+Abstract\+Message Interface Reference}
+\label{interfacelib_1_1api_1_1UloopAbstractMessage}\index{lib.\+api.\+Uloop\+Abstract\+Message@{lib.\+api.\+Uloop\+Abstract\+Message}}
+}
+Inheritance diagram for lib.\+api.\+Uloop\+Abstract\+Message\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.142857cm]{interfacelib_1_1api_1_1UloopAbstractMessage}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{interfacelib_1_1api_1_1UloopAbstractMessage}{Uloop\+Abstract\+Message} \hyperlink{interfacelib_1_1api_1_1UloopAbstractMessage_a1a650d00338402b7d2a5f46575241986}{decode} (Uloop\+Message ulm)  throws Runtime\+Exception
+\item 
+Uloop\+Message.\+Builder \hyperlink{interfacelib_1_1api_1_1UloopAbstractMessage_a00e05a40924dadb7ee429c811628aea3}{encode} ()
+\item 
+void \hyperlink{interfacelib_1_1api_1_1UloopAbstractMessage_a116bcd258e6e384507888f4a2e2100a9}{print} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{interfacelib_1_1api_1_1UloopAbstractMessage_a1a650d00338402b7d2a5f46575241986}{\index{lib\+::api\+::\+Uloop\+Abstract\+Message@{lib\+::api\+::\+Uloop\+Abstract\+Message}!decode@{decode}}
+\index{decode@{decode}!lib\+::api\+::\+Uloop\+Abstract\+Message@{lib\+::api\+::\+Uloop\+Abstract\+Message}}
+\subsubsection[{decode}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Uloop\+Abstract\+Message} lib.\+api.\+Uloop\+Abstract\+Message.\+decode (
+\begin{DoxyParamCaption}
+\item[{Uloop\+Message}]{ulm}
+\end{DoxyParamCaption}
+) throws Runtime\+Exception}}\label{interfacelib_1_1api_1_1UloopAbstractMessage_a1a650d00338402b7d2a5f46575241986}
+
+
+Implemented in \hyperlink{classlib_1_1api_1_1UloopMTrackerMessage_a3251cbbabd745f22290f334c475d4c97}{lib.\+api.\+Uloop\+M\+Tracker\+Message}, \hyperlink{classlib_1_1api_1_1UloopServiceRequest_a4a8a64d824425f1d326f3be82115ccf2}{lib.\+api.\+Uloop\+Service\+Request}, \hyperlink{classlib_1_1api_1_1UloopServiceReply_a944ecbe5d5a40e6ae48ee884063f5c1d}{lib.\+api.\+Uloop\+Service\+Reply}, and \hyperlink{classlib_1_1api_1_1UloopServiceUpdate_a3bb1384447e9db3372e48356ff5a214f}{lib.\+api.\+Uloop\+Service\+Update}.
+
+\hypertarget{interfacelib_1_1api_1_1UloopAbstractMessage_a00e05a40924dadb7ee429c811628aea3}{\index{lib\+::api\+::\+Uloop\+Abstract\+Message@{lib\+::api\+::\+Uloop\+Abstract\+Message}!encode@{encode}}
+\index{encode@{encode}!lib\+::api\+::\+Uloop\+Abstract\+Message@{lib\+::api\+::\+Uloop\+Abstract\+Message}}
+\subsubsection[{encode}]{\setlength{\rightskip}{0pt plus 5cm}Uloop\+Message.\+Builder lib.\+api.\+Uloop\+Abstract\+Message.\+encode (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfacelib_1_1api_1_1UloopAbstractMessage_a00e05a40924dadb7ee429c811628aea3}
+
+
+Implemented in \hyperlink{classlib_1_1api_1_1UloopMTrackerMessage_a9d9ff3e73a53ae13088b52df395de90a}{lib.\+api.\+Uloop\+M\+Tracker\+Message}, \hyperlink{classlib_1_1api_1_1UloopServiceRequest_a13409dd756188327c2885eda6f9a8b17}{lib.\+api.\+Uloop\+Service\+Request}, \hyperlink{classlib_1_1api_1_1UloopServiceReply_a0ca29eaf04dce5493607e010b73f77d4}{lib.\+api.\+Uloop\+Service\+Reply}, and \hyperlink{classlib_1_1api_1_1UloopServiceUpdate_a0933882171971eb0f704101ba19f36f4}{lib.\+api.\+Uloop\+Service\+Update}.
+
+\hypertarget{interfacelib_1_1api_1_1UloopAbstractMessage_a116bcd258e6e384507888f4a2e2100a9}{\index{lib\+::api\+::\+Uloop\+Abstract\+Message@{lib\+::api\+::\+Uloop\+Abstract\+Message}!print@{print}}
+\index{print@{print}!lib\+::api\+::\+Uloop\+Abstract\+Message@{lib\+::api\+::\+Uloop\+Abstract\+Message}}
+\subsubsection[{print}]{\setlength{\rightskip}{0pt plus 5cm}void lib.\+api.\+Uloop\+Abstract\+Message.\+print (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfacelib_1_1api_1_1UloopAbstractMessage_a116bcd258e6e384507888f4a2e2100a9}
+
+
+Implemented in \hyperlink{classlib_1_1api_1_1UloopServiceRequest_a297690e00aed1f79499de2c9095fe52c}{lib.\+api.\+Uloop\+Service\+Request}, \hyperlink{classlib_1_1api_1_1UloopMTrackerMessage_ad8747254f5616590148266b72b088421}{lib.\+api.\+Uloop\+M\+Tracker\+Message}, \hyperlink{classlib_1_1api_1_1UloopServiceReply_a825bbcd3250cc8ac980f3eda449c482f}{lib.\+api.\+Uloop\+Service\+Reply}, and \hyperlink{classlib_1_1api_1_1UloopServiceUpdate_a92cf6fa47379c50f0117838e97e7eb9d}{lib.\+api.\+Uloop\+Service\+Update}.
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/lib/api/\hyperlink{UloopAbstractMessage_8java}{Uloop\+Abstract\+Message.\+java}\end{DoxyCompactItemize}

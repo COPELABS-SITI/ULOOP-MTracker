@@ -1,0 +1,7 @@
+CHANGELOG:
+
+Date: 15/02/2013
+Version: 2.9.3
+
+- The Wifi functionalities are now condensed in the class MTrackerWifiManager. 
+		This change makes the app better modularized, and simplifies the development of the app for other platforms. 

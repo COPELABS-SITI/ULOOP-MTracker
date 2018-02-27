@@ -1,0 +1,275 @@
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit}{\section{eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Visit Class Reference}
+\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit}\index{eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Visit@{eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Visit}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+String \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit_a8accc27af02ead95cb569845ea6b5db1}{get\+S\+S\+I\+D} ()
+\item 
+String \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit_a62a52eacd13be716a7825d8f3015a286}{get\+B\+S\+S\+I\+D} ()
+\item 
+long \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit_af9354b202fae1c0f48829c82dc0e12ce}{get\+Start\+Time} ()
+\item 
+long \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit_a3f42cdcc77b7d12fc0365978385bdcb9}{get\+End\+Time} ()
+\item 
+int \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit_ae6b9fbee6589d7f9bbe1a7343bed1318}{get\+Day\+Of\+The\+Week} ()
+\item 
+int \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit_af3c824a42b2d611b36dbc5ec651da2d7}{get\+Hour\+Of\+The\+Day} ()
+\item 
+void \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit_a4655225f5aea8b86de58af107509fc5b}{set\+S\+S\+I\+D} (String s\+S\+I\+D)
+\item 
+void \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit_adbb715806badaa1e7ee2fab50611c260}{set\+B\+S\+S\+I\+D} (String b\+S\+S\+I\+D)
+\item 
+void \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit_a55ee44dc0be0cda19dbd0a0b80aa6dc1}{set\+Start\+Time} (long \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit_ae176a1cf5c83af3b438c6d5f1afc6e52}{start\+Time})
+\item 
+void \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit_a51cbcf50a13328aeb4c4298a25ed11b0}{set\+End\+Time} (long \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit_a784e03ea2ea0ef6d31b6bf9ee2b4ed86}{end\+Time})
+\item 
+void \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit_acd58e52bb1101fe939c2937cea6a0b6f}{set\+Day\+Of\+The\+Week} (int \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit_a0618cd50658edf1edbb32f38cd167c3d}{day\+Of\+The\+Week})
+\item 
+void \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit_a066e80b5273b42b9434d8bdbe82e47b3}{set\+Hour\+Of\+The\+Day} (int \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit_a7bc1898c9ce63142f39c82e85f744d91}{hour\+Of\+The\+Day})
+\item 
+\hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit_a3cd3e33db8463ca8c2f75a5531abaeb4}{M\+Tracker\+Visit} ()
+\item 
+void \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit_acb6e24ed255d13fd93443ab41e4e4a8d}{set\+To\+Default} ()
+\item 
+void \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit_abdb50e593bbecf743f438a03fe8fb265}{update} (String \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit_a2b06a1d0005df091b2251bca6e6c0246}{S\+S\+I\+D}, String \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit_a11a058f787db9cf1d022e18a4540f299}{B\+S\+S\+I\+D}, Long \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit_ae176a1cf5c83af3b438c6d5f1afc6e52}{start\+Time}, Long \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit_a784e03ea2ea0ef6d31b6bf9ee2b4ed86}{end\+Time})
+\item 
+String \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit_a2c6cee8ad1423500709f2b41424769ac}{to\+String} ()
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+String \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit_a2b06a1d0005df091b2251bca6e6c0246}{S\+S\+I\+D}
+\item 
+String \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit_a11a058f787db9cf1d022e18a4540f299}{B\+S\+S\+I\+D}
+\item 
+Long \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit_ae176a1cf5c83af3b438c6d5f1afc6e52}{start\+Time}
+\item 
+Long \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit_a784e03ea2ea0ef6d31b6bf9ee2b4ed86}{end\+Time}
+\item 
+int \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit_a0618cd50658edf1edbb32f38cd167c3d}{day\+Of\+The\+Week}
+\item 
+int \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit_a7bc1898c9ce63142f39c82e85f744d91}{hour\+Of\+The\+Day}
+\item 
+Simple\+Date\+Format \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit_a14e547e72377481f8aff93a4ac6ffe2e}{data\+Format} = new Simple\+Date\+Format(\char`\"{}yyyy.\+M\+M.\+dd 'at' H\+H\+:mm\+:ss\char`\"{})
+\item 
+Simple\+Date\+Format \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit_a22c7fcba0f248def163d18a473adb529}{period\+Format} = new Simple\+Date\+Format(\char`\"{}H\+H\+:mm\+:ss\char`\"{})
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This class represents what M\+Tracker considers a Visit. The information kept in this object are S\+S\+I\+D, B\+S\+S\+I\+D, start and end time of the connection, the day of the week, and the hour of the day.
+
+\begin{DoxyAuthor}{Author}
+Jonnahtan Saltarin (U\+L\+H\+T) 
+
+Rute Sofia (U\+L\+H\+T) 
+
+Christian da Silva Pereira (U\+L\+H\+T) 
+
+Luis Amaral Lopes (U\+L\+H\+T)
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+3.\+0 
+\end{DoxyVersion}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit_a3cd3e33db8463ca8c2f75a5531abaeb4}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit}!M\+Tracker\+Visit@{M\+Tracker\+Visit}}
+\index{M\+Tracker\+Visit@{M\+Tracker\+Visit}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit}}
+\subsubsection[{M\+Tracker\+Visit}]{\setlength{\rightskip}{0pt plus 5cm}eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Visit.\+M\+Tracker\+Visit (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit_a3cd3e33db8463ca8c2f75a5531abaeb4}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit_a62a52eacd13be716a7825d8f3015a286}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit}!get\+B\+S\+S\+I\+D@{get\+B\+S\+S\+I\+D}}
+\index{get\+B\+S\+S\+I\+D@{get\+B\+S\+S\+I\+D}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit}}
+\subsubsection[{get\+B\+S\+S\+I\+D}]{\setlength{\rightskip}{0pt plus 5cm}String eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Visit.\+get\+B\+S\+S\+I\+D (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit_a62a52eacd13be716a7825d8f3015a286}
+\begin{DoxyReturn}{Returns}
+the b\+S\+S\+I\+D 
+\end{DoxyReturn}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit_ae6b9fbee6589d7f9bbe1a7343bed1318}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit}!get\+Day\+Of\+The\+Week@{get\+Day\+Of\+The\+Week}}
+\index{get\+Day\+Of\+The\+Week@{get\+Day\+Of\+The\+Week}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit}}
+\subsubsection[{get\+Day\+Of\+The\+Week}]{\setlength{\rightskip}{0pt plus 5cm}int eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Visit.\+get\+Day\+Of\+The\+Week (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit_ae6b9fbee6589d7f9bbe1a7343bed1318}
+\begin{DoxyReturn}{Returns}
+the day\+Of\+The\+Week 
+\end{DoxyReturn}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit_a3f42cdcc77b7d12fc0365978385bdcb9}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit}!get\+End\+Time@{get\+End\+Time}}
+\index{get\+End\+Time@{get\+End\+Time}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit}}
+\subsubsection[{get\+End\+Time}]{\setlength{\rightskip}{0pt plus 5cm}long eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Visit.\+get\+End\+Time (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit_a3f42cdcc77b7d12fc0365978385bdcb9}
+\begin{DoxyReturn}{Returns}
+the end\+Time 
+\end{DoxyReturn}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit_af3c824a42b2d611b36dbc5ec651da2d7}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit}!get\+Hour\+Of\+The\+Day@{get\+Hour\+Of\+The\+Day}}
+\index{get\+Hour\+Of\+The\+Day@{get\+Hour\+Of\+The\+Day}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit}}
+\subsubsection[{get\+Hour\+Of\+The\+Day}]{\setlength{\rightskip}{0pt plus 5cm}int eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Visit.\+get\+Hour\+Of\+The\+Day (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit_af3c824a42b2d611b36dbc5ec651da2d7}
+\begin{DoxyReturn}{Returns}
+the hour\+Of\+The\+Day 
+\end{DoxyReturn}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit_a8accc27af02ead95cb569845ea6b5db1}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit}!get\+S\+S\+I\+D@{get\+S\+S\+I\+D}}
+\index{get\+S\+S\+I\+D@{get\+S\+S\+I\+D}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit}}
+\subsubsection[{get\+S\+S\+I\+D}]{\setlength{\rightskip}{0pt plus 5cm}String eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Visit.\+get\+S\+S\+I\+D (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit_a8accc27af02ead95cb569845ea6b5db1}
+\begin{DoxyReturn}{Returns}
+the s\+S\+I\+D 
+\end{DoxyReturn}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit_af9354b202fae1c0f48829c82dc0e12ce}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit}!get\+Start\+Time@{get\+Start\+Time}}
+\index{get\+Start\+Time@{get\+Start\+Time}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit}}
+\subsubsection[{get\+Start\+Time}]{\setlength{\rightskip}{0pt plus 5cm}long eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Visit.\+get\+Start\+Time (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit_af9354b202fae1c0f48829c82dc0e12ce}
+\begin{DoxyReturn}{Returns}
+the start\+Time 
+\end{DoxyReturn}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit_adbb715806badaa1e7ee2fab50611c260}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit}!set\+B\+S\+S\+I\+D@{set\+B\+S\+S\+I\+D}}
+\index{set\+B\+S\+S\+I\+D@{set\+B\+S\+S\+I\+D}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit}}
+\subsubsection[{set\+B\+S\+S\+I\+D}]{\setlength{\rightskip}{0pt plus 5cm}void eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Visit.\+set\+B\+S\+S\+I\+D (
+\begin{DoxyParamCaption}
+\item[{String}]{b\+S\+S\+I\+D}
+\end{DoxyParamCaption}
+)}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit_adbb715806badaa1e7ee2fab50611c260}
+
+\begin{DoxyParams}{Parameters}
+{\em b\+S\+S\+I\+D} & the b\+S\+S\+I\+D to set \\
+\hline
+\end{DoxyParams}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit_acd58e52bb1101fe939c2937cea6a0b6f}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit}!set\+Day\+Of\+The\+Week@{set\+Day\+Of\+The\+Week}}
+\index{set\+Day\+Of\+The\+Week@{set\+Day\+Of\+The\+Week}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit}}
+\subsubsection[{set\+Day\+Of\+The\+Week}]{\setlength{\rightskip}{0pt plus 5cm}void eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Visit.\+set\+Day\+Of\+The\+Week (
+\begin{DoxyParamCaption}
+\item[{int}]{day\+Of\+The\+Week}
+\end{DoxyParamCaption}
+)}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit_acd58e52bb1101fe939c2937cea6a0b6f}
+
+\begin{DoxyParams}{Parameters}
+{\em day\+Of\+The\+Week} & the day\+Of\+The\+Week to set \\
+\hline
+\end{DoxyParams}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit_a51cbcf50a13328aeb4c4298a25ed11b0}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit}!set\+End\+Time@{set\+End\+Time}}
+\index{set\+End\+Time@{set\+End\+Time}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit}}
+\subsubsection[{set\+End\+Time}]{\setlength{\rightskip}{0pt plus 5cm}void eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Visit.\+set\+End\+Time (
+\begin{DoxyParamCaption}
+\item[{long}]{end\+Time}
+\end{DoxyParamCaption}
+)}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit_a51cbcf50a13328aeb4c4298a25ed11b0}
+
+\begin{DoxyParams}{Parameters}
+{\em end\+Time} & the end\+Time to set \\
+\hline
+\end{DoxyParams}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit_a066e80b5273b42b9434d8bdbe82e47b3}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit}!set\+Hour\+Of\+The\+Day@{set\+Hour\+Of\+The\+Day}}
+\index{set\+Hour\+Of\+The\+Day@{set\+Hour\+Of\+The\+Day}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit}}
+\subsubsection[{set\+Hour\+Of\+The\+Day}]{\setlength{\rightskip}{0pt plus 5cm}void eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Visit.\+set\+Hour\+Of\+The\+Day (
+\begin{DoxyParamCaption}
+\item[{int}]{hour\+Of\+The\+Day}
+\end{DoxyParamCaption}
+)}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit_a066e80b5273b42b9434d8bdbe82e47b3}
+
+\begin{DoxyParams}{Parameters}
+{\em hour\+Of\+The\+Day} & the hour\+Of\+The\+Day to set \\
+\hline
+\end{DoxyParams}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit_a4655225f5aea8b86de58af107509fc5b}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit}!set\+S\+S\+I\+D@{set\+S\+S\+I\+D}}
+\index{set\+S\+S\+I\+D@{set\+S\+S\+I\+D}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit}}
+\subsubsection[{set\+S\+S\+I\+D}]{\setlength{\rightskip}{0pt plus 5cm}void eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Visit.\+set\+S\+S\+I\+D (
+\begin{DoxyParamCaption}
+\item[{String}]{s\+S\+I\+D}
+\end{DoxyParamCaption}
+)}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit_a4655225f5aea8b86de58af107509fc5b}
+
+\begin{DoxyParams}{Parameters}
+{\em s\+S\+I\+D} & the s\+S\+I\+D to set \\
+\hline
+\end{DoxyParams}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit_a55ee44dc0be0cda19dbd0a0b80aa6dc1}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit}!set\+Start\+Time@{set\+Start\+Time}}
+\index{set\+Start\+Time@{set\+Start\+Time}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit}}
+\subsubsection[{set\+Start\+Time}]{\setlength{\rightskip}{0pt plus 5cm}void eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Visit.\+set\+Start\+Time (
+\begin{DoxyParamCaption}
+\item[{long}]{start\+Time}
+\end{DoxyParamCaption}
+)}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit_a55ee44dc0be0cda19dbd0a0b80aa6dc1}
+
+\begin{DoxyParams}{Parameters}
+{\em start\+Time} & the start\+Time to set \\
+\hline
+\end{DoxyParams}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit_acb6e24ed255d13fd93443ab41e4e4a8d}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit}!set\+To\+Default@{set\+To\+Default}}
+\index{set\+To\+Default@{set\+To\+Default}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit}}
+\subsubsection[{set\+To\+Default}]{\setlength{\rightskip}{0pt plus 5cm}void eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Visit.\+set\+To\+Default (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit_acb6e24ed255d13fd93443ab41e4e4a8d}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit_a2c6cee8ad1423500709f2b41424769ac}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit}!to\+String@{to\+String}}
+\index{to\+String@{to\+String}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit}}
+\subsubsection[{to\+String}]{\setlength{\rightskip}{0pt plus 5cm}String eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Visit.\+to\+String (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit_a2c6cee8ad1423500709f2b41424769ac}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit_abdb50e593bbecf743f438a03fe8fb265}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit}!update@{update}}
+\index{update@{update}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit}}
+\subsubsection[{update}]{\setlength{\rightskip}{0pt plus 5cm}void eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Visit.\+update (
+\begin{DoxyParamCaption}
+\item[{String}]{S\+S\+I\+D, }
+\item[{String}]{B\+S\+S\+I\+D, }
+\item[{Long}]{start\+Time, }
+\item[{Long}]{end\+Time}
+\end{DoxyParamCaption}
+)}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit_abdb50e593bbecf743f438a03fe8fb265}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit_a11a058f787db9cf1d022e18a4540f299}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit}!B\+S\+S\+I\+D@{B\+S\+S\+I\+D}}
+\index{B\+S\+S\+I\+D@{B\+S\+S\+I\+D}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit}}
+\subsubsection[{B\+S\+S\+I\+D}]{\setlength{\rightskip}{0pt plus 5cm}String eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Visit.\+B\+S\+S\+I\+D\hspace{0.3cm}{\ttfamily [private]}}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit_a11a058f787db9cf1d022e18a4540f299}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit_a14e547e72377481f8aff93a4ac6ffe2e}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit}!data\+Format@{data\+Format}}
+\index{data\+Format@{data\+Format}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit}}
+\subsubsection[{data\+Format}]{\setlength{\rightskip}{0pt plus 5cm}Simple\+Date\+Format eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Visit.\+data\+Format = new Simple\+Date\+Format(\char`\"{}yyyy.\+M\+M.\+dd 'at' H\+H\+:mm\+:ss\char`\"{})\hspace{0.3cm}{\ttfamily [private]}}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit_a14e547e72377481f8aff93a4ac6ffe2e}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit_a0618cd50658edf1edbb32f38cd167c3d}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit}!day\+Of\+The\+Week@{day\+Of\+The\+Week}}
+\index{day\+Of\+The\+Week@{day\+Of\+The\+Week}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit}}
+\subsubsection[{day\+Of\+The\+Week}]{\setlength{\rightskip}{0pt plus 5cm}int eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Visit.\+day\+Of\+The\+Week\hspace{0.3cm}{\ttfamily [private]}}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit_a0618cd50658edf1edbb32f38cd167c3d}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit_a784e03ea2ea0ef6d31b6bf9ee2b4ed86}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit}!end\+Time@{end\+Time}}
+\index{end\+Time@{end\+Time}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit}}
+\subsubsection[{end\+Time}]{\setlength{\rightskip}{0pt plus 5cm}Long eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Visit.\+end\+Time\hspace{0.3cm}{\ttfamily [private]}}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit_a784e03ea2ea0ef6d31b6bf9ee2b4ed86}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit_a7bc1898c9ce63142f39c82e85f744d91}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit}!hour\+Of\+The\+Day@{hour\+Of\+The\+Day}}
+\index{hour\+Of\+The\+Day@{hour\+Of\+The\+Day}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit}}
+\subsubsection[{hour\+Of\+The\+Day}]{\setlength{\rightskip}{0pt plus 5cm}int eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Visit.\+hour\+Of\+The\+Day\hspace{0.3cm}{\ttfamily [private]}}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit_a7bc1898c9ce63142f39c82e85f744d91}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit_a22c7fcba0f248def163d18a473adb529}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit}!period\+Format@{period\+Format}}
+\index{period\+Format@{period\+Format}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit}}
+\subsubsection[{period\+Format}]{\setlength{\rightskip}{0pt plus 5cm}Simple\+Date\+Format eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Visit.\+period\+Format = new Simple\+Date\+Format(\char`\"{}H\+H\+:mm\+:ss\char`\"{})\hspace{0.3cm}{\ttfamily [private]}}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit_a22c7fcba0f248def163d18a473adb529}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit_a2b06a1d0005df091b2251bca6e6c0246}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit}!S\+S\+I\+D@{S\+S\+I\+D}}
+\index{S\+S\+I\+D@{S\+S\+I\+D}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit}}
+\subsubsection[{S\+S\+I\+D}]{\setlength{\rightskip}{0pt plus 5cm}String eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Visit.\+S\+S\+I\+D\hspace{0.3cm}{\ttfamily [private]}}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit_a2b06a1d0005df091b2251bca6e6c0246}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit_ae176a1cf5c83af3b438c6d5f1afc6e52}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit}!start\+Time@{start\+Time}}
+\index{start\+Time@{start\+Time}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Visit}}
+\subsubsection[{start\+Time}]{\setlength{\rightskip}{0pt plus 5cm}Long eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Visit.\+start\+Time\hspace{0.3cm}{\ttfamily [private]}}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit_ae176a1cf5c83af3b438c6d5f1afc6e52}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/eu/uloop/mobilitytracker/\hyperlink{MTrackerVisit_8java}{M\+Tracker\+Visit.\+java}\end{DoxyCompactItemize}

@@ -1,0 +1,262 @@
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager}{\section{eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Wifi\+Manager Class Reference}
+\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager}\index{eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Wifi\+Manager@{eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Wifi\+Manager}}
+}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries Wifi\+Available\+Networks\+Change}
+\item 
+class {\bfseries Wifi\+Connection\+Change}
+\item 
+class {\bfseries Wifi\+State\+Change}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_a0ae6d8cb214aa07a6a48bc309e0b048d}{close} (Context c)
+\item 
+void \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_a187b034f76574e923c35d7603ffdbc7d}{start\+Periodic\+Scanning} ()
+\item 
+void \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_aaf8329bd03615206626eaaf60b7163ac}{stop\+Periodic\+Scanning} ()
+\item 
+void \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_a4b552616ee756bea242c390b6a47cd6c}{set\+On\+Wifi\+Change\+Listener} (\hyperlink{interfaceeu_1_1uloop_1_1mobilitytracker_1_1WifiChangeListener}{Wifi\+Change\+Listener} \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_aa1d154da1bb361b67fa73df8c0c7ec37}{listener})
+\item 
+void \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_a0304fcdbd89e9a208a67f0ab8a453e97}{clear\+On\+Wifi\+Change\+Listener} ()
+\item 
+void \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_ab1b833477b2ca5133d7b4b331c76d06f}{set\+Wifi\+Manager} (Wifi\+Manager wm)
+\item 
+void \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_a792f2361acd11feb9a131bdd80aeaa81}{set\+Wifi\+Manager} (Context c)
+\item 
+boolean \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_a2a7c3866f9c861c69dc5538704e61f3a}{is\+Wifi\+Enabled} ()
+\item 
+boolean \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_ad2b16d54d73844b90ca70c3f5db5dc99}{start\+Scan} ()
+\item 
+List$<$ Scan\+Result $>$ \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_a9961121b64c00b92fbab42be62310b20}{get\+Last\+Scan\+Results} ()
+\item 
+int \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_a5299dd6c03960ebd8de22fba02fc3359}{get\+Gateway\+Ip} ()
+\item 
+void \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_a88a00c25db918ea426639072848ebb1f}{note\+Ongoing\+Connection} ()
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+boolean \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_a3ddfdf614c661fa2e487608063104b5d}{is\+Scanning\+Active} = false
+\item 
+boolean \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_aa8093ed424fc284bb785cff6900e5ea4}{is\+Waiting\+Scan\+Results} = false
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static long \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_a073db55ee0fb9c66520d05ae7e08d3e7}{M\+I\+N\+I\+M\+U\+M\+\_\+\+C\+O\+N\+N\+E\+X\+I\+O\+N\+\_\+\+T\+I\+M\+E} = 10
+\item 
+static int \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_a3955e253a5cb506942b9a803ad39efbd}{S\+C\+A\+N\+N\+I\+N\+G\+\_\+\+I\+N\+T\+E\+R\+V\+A\+L} = 20000
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+long \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_afff4c8a93bd00e9087334ec0f2cb72cd}{wifi\+Current\+A\+P\+Start}
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Wifi\+Manager \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_a5d7d506ad530ce77d172bd20bb6c1cf8}{android\+Wifi\+Manager}
+\item 
+long \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_af4c667aa1375701ea4249214d3fd6a24}{wifi\+Current\+Visit\+Id}
+\item 
+Wifi\+State\+Change \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_a3222b93c74d48805b64d8bc0ffddf985}{wifi\+State\+Receiver}
+\item 
+Wifi\+Connection\+Change \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_a38fd50d850dcd484365ddaede7b066e7}{wifi\+Conn\+Receiver}
+\item 
+Wifi\+Available\+Networks\+Change \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_af961ecc022f7a22e2258ba748f2abbab}{wifi\+Scan\+Receiver}
+\item 
+\hyperlink{interfaceeu_1_1uloop_1_1mobilitytracker_1_1WifiChangeListener}{Wifi\+Change\+Listener} \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_aa1d154da1bb361b67fa73df8c0c7ec37}{listener}
+\item 
+Handler \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_a4ae9d37ad258e6924a4ece10984013ee}{m\+Handler} = new Handler()
+\item 
+Runnable \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_a0aed1c15634c782fa21ca690865ef3cf}{run\+Scan}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This class provides some methods to provide extended functionality to the android Wifi\+Manager.
+
+\begin{DoxyAuthor}{Author}
+Jonnahtan Saltarin (U\+L\+H\+T) 
+
+Rute Sofia (U\+L\+H\+T) 
+
+Christian da Silva Pereira (U\+L\+H\+T) 
+
+Luis Amaral Lopes (U\+L\+H\+T)
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+3.\+0 
+\end{DoxyVersion}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_a0304fcdbd89e9a208a67f0ab8a453e97}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager}!clear\+On\+Wifi\+Change\+Listener@{clear\+On\+Wifi\+Change\+Listener}}
+\index{clear\+On\+Wifi\+Change\+Listener@{clear\+On\+Wifi\+Change\+Listener}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager}}
+\subsubsection[{clear\+On\+Wifi\+Change\+Listener}]{\setlength{\rightskip}{0pt plus 5cm}void eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Wifi\+Manager.\+clear\+On\+Wifi\+Change\+Listener (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_a0304fcdbd89e9a208a67f0ab8a453e97}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_a0ae6d8cb214aa07a6a48bc309e0b048d}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager}!close@{close}}
+\index{close@{close}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager}}
+\subsubsection[{close}]{\setlength{\rightskip}{0pt plus 5cm}void eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Wifi\+Manager.\+close (
+\begin{DoxyParamCaption}
+\item[{Context}]{c}
+\end{DoxyParamCaption}
+)}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_a0ae6d8cb214aa07a6a48bc309e0b048d}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_a5299dd6c03960ebd8de22fba02fc3359}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager}!get\+Gateway\+Ip@{get\+Gateway\+Ip}}
+\index{get\+Gateway\+Ip@{get\+Gateway\+Ip}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager}}
+\subsubsection[{get\+Gateway\+Ip}]{\setlength{\rightskip}{0pt plus 5cm}int eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Wifi\+Manager.\+get\+Gateway\+Ip (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_a5299dd6c03960ebd8de22fba02fc3359}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_a9961121b64c00b92fbab42be62310b20}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager}!get\+Last\+Scan\+Results@{get\+Last\+Scan\+Results}}
+\index{get\+Last\+Scan\+Results@{get\+Last\+Scan\+Results}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager}}
+\subsubsection[{get\+Last\+Scan\+Results}]{\setlength{\rightskip}{0pt plus 5cm}List$<$Scan\+Result$>$ eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Wifi\+Manager.\+get\+Last\+Scan\+Results (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_a9961121b64c00b92fbab42be62310b20}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_a2a7c3866f9c861c69dc5538704e61f3a}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager}!is\+Wifi\+Enabled@{is\+Wifi\+Enabled}}
+\index{is\+Wifi\+Enabled@{is\+Wifi\+Enabled}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager}}
+\subsubsection[{is\+Wifi\+Enabled}]{\setlength{\rightskip}{0pt plus 5cm}boolean eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Wifi\+Manager.\+is\+Wifi\+Enabled (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_a2a7c3866f9c861c69dc5538704e61f3a}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_a88a00c25db918ea426639072848ebb1f}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager}!note\+Ongoing\+Connection@{note\+Ongoing\+Connection}}
+\index{note\+Ongoing\+Connection@{note\+Ongoing\+Connection}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager}}
+\subsubsection[{note\+Ongoing\+Connection}]{\setlength{\rightskip}{0pt plus 5cm}void eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Wifi\+Manager.\+note\+Ongoing\+Connection (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_a88a00c25db918ea426639072848ebb1f}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_a4b552616ee756bea242c390b6a47cd6c}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager}!set\+On\+Wifi\+Change\+Listener@{set\+On\+Wifi\+Change\+Listener}}
+\index{set\+On\+Wifi\+Change\+Listener@{set\+On\+Wifi\+Change\+Listener}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager}}
+\subsubsection[{set\+On\+Wifi\+Change\+Listener}]{\setlength{\rightskip}{0pt plus 5cm}void eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Wifi\+Manager.\+set\+On\+Wifi\+Change\+Listener (
+\begin{DoxyParamCaption}
+\item[{{\bf Wifi\+Change\+Listener}}]{listener}
+\end{DoxyParamCaption}
+)}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_a4b552616ee756bea242c390b6a47cd6c}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_ab1b833477b2ca5133d7b4b331c76d06f}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager}!set\+Wifi\+Manager@{set\+Wifi\+Manager}}
+\index{set\+Wifi\+Manager@{set\+Wifi\+Manager}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager}}
+\subsubsection[{set\+Wifi\+Manager}]{\setlength{\rightskip}{0pt plus 5cm}void eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Wifi\+Manager.\+set\+Wifi\+Manager (
+\begin{DoxyParamCaption}
+\item[{Wifi\+Manager}]{wm}
+\end{DoxyParamCaption}
+)}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_ab1b833477b2ca5133d7b4b331c76d06f}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_a792f2361acd11feb9a131bdd80aeaa81}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager}!set\+Wifi\+Manager@{set\+Wifi\+Manager}}
+\index{set\+Wifi\+Manager@{set\+Wifi\+Manager}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager}}
+\subsubsection[{set\+Wifi\+Manager}]{\setlength{\rightskip}{0pt plus 5cm}void eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Wifi\+Manager.\+set\+Wifi\+Manager (
+\begin{DoxyParamCaption}
+\item[{Context}]{c}
+\end{DoxyParamCaption}
+)}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_a792f2361acd11feb9a131bdd80aeaa81}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_a187b034f76574e923c35d7603ffdbc7d}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager}!start\+Periodic\+Scanning@{start\+Periodic\+Scanning}}
+\index{start\+Periodic\+Scanning@{start\+Periodic\+Scanning}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager}}
+\subsubsection[{start\+Periodic\+Scanning}]{\setlength{\rightskip}{0pt plus 5cm}void eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Wifi\+Manager.\+start\+Periodic\+Scanning (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_a187b034f76574e923c35d7603ffdbc7d}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_ad2b16d54d73844b90ca70c3f5db5dc99}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager}!start\+Scan@{start\+Scan}}
+\index{start\+Scan@{start\+Scan}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager}}
+\subsubsection[{start\+Scan}]{\setlength{\rightskip}{0pt plus 5cm}boolean eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Wifi\+Manager.\+start\+Scan (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_ad2b16d54d73844b90ca70c3f5db5dc99}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_aaf8329bd03615206626eaaf60b7163ac}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager}!stop\+Periodic\+Scanning@{stop\+Periodic\+Scanning}}
+\index{stop\+Periodic\+Scanning@{stop\+Periodic\+Scanning}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager}}
+\subsubsection[{stop\+Periodic\+Scanning}]{\setlength{\rightskip}{0pt plus 5cm}void eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Wifi\+Manager.\+stop\+Periodic\+Scanning (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_aaf8329bd03615206626eaaf60b7163ac}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_a5d7d506ad530ce77d172bd20bb6c1cf8}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager}!android\+Wifi\+Manager@{android\+Wifi\+Manager}}
+\index{android\+Wifi\+Manager@{android\+Wifi\+Manager}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager}}
+\subsubsection[{android\+Wifi\+Manager}]{\setlength{\rightskip}{0pt plus 5cm}Wifi\+Manager eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Wifi\+Manager.\+android\+Wifi\+Manager\hspace{0.3cm}{\ttfamily [private]}}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_a5d7d506ad530ce77d172bd20bb6c1cf8}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_a3ddfdf614c661fa2e487608063104b5d}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager}!is\+Scanning\+Active@{is\+Scanning\+Active}}
+\index{is\+Scanning\+Active@{is\+Scanning\+Active}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager}}
+\subsubsection[{is\+Scanning\+Active}]{\setlength{\rightskip}{0pt plus 5cm}boolean eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Wifi\+Manager.\+is\+Scanning\+Active = false}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_a3ddfdf614c661fa2e487608063104b5d}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_aa8093ed424fc284bb785cff6900e5ea4}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager}!is\+Waiting\+Scan\+Results@{is\+Waiting\+Scan\+Results}}
+\index{is\+Waiting\+Scan\+Results@{is\+Waiting\+Scan\+Results}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager}}
+\subsubsection[{is\+Waiting\+Scan\+Results}]{\setlength{\rightskip}{0pt plus 5cm}boolean eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Wifi\+Manager.\+is\+Waiting\+Scan\+Results = false}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_aa8093ed424fc284bb785cff6900e5ea4}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_aa1d154da1bb361b67fa73df8c0c7ec37}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager}!listener@{listener}}
+\index{listener@{listener}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager}}
+\subsubsection[{listener}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Wifi\+Change\+Listener} eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Wifi\+Manager.\+listener\hspace{0.3cm}{\ttfamily [private]}}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_aa1d154da1bb361b67fa73df8c0c7ec37}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_a4ae9d37ad258e6924a4ece10984013ee}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager}!m\+Handler@{m\+Handler}}
+\index{m\+Handler@{m\+Handler}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager}}
+\subsubsection[{m\+Handler}]{\setlength{\rightskip}{0pt plus 5cm}Handler eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Wifi\+Manager.\+m\+Handler = new Handler()\hspace{0.3cm}{\ttfamily [private]}}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_a4ae9d37ad258e6924a4ece10984013ee}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_a073db55ee0fb9c66520d05ae7e08d3e7}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager}!M\+I\+N\+I\+M\+U\+M\+\_\+\+C\+O\+N\+N\+E\+X\+I\+O\+N\+\_\+\+T\+I\+M\+E@{M\+I\+N\+I\+M\+U\+M\+\_\+\+C\+O\+N\+N\+E\+X\+I\+O\+N\+\_\+\+T\+I\+M\+E}}
+\index{M\+I\+N\+I\+M\+U\+M\+\_\+\+C\+O\+N\+N\+E\+X\+I\+O\+N\+\_\+\+T\+I\+M\+E@{M\+I\+N\+I\+M\+U\+M\+\_\+\+C\+O\+N\+N\+E\+X\+I\+O\+N\+\_\+\+T\+I\+M\+E}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager}}
+\subsubsection[{M\+I\+N\+I\+M\+U\+M\+\_\+\+C\+O\+N\+N\+E\+X\+I\+O\+N\+\_\+\+T\+I\+M\+E}]{\setlength{\rightskip}{0pt plus 5cm}long eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Wifi\+Manager.\+M\+I\+N\+I\+M\+U\+M\+\_\+\+C\+O\+N\+N\+E\+X\+I\+O\+N\+\_\+\+T\+I\+M\+E = 10\hspace{0.3cm}{\ttfamily [static]}}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_a073db55ee0fb9c66520d05ae7e08d3e7}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_a0aed1c15634c782fa21ca690865ef3cf}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager}!run\+Scan@{run\+Scan}}
+\index{run\+Scan@{run\+Scan}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager}}
+\subsubsection[{run\+Scan}]{\setlength{\rightskip}{0pt plus 5cm}Runnable eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Wifi\+Manager.\+run\+Scan\hspace{0.3cm}{\ttfamily [private]}}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_a0aed1c15634c782fa21ca690865ef3cf}
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+= \textcolor{keyword}{new} Runnable() \{
+                \textcolor{keyword}{public} \textcolor{keywordtype}{void} run() \{
+                        \textcolor{keywordflow}{if} (\hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_a3ddfdf614c661fa2e487608063104b5d}{isScanningActive}) \{
+                                \textcolor{keywordflow}{if} (!\hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_aa8093ed424fc284bb785cff6900e5ea4}{isWaitingScanResults} && 
+      \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_a2a7c3866f9c861c69dc5538704e61f3a}{isWifiEnabled}()) \{
+                                        \textcolor{keywordflow}{if} (\hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_ad2b16d54d73844b90ca70c3f5db5dc99}{startScan}()) \{
+                                                \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_aa8093ed424fc284bb785cff6900e5ea4}{isWaitingScanResults} = \textcolor{keyword}{true};
+                                        \}
+                                        \textcolor{keywordflow}{else} \{
+                                                
+                                        \}
+                                        
+                                        \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_a4ae9d37ad258e6924a4ece10984013ee}{mHandler}.postDelayed(\hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_a0aed1c15634c782fa21ca690865ef3cf}{runScan}, 
+      \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_a3955e253a5cb506942b9a803ad39efbd}{SCANNING\_INTERVAL});
+                                \}
+                                \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (\hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_aa8093ed424fc284bb785cff6900e5ea4}{isWaitingScanResults}) \{
+                                        
+                                \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_a4ae9d37ad258e6924a4ece10984013ee}{mHandler}.postDelayed(\hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_a0aed1c15634c782fa21ca690865ef3cf}{runScan}, 
+      \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_a3955e253a5cb506942b9a803ad39efbd}{SCANNING\_INTERVAL});
+                                \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_aa8093ed424fc284bb785cff6900e5ea4}{isWaitingScanResults} = \textcolor{keyword}{false};
+                                \}
+                                \textcolor{keywordflow}{else} \{
+                                        
+                                \}
+                        \}
+                        \textcolor{keywordflow}{else} \{
+                                
+                        \}
+                \}
+                
+        \}
+\end{DoxyCode}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_a3955e253a5cb506942b9a803ad39efbd}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager}!S\+C\+A\+N\+N\+I\+N\+G\+\_\+\+I\+N\+T\+E\+R\+V\+A\+L@{S\+C\+A\+N\+N\+I\+N\+G\+\_\+\+I\+N\+T\+E\+R\+V\+A\+L}}
+\index{S\+C\+A\+N\+N\+I\+N\+G\+\_\+\+I\+N\+T\+E\+R\+V\+A\+L@{S\+C\+A\+N\+N\+I\+N\+G\+\_\+\+I\+N\+T\+E\+R\+V\+A\+L}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager}}
+\subsubsection[{S\+C\+A\+N\+N\+I\+N\+G\+\_\+\+I\+N\+T\+E\+R\+V\+A\+L}]{\setlength{\rightskip}{0pt plus 5cm}int eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Wifi\+Manager.\+S\+C\+A\+N\+N\+I\+N\+G\+\_\+\+I\+N\+T\+E\+R\+V\+A\+L = 20000\hspace{0.3cm}{\ttfamily [static]}}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_a3955e253a5cb506942b9a803ad39efbd}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_a38fd50d850dcd484365ddaede7b066e7}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager}!wifi\+Conn\+Receiver@{wifi\+Conn\+Receiver}}
+\index{wifi\+Conn\+Receiver@{wifi\+Conn\+Receiver}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager}}
+\subsubsection[{wifi\+Conn\+Receiver}]{\setlength{\rightskip}{0pt plus 5cm}Wifi\+Connection\+Change eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Wifi\+Manager.\+wifi\+Conn\+Receiver\hspace{0.3cm}{\ttfamily [private]}}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_a38fd50d850dcd484365ddaede7b066e7}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_afff4c8a93bd00e9087334ec0f2cb72cd}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager}!wifi\+Current\+A\+P\+Start@{wifi\+Current\+A\+P\+Start}}
+\index{wifi\+Current\+A\+P\+Start@{wifi\+Current\+A\+P\+Start}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager}}
+\subsubsection[{wifi\+Current\+A\+P\+Start}]{\setlength{\rightskip}{0pt plus 5cm}long eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Wifi\+Manager.\+wifi\+Current\+A\+P\+Start\hspace{0.3cm}{\ttfamily [protected]}}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_afff4c8a93bd00e9087334ec0f2cb72cd}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_af4c667aa1375701ea4249214d3fd6a24}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager}!wifi\+Current\+Visit\+Id@{wifi\+Current\+Visit\+Id}}
+\index{wifi\+Current\+Visit\+Id@{wifi\+Current\+Visit\+Id}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager}}
+\subsubsection[{wifi\+Current\+Visit\+Id}]{\setlength{\rightskip}{0pt plus 5cm}long eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Wifi\+Manager.\+wifi\+Current\+Visit\+Id\hspace{0.3cm}{\ttfamily [private]}}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_af4c667aa1375701ea4249214d3fd6a24}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_af961ecc022f7a22e2258ba748f2abbab}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager}!wifi\+Scan\+Receiver@{wifi\+Scan\+Receiver}}
+\index{wifi\+Scan\+Receiver@{wifi\+Scan\+Receiver}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager}}
+\subsubsection[{wifi\+Scan\+Receiver}]{\setlength{\rightskip}{0pt plus 5cm}Wifi\+Available\+Networks\+Change eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Wifi\+Manager.\+wifi\+Scan\+Receiver\hspace{0.3cm}{\ttfamily [private]}}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_af961ecc022f7a22e2258ba748f2abbab}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_a3222b93c74d48805b64d8bc0ffddf985}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager}!wifi\+State\+Receiver@{wifi\+State\+Receiver}}
+\index{wifi\+State\+Receiver@{wifi\+State\+Receiver}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Wifi\+Manager}}
+\subsubsection[{wifi\+State\+Receiver}]{\setlength{\rightskip}{0pt plus 5cm}Wifi\+State\+Change eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Wifi\+Manager.\+wifi\+State\+Receiver\hspace{0.3cm}{\ttfamily [private]}}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerWifiManager_a3222b93c74d48805b64d8bc0ffddf985}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/eu/uloop/mobilitytracker/\hyperlink{MTrackerWifiManager_8java}{M\+Tracker\+Wifi\+Manager.\+java}\end{DoxyCompactItemize}

@@ -1,0 +1,101 @@
+\hypertarget{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1ResourceMessageOrBuilder}{\section{eu.\+uloop.\+messages.\+Uloop\+Messages.\+Resource\+Message\+Or\+Builder Interface Reference}
+\label{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1ResourceMessageOrBuilder}\index{eu.\+uloop.\+messages.\+Uloop\+Messages.\+Resource\+Message\+Or\+Builder@{eu.\+uloop.\+messages.\+Uloop\+Messages.\+Resource\+Message\+Or\+Builder}}
+}
+Inheritance diagram for eu.\+uloop.\+messages.\+Uloop\+Messages.\+Resource\+Message\+Or\+Builder\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1ResourceMessageOrBuilder}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+boolean \hyperlink{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1ResourceMessageOrBuilder_a2db6751208d16916b531aabc1b58a862}{has\+Rreq} ()
+\item 
+eu.\+uloop.\+messages.\+Uloop\+Messages.\+Enough\+Resources\+Message\+Request \hyperlink{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1ResourceMessageOrBuilder_ae98606d380e06b735a00e58231a0ada1}{get\+Rreq} ()
+\item 
+\hyperlink{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1EnoughResourcesMessageRequestOrBuilder}{eu.\+uloop.\+messages.\+Uloop\+Messages.\+Enough\+Resources\+Message\+Request\+Or\+Builder} \hyperlink{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1ResourceMessageOrBuilder_a97d8ceec6a05fe2f27423f9353a4f139}{get\+Rreq\+Or\+Builder} ()
+\item 
+boolean \hyperlink{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1ResourceMessageOrBuilder_a199164d0bc96a084d7533f3f23b0de7c}{has\+Rep} ()
+\item 
+eu.\+uloop.\+messages.\+Uloop\+Messages.\+Enough\+Resources\+Message\+Reply \hyperlink{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1ResourceMessageOrBuilder_a91adc1c3c2a12e776e226e086eec07db}{get\+Rep} ()
+\item 
+\hyperlink{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1EnoughResourcesMessageReplyOrBuilder}{eu.\+uloop.\+messages.\+Uloop\+Messages.\+Enough\+Resources\+Message\+Reply\+Or\+Builder} \hyperlink{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1ResourceMessageOrBuilder_a4c00d4a6933d4459c7070bd1f7abe28d}{get\+Rep\+Or\+Builder} ()
+\item 
+boolean \hyperlink{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1ResourceMessageOrBuilder_ae7499641905a50d2d77e69c6ca85e931}{has\+Cac} ()
+\item 
+eu.\+uloop.\+messages.\+Uloop\+Messages.\+Enough\+Resources\+C\+A\+C\+Reply \hyperlink{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1ResourceMessageOrBuilder_af4b612edd0969178c242bde2959d55b3}{get\+Cac} ()
+\item 
+\hyperlink{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1EnoughResourcesCACReplyOrBuilder}{eu.\+uloop.\+messages.\+Uloop\+Messages.\+Enough\+Resources\+C\+A\+C\+Reply\+Or\+Builder} \hyperlink{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1ResourceMessageOrBuilder_ab847a44d1583afa22fe204054b24119c}{get\+Cac\+Or\+Builder} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1ResourceMessageOrBuilder_af4b612edd0969178c242bde2959d55b3}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Resource\+Message\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Resource\+Message\+Or\+Builder}!get\+Cac@{get\+Cac}}
+\index{get\+Cac@{get\+Cac}!eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Resource\+Message\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Resource\+Message\+Or\+Builder}}
+\subsubsection[{get\+Cac}]{\setlength{\rightskip}{0pt plus 5cm}eu.\+uloop.\+messages.\+Uloop\+Messages.\+Enough\+Resources\+C\+A\+C\+Reply eu.\+uloop.\+messages.\+Uloop\+Messages.\+Resource\+Message\+Or\+Builder.\+get\+Cac (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1ResourceMessageOrBuilder_af4b612edd0969178c242bde2959d55b3}
+\hypertarget{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1ResourceMessageOrBuilder_ab847a44d1583afa22fe204054b24119c}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Resource\+Message\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Resource\+Message\+Or\+Builder}!get\+Cac\+Or\+Builder@{get\+Cac\+Or\+Builder}}
+\index{get\+Cac\+Or\+Builder@{get\+Cac\+Or\+Builder}!eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Resource\+Message\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Resource\+Message\+Or\+Builder}}
+\subsubsection[{get\+Cac\+Or\+Builder}]{\setlength{\rightskip}{0pt plus 5cm}{\bf eu.\+uloop.\+messages.\+Uloop\+Messages.\+Enough\+Resources\+C\+A\+C\+Reply\+Or\+Builder} eu.\+uloop.\+messages.\+Uloop\+Messages.\+Resource\+Message\+Or\+Builder.\+get\+Cac\+Or\+Builder (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1ResourceMessageOrBuilder_ab847a44d1583afa22fe204054b24119c}
+\hypertarget{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1ResourceMessageOrBuilder_a91adc1c3c2a12e776e226e086eec07db}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Resource\+Message\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Resource\+Message\+Or\+Builder}!get\+Rep@{get\+Rep}}
+\index{get\+Rep@{get\+Rep}!eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Resource\+Message\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Resource\+Message\+Or\+Builder}}
+\subsubsection[{get\+Rep}]{\setlength{\rightskip}{0pt plus 5cm}eu.\+uloop.\+messages.\+Uloop\+Messages.\+Enough\+Resources\+Message\+Reply eu.\+uloop.\+messages.\+Uloop\+Messages.\+Resource\+Message\+Or\+Builder.\+get\+Rep (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1ResourceMessageOrBuilder_a91adc1c3c2a12e776e226e086eec07db}
+\hypertarget{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1ResourceMessageOrBuilder_a4c00d4a6933d4459c7070bd1f7abe28d}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Resource\+Message\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Resource\+Message\+Or\+Builder}!get\+Rep\+Or\+Builder@{get\+Rep\+Or\+Builder}}
+\index{get\+Rep\+Or\+Builder@{get\+Rep\+Or\+Builder}!eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Resource\+Message\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Resource\+Message\+Or\+Builder}}
+\subsubsection[{get\+Rep\+Or\+Builder}]{\setlength{\rightskip}{0pt plus 5cm}{\bf eu.\+uloop.\+messages.\+Uloop\+Messages.\+Enough\+Resources\+Message\+Reply\+Or\+Builder} eu.\+uloop.\+messages.\+Uloop\+Messages.\+Resource\+Message\+Or\+Builder.\+get\+Rep\+Or\+Builder (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1ResourceMessageOrBuilder_a4c00d4a6933d4459c7070bd1f7abe28d}
+\hypertarget{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1ResourceMessageOrBuilder_ae98606d380e06b735a00e58231a0ada1}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Resource\+Message\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Resource\+Message\+Or\+Builder}!get\+Rreq@{get\+Rreq}}
+\index{get\+Rreq@{get\+Rreq}!eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Resource\+Message\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Resource\+Message\+Or\+Builder}}
+\subsubsection[{get\+Rreq}]{\setlength{\rightskip}{0pt plus 5cm}eu.\+uloop.\+messages.\+Uloop\+Messages.\+Enough\+Resources\+Message\+Request eu.\+uloop.\+messages.\+Uloop\+Messages.\+Resource\+Message\+Or\+Builder.\+get\+Rreq (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1ResourceMessageOrBuilder_ae98606d380e06b735a00e58231a0ada1}
+\hypertarget{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1ResourceMessageOrBuilder_a97d8ceec6a05fe2f27423f9353a4f139}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Resource\+Message\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Resource\+Message\+Or\+Builder}!get\+Rreq\+Or\+Builder@{get\+Rreq\+Or\+Builder}}
+\index{get\+Rreq\+Or\+Builder@{get\+Rreq\+Or\+Builder}!eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Resource\+Message\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Resource\+Message\+Or\+Builder}}
+\subsubsection[{get\+Rreq\+Or\+Builder}]{\setlength{\rightskip}{0pt plus 5cm}{\bf eu.\+uloop.\+messages.\+Uloop\+Messages.\+Enough\+Resources\+Message\+Request\+Or\+Builder} eu.\+uloop.\+messages.\+Uloop\+Messages.\+Resource\+Message\+Or\+Builder.\+get\+Rreq\+Or\+Builder (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1ResourceMessageOrBuilder_a97d8ceec6a05fe2f27423f9353a4f139}
+\hypertarget{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1ResourceMessageOrBuilder_ae7499641905a50d2d77e69c6ca85e931}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Resource\+Message\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Resource\+Message\+Or\+Builder}!has\+Cac@{has\+Cac}}
+\index{has\+Cac@{has\+Cac}!eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Resource\+Message\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Resource\+Message\+Or\+Builder}}
+\subsubsection[{has\+Cac}]{\setlength{\rightskip}{0pt plus 5cm}boolean eu.\+uloop.\+messages.\+Uloop\+Messages.\+Resource\+Message\+Or\+Builder.\+has\+Cac (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1ResourceMessageOrBuilder_ae7499641905a50d2d77e69c6ca85e931}
+\hypertarget{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1ResourceMessageOrBuilder_a199164d0bc96a084d7533f3f23b0de7c}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Resource\+Message\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Resource\+Message\+Or\+Builder}!has\+Rep@{has\+Rep}}
+\index{has\+Rep@{has\+Rep}!eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Resource\+Message\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Resource\+Message\+Or\+Builder}}
+\subsubsection[{has\+Rep}]{\setlength{\rightskip}{0pt plus 5cm}boolean eu.\+uloop.\+messages.\+Uloop\+Messages.\+Resource\+Message\+Or\+Builder.\+has\+Rep (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1ResourceMessageOrBuilder_a199164d0bc96a084d7533f3f23b0de7c}
+\hypertarget{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1ResourceMessageOrBuilder_a2db6751208d16916b531aabc1b58a862}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Resource\+Message\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Resource\+Message\+Or\+Builder}!has\+Rreq@{has\+Rreq}}
+\index{has\+Rreq@{has\+Rreq}!eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Resource\+Message\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Resource\+Message\+Or\+Builder}}
+\subsubsection[{has\+Rreq}]{\setlength{\rightskip}{0pt plus 5cm}boolean eu.\+uloop.\+messages.\+Uloop\+Messages.\+Resource\+Message\+Or\+Builder.\+has\+Rreq (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1ResourceMessageOrBuilder_a2db6751208d16916b531aabc1b58a862}
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/eu/uloop/messages/\hyperlink{UloopMessages_8java}{Uloop\+Messages.\+java}\end{DoxyCompactItemize}

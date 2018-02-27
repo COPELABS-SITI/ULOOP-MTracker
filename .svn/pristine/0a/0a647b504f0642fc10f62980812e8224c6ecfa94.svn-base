@@ -1,0 +1,165 @@
+\hypertarget{classlib_1_1api_1_1UloopServiceRequest}{\section{lib.\+api.\+Uloop\+Service\+Request Class Reference}
+\label{classlib_1_1api_1_1UloopServiceRequest}\index{lib.\+api.\+Uloop\+Service\+Request@{lib.\+api.\+Uloop\+Service\+Request}}
+}
+Inheritance diagram for lib.\+api.\+Uloop\+Service\+Request\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classlib_1_1api_1_1UloopServiceRequest}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classlib_1_1api_1_1UloopServiceRequest_a7efc91eb413b65384b379dddbbdc8166}{Uloop\+Service\+Request} ()
+\item 
+\hyperlink{classlib_1_1api_1_1UloopServiceRequest_ac7928f753be32f759214773e9eb9d2cf}{Uloop\+Service\+Request} (\hyperlink{classlib_1_1api_1_1CryptoID}{Crypto\+I\+D} \hyperlink{classlib_1_1api_1_1UloopServiceRequest_affac2350c8b10ac404fa381f4ee93cb0}{cryptoid})
+\item 
+void \hyperlink{classlib_1_1api_1_1UloopServiceRequest_a951ef79492864bb953168d14666e7dfc}{set\+Username} (byte\mbox{[}$\,$\mbox{]}\hyperlink{classlib_1_1api_1_1UloopServiceRequest_a8a929330893f001347b4df81927edd4c}{username})
+\item 
+void \hyperlink{classlib_1_1api_1_1UloopServiceRequest_a591c6f2cfe2218c889ea7c81174d1d55}{set\+Password} (byte\mbox{[}$\,$\mbox{]}\hyperlink{classlib_1_1api_1_1UloopServiceRequest_a0c23579473c23dbc9411c2c444af4714}{password})
+\item 
+void \hyperlink{classlib_1_1api_1_1UloopServiceRequest_adf89fa97301f24dae9d16580f2170903}{set\+Promise\+Of\+Payment} (byte\mbox{[}$\,$\mbox{]}\hyperlink{classlib_1_1api_1_1UloopServiceRequest_a1a1cd5bf12daafcaea1a016b717cc719}{promise\+\_\+of\+\_\+payment})
+\item 
+void \hyperlink{classlib_1_1api_1_1UloopServiceRequest_a9b40ab10532f92bb429758296a474def}{set\+Tokens} (double \hyperlink{classlib_1_1api_1_1UloopServiceRequest_a768929461a7fbf8cfabb565a00c44d64}{tokens})
+\item 
+void \hyperlink{classlib_1_1api_1_1UloopServiceRequest_affcac88524bf65f1ef0301b0b20f340a}{set\+Crypto\+I\+D} (\hyperlink{classlib_1_1api_1_1CryptoID}{Crypto\+I\+D} \hyperlink{classlib_1_1api_1_1UloopServiceRequest_affac2350c8b10ac404fa381f4ee93cb0}{cryptoid})
+\item 
+\hyperlink{interfacelib_1_1api_1_1UloopAbstractMessage}{Uloop\+Abstract\+Message} \hyperlink{classlib_1_1api_1_1UloopServiceRequest_a4a8a64d824425f1d326f3be82115ccf2}{decode} (Uloop\+Message ulm)  throws Runtime\+Exception
+\item 
+Uloop\+Message.\+Builder \hyperlink{classlib_1_1api_1_1UloopServiceRequest_a13409dd756188327c2885eda6f9a8b17}{encode} ()
+\item 
+\hyperlink{classlib_1_1api_1_1CryptoID}{Crypto\+I\+D} \hyperlink{classlib_1_1api_1_1UloopServiceRequest_a3bad2fd6dc96c07cf6ac6b076b597a64}{get\+Cryptoid} ()
+\item 
+void \hyperlink{classlib_1_1api_1_1UloopServiceRequest_a297690e00aed1f79499de2c9095fe52c}{print} ()
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classlib_1_1api_1_1CryptoID}{Crypto\+I\+D} \hyperlink{classlib_1_1api_1_1UloopServiceRequest_affac2350c8b10ac404fa381f4ee93cb0}{cryptoid}
+\item 
+byte\mbox{[}$\,$\mbox{]} \hyperlink{classlib_1_1api_1_1UloopServiceRequest_a8a929330893f001347b4df81927edd4c}{username}
+\item 
+byte\mbox{[}$\,$\mbox{]} \hyperlink{classlib_1_1api_1_1UloopServiceRequest_a0c23579473c23dbc9411c2c444af4714}{password}
+\item 
+double \hyperlink{classlib_1_1api_1_1UloopServiceRequest_a768929461a7fbf8cfabb565a00c44d64}{tokens}
+\item 
+byte\mbox{[}$\,$\mbox{]} \hyperlink{classlib_1_1api_1_1UloopServiceRequest_a1a1cd5bf12daafcaea1a016b717cc719}{promise\+\_\+of\+\_\+payment}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classlib_1_1api_1_1UloopServiceRequest_a7efc91eb413b65384b379dddbbdc8166}{\index{lib\+::api\+::\+Uloop\+Service\+Request@{lib\+::api\+::\+Uloop\+Service\+Request}!Uloop\+Service\+Request@{Uloop\+Service\+Request}}
+\index{Uloop\+Service\+Request@{Uloop\+Service\+Request}!lib\+::api\+::\+Uloop\+Service\+Request@{lib\+::api\+::\+Uloop\+Service\+Request}}
+\subsubsection[{Uloop\+Service\+Request}]{\setlength{\rightskip}{0pt plus 5cm}lib.\+api.\+Uloop\+Service\+Request.\+Uloop\+Service\+Request (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classlib_1_1api_1_1UloopServiceRequest_a7efc91eb413b65384b379dddbbdc8166}
+\hypertarget{classlib_1_1api_1_1UloopServiceRequest_ac7928f753be32f759214773e9eb9d2cf}{\index{lib\+::api\+::\+Uloop\+Service\+Request@{lib\+::api\+::\+Uloop\+Service\+Request}!Uloop\+Service\+Request@{Uloop\+Service\+Request}}
+\index{Uloop\+Service\+Request@{Uloop\+Service\+Request}!lib\+::api\+::\+Uloop\+Service\+Request@{lib\+::api\+::\+Uloop\+Service\+Request}}
+\subsubsection[{Uloop\+Service\+Request}]{\setlength{\rightskip}{0pt plus 5cm}lib.\+api.\+Uloop\+Service\+Request.\+Uloop\+Service\+Request (
+\begin{DoxyParamCaption}
+\item[{{\bf Crypto\+I\+D}}]{cryptoid}
+\end{DoxyParamCaption}
+)}}\label{classlib_1_1api_1_1UloopServiceRequest_ac7928f753be32f759214773e9eb9d2cf}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classlib_1_1api_1_1UloopServiceRequest_a4a8a64d824425f1d326f3be82115ccf2}{\index{lib\+::api\+::\+Uloop\+Service\+Request@{lib\+::api\+::\+Uloop\+Service\+Request}!decode@{decode}}
+\index{decode@{decode}!lib\+::api\+::\+Uloop\+Service\+Request@{lib\+::api\+::\+Uloop\+Service\+Request}}
+\subsubsection[{decode}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Uloop\+Abstract\+Message} lib.\+api.\+Uloop\+Service\+Request.\+decode (
+\begin{DoxyParamCaption}
+\item[{Uloop\+Message}]{ulm}
+\end{DoxyParamCaption}
+) throws Runtime\+Exception}}\label{classlib_1_1api_1_1UloopServiceRequest_a4a8a64d824425f1d326f3be82115ccf2}
+
+
+Implements \hyperlink{interfacelib_1_1api_1_1UloopAbstractMessage_a1a650d00338402b7d2a5f46575241986}{lib.\+api.\+Uloop\+Abstract\+Message}.
+
+\hypertarget{classlib_1_1api_1_1UloopServiceRequest_a13409dd756188327c2885eda6f9a8b17}{\index{lib\+::api\+::\+Uloop\+Service\+Request@{lib\+::api\+::\+Uloop\+Service\+Request}!encode@{encode}}
+\index{encode@{encode}!lib\+::api\+::\+Uloop\+Service\+Request@{lib\+::api\+::\+Uloop\+Service\+Request}}
+\subsubsection[{encode}]{\setlength{\rightskip}{0pt plus 5cm}Uloop\+Message.\+Builder lib.\+api.\+Uloop\+Service\+Request.\+encode (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classlib_1_1api_1_1UloopServiceRequest_a13409dd756188327c2885eda6f9a8b17}
+
+
+Implements \hyperlink{interfacelib_1_1api_1_1UloopAbstractMessage_a00e05a40924dadb7ee429c811628aea3}{lib.\+api.\+Uloop\+Abstract\+Message}.
+
+\hypertarget{classlib_1_1api_1_1UloopServiceRequest_a3bad2fd6dc96c07cf6ac6b076b597a64}{\index{lib\+::api\+::\+Uloop\+Service\+Request@{lib\+::api\+::\+Uloop\+Service\+Request}!get\+Cryptoid@{get\+Cryptoid}}
+\index{get\+Cryptoid@{get\+Cryptoid}!lib\+::api\+::\+Uloop\+Service\+Request@{lib\+::api\+::\+Uloop\+Service\+Request}}
+\subsubsection[{get\+Cryptoid}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Crypto\+I\+D} lib.\+api.\+Uloop\+Service\+Request.\+get\+Cryptoid (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classlib_1_1api_1_1UloopServiceRequest_a3bad2fd6dc96c07cf6ac6b076b597a64}
+\hypertarget{classlib_1_1api_1_1UloopServiceRequest_a297690e00aed1f79499de2c9095fe52c}{\index{lib\+::api\+::\+Uloop\+Service\+Request@{lib\+::api\+::\+Uloop\+Service\+Request}!print@{print}}
+\index{print@{print}!lib\+::api\+::\+Uloop\+Service\+Request@{lib\+::api\+::\+Uloop\+Service\+Request}}
+\subsubsection[{print}]{\setlength{\rightskip}{0pt plus 5cm}void lib.\+api.\+Uloop\+Service\+Request.\+print (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classlib_1_1api_1_1UloopServiceRequest_a297690e00aed1f79499de2c9095fe52c}
+
+
+Implements \hyperlink{interfacelib_1_1api_1_1UloopAbstractMessage_a116bcd258e6e384507888f4a2e2100a9}{lib.\+api.\+Uloop\+Abstract\+Message}.
+
+\hypertarget{classlib_1_1api_1_1UloopServiceRequest_affcac88524bf65f1ef0301b0b20f340a}{\index{lib\+::api\+::\+Uloop\+Service\+Request@{lib\+::api\+::\+Uloop\+Service\+Request}!set\+Crypto\+I\+D@{set\+Crypto\+I\+D}}
+\index{set\+Crypto\+I\+D@{set\+Crypto\+I\+D}!lib\+::api\+::\+Uloop\+Service\+Request@{lib\+::api\+::\+Uloop\+Service\+Request}}
+\subsubsection[{set\+Crypto\+I\+D}]{\setlength{\rightskip}{0pt plus 5cm}void lib.\+api.\+Uloop\+Service\+Request.\+set\+Crypto\+I\+D (
+\begin{DoxyParamCaption}
+\item[{{\bf Crypto\+I\+D}}]{cryptoid}
+\end{DoxyParamCaption}
+)}}\label{classlib_1_1api_1_1UloopServiceRequest_affcac88524bf65f1ef0301b0b20f340a}
+\hypertarget{classlib_1_1api_1_1UloopServiceRequest_a591c6f2cfe2218c889ea7c81174d1d55}{\index{lib\+::api\+::\+Uloop\+Service\+Request@{lib\+::api\+::\+Uloop\+Service\+Request}!set\+Password@{set\+Password}}
+\index{set\+Password@{set\+Password}!lib\+::api\+::\+Uloop\+Service\+Request@{lib\+::api\+::\+Uloop\+Service\+Request}}
+\subsubsection[{set\+Password}]{\setlength{\rightskip}{0pt plus 5cm}void lib.\+api.\+Uloop\+Service\+Request.\+set\+Password (
+\begin{DoxyParamCaption}
+\item[{byte\mbox{[}$\,$\mbox{]}}]{password}
+\end{DoxyParamCaption}
+)}}\label{classlib_1_1api_1_1UloopServiceRequest_a591c6f2cfe2218c889ea7c81174d1d55}
+\hypertarget{classlib_1_1api_1_1UloopServiceRequest_adf89fa97301f24dae9d16580f2170903}{\index{lib\+::api\+::\+Uloop\+Service\+Request@{lib\+::api\+::\+Uloop\+Service\+Request}!set\+Promise\+Of\+Payment@{set\+Promise\+Of\+Payment}}
+\index{set\+Promise\+Of\+Payment@{set\+Promise\+Of\+Payment}!lib\+::api\+::\+Uloop\+Service\+Request@{lib\+::api\+::\+Uloop\+Service\+Request}}
+\subsubsection[{set\+Promise\+Of\+Payment}]{\setlength{\rightskip}{0pt plus 5cm}void lib.\+api.\+Uloop\+Service\+Request.\+set\+Promise\+Of\+Payment (
+\begin{DoxyParamCaption}
+\item[{byte\mbox{[}$\,$\mbox{]}}]{promise\+\_\+of\+\_\+payment}
+\end{DoxyParamCaption}
+)}}\label{classlib_1_1api_1_1UloopServiceRequest_adf89fa97301f24dae9d16580f2170903}
+\hypertarget{classlib_1_1api_1_1UloopServiceRequest_a9b40ab10532f92bb429758296a474def}{\index{lib\+::api\+::\+Uloop\+Service\+Request@{lib\+::api\+::\+Uloop\+Service\+Request}!set\+Tokens@{set\+Tokens}}
+\index{set\+Tokens@{set\+Tokens}!lib\+::api\+::\+Uloop\+Service\+Request@{lib\+::api\+::\+Uloop\+Service\+Request}}
+\subsubsection[{set\+Tokens}]{\setlength{\rightskip}{0pt plus 5cm}void lib.\+api.\+Uloop\+Service\+Request.\+set\+Tokens (
+\begin{DoxyParamCaption}
+\item[{double}]{tokens}
+\end{DoxyParamCaption}
+)}}\label{classlib_1_1api_1_1UloopServiceRequest_a9b40ab10532f92bb429758296a474def}
+\hypertarget{classlib_1_1api_1_1UloopServiceRequest_a951ef79492864bb953168d14666e7dfc}{\index{lib\+::api\+::\+Uloop\+Service\+Request@{lib\+::api\+::\+Uloop\+Service\+Request}!set\+Username@{set\+Username}}
+\index{set\+Username@{set\+Username}!lib\+::api\+::\+Uloop\+Service\+Request@{lib\+::api\+::\+Uloop\+Service\+Request}}
+\subsubsection[{set\+Username}]{\setlength{\rightskip}{0pt plus 5cm}void lib.\+api.\+Uloop\+Service\+Request.\+set\+Username (
+\begin{DoxyParamCaption}
+\item[{byte\mbox{[}$\,$\mbox{]}}]{username}
+\end{DoxyParamCaption}
+)}}\label{classlib_1_1api_1_1UloopServiceRequest_a951ef79492864bb953168d14666e7dfc}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classlib_1_1api_1_1UloopServiceRequest_affac2350c8b10ac404fa381f4ee93cb0}{\index{lib\+::api\+::\+Uloop\+Service\+Request@{lib\+::api\+::\+Uloop\+Service\+Request}!cryptoid@{cryptoid}}
+\index{cryptoid@{cryptoid}!lib\+::api\+::\+Uloop\+Service\+Request@{lib\+::api\+::\+Uloop\+Service\+Request}}
+\subsubsection[{cryptoid}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Crypto\+I\+D} lib.\+api.\+Uloop\+Service\+Request.\+cryptoid\hspace{0.3cm}{\ttfamily [private]}}}\label{classlib_1_1api_1_1UloopServiceRequest_affac2350c8b10ac404fa381f4ee93cb0}
+\hypertarget{classlib_1_1api_1_1UloopServiceRequest_a0c23579473c23dbc9411c2c444af4714}{\index{lib\+::api\+::\+Uloop\+Service\+Request@{lib\+::api\+::\+Uloop\+Service\+Request}!password@{password}}
+\index{password@{password}!lib\+::api\+::\+Uloop\+Service\+Request@{lib\+::api\+::\+Uloop\+Service\+Request}}
+\subsubsection[{password}]{\setlength{\rightskip}{0pt plus 5cm}byte \mbox{[}$\,$\mbox{]} lib.\+api.\+Uloop\+Service\+Request.\+password\hspace{0.3cm}{\ttfamily [private]}}}\label{classlib_1_1api_1_1UloopServiceRequest_a0c23579473c23dbc9411c2c444af4714}
+\hypertarget{classlib_1_1api_1_1UloopServiceRequest_a1a1cd5bf12daafcaea1a016b717cc719}{\index{lib\+::api\+::\+Uloop\+Service\+Request@{lib\+::api\+::\+Uloop\+Service\+Request}!promise\+\_\+of\+\_\+payment@{promise\+\_\+of\+\_\+payment}}
+\index{promise\+\_\+of\+\_\+payment@{promise\+\_\+of\+\_\+payment}!lib\+::api\+::\+Uloop\+Service\+Request@{lib\+::api\+::\+Uloop\+Service\+Request}}
+\subsubsection[{promise\+\_\+of\+\_\+payment}]{\setlength{\rightskip}{0pt plus 5cm}byte \mbox{[}$\,$\mbox{]} lib.\+api.\+Uloop\+Service\+Request.\+promise\+\_\+of\+\_\+payment\hspace{0.3cm}{\ttfamily [private]}}}\label{classlib_1_1api_1_1UloopServiceRequest_a1a1cd5bf12daafcaea1a016b717cc719}
+\hypertarget{classlib_1_1api_1_1UloopServiceRequest_a768929461a7fbf8cfabb565a00c44d64}{\index{lib\+::api\+::\+Uloop\+Service\+Request@{lib\+::api\+::\+Uloop\+Service\+Request}!tokens@{tokens}}
+\index{tokens@{tokens}!lib\+::api\+::\+Uloop\+Service\+Request@{lib\+::api\+::\+Uloop\+Service\+Request}}
+\subsubsection[{tokens}]{\setlength{\rightskip}{0pt plus 5cm}double lib.\+api.\+Uloop\+Service\+Request.\+tokens\hspace{0.3cm}{\ttfamily [private]}}}\label{classlib_1_1api_1_1UloopServiceRequest_a768929461a7fbf8cfabb565a00c44d64}
+\hypertarget{classlib_1_1api_1_1UloopServiceRequest_a8a929330893f001347b4df81927edd4c}{\index{lib\+::api\+::\+Uloop\+Service\+Request@{lib\+::api\+::\+Uloop\+Service\+Request}!username@{username}}
+\index{username@{username}!lib\+::api\+::\+Uloop\+Service\+Request@{lib\+::api\+::\+Uloop\+Service\+Request}}
+\subsubsection[{username}]{\setlength{\rightskip}{0pt plus 5cm}byte \mbox{[}$\,$\mbox{]} lib.\+api.\+Uloop\+Service\+Request.\+username\hspace{0.3cm}{\ttfamily [private]}}}\label{classlib_1_1api_1_1UloopServiceRequest_a8a929330893f001347b4df81927edd4c}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/lib/api/\hyperlink{UloopServiceRequest_8java}{Uloop\+Service\+Request.\+java}\end{DoxyCompactItemize}

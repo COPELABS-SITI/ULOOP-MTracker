@@ -1,0 +1,73 @@
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1DetailsActivity}{\section{eu.\+uloop.\+mobilitytracker.\+Details\+Activity Class Reference}
+\label{classeu_1_1uloop_1_1mobilitytracker_1_1DetailsActivity}\index{eu.\+uloop.\+mobilitytracker.\+Details\+Activity@{eu.\+uloop.\+mobilitytracker.\+Details\+Activity}}
+}
+Inheritance diagram for eu.\+uloop.\+mobilitytracker.\+Details\+Activity\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classeu_1_1uloop_1_1mobilitytracker_1_1DetailsActivity}
+\end{center}
+\end{figure}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1DetailsActivity_a0b75bac6b06b08a85c9879b820c59ec7}{on\+Create} (Bundle saved\+Instance\+State)
+\item 
+void \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1DetailsActivity_a1a3a01408a7a632c43f2ea12f14c66de}{on\+Start} ()
+\item 
+void \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1DetailsActivity_a440ff757e67eef94d6da34a599c04a96}{on\+Stop} ()
+\item 
+void \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1DetailsActivity_a9c69a0a1329b2ac37a7d86bd344bd86c}{on\+Destroy} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This class provides an activity that shows detailed information of a given A\+P.
+
+\begin{DoxyAuthor}{Author}
+Jonnahtan Saltarin (U\+L\+H\+T) 
+
+Rute Sofia (U\+L\+H\+T) 
+
+Christian da Silva Pereira (U\+L\+H\+T) 
+
+Luis Amaral Lopes (U\+L\+H\+T)
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+3.\+0 
+\end{DoxyVersion}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1DetailsActivity_a0b75bac6b06b08a85c9879b820c59ec7}{\index{eu\+::uloop\+::mobilitytracker\+::\+Details\+Activity@{eu\+::uloop\+::mobilitytracker\+::\+Details\+Activity}!on\+Create@{on\+Create}}
+\index{on\+Create@{on\+Create}!eu\+::uloop\+::mobilitytracker\+::\+Details\+Activity@{eu\+::uloop\+::mobilitytracker\+::\+Details\+Activity}}
+\subsubsection[{on\+Create}]{\setlength{\rightskip}{0pt plus 5cm}void eu.\+uloop.\+mobilitytracker.\+Details\+Activity.\+on\+Create (
+\begin{DoxyParamCaption}
+\item[{Bundle}]{saved\+Instance\+State}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1DetailsActivity_a0b75bac6b06b08a85c9879b820c59ec7}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1DetailsActivity_a9c69a0a1329b2ac37a7d86bd344bd86c}{\index{eu\+::uloop\+::mobilitytracker\+::\+Details\+Activity@{eu\+::uloop\+::mobilitytracker\+::\+Details\+Activity}!on\+Destroy@{on\+Destroy}}
+\index{on\+Destroy@{on\+Destroy}!eu\+::uloop\+::mobilitytracker\+::\+Details\+Activity@{eu\+::uloop\+::mobilitytracker\+::\+Details\+Activity}}
+\subsubsection[{on\+Destroy}]{\setlength{\rightskip}{0pt plus 5cm}void eu.\+uloop.\+mobilitytracker.\+Details\+Activity.\+on\+Destroy (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1DetailsActivity_a9c69a0a1329b2ac37a7d86bd344bd86c}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1DetailsActivity_a1a3a01408a7a632c43f2ea12f14c66de}{\index{eu\+::uloop\+::mobilitytracker\+::\+Details\+Activity@{eu\+::uloop\+::mobilitytracker\+::\+Details\+Activity}!on\+Start@{on\+Start}}
+\index{on\+Start@{on\+Start}!eu\+::uloop\+::mobilitytracker\+::\+Details\+Activity@{eu\+::uloop\+::mobilitytracker\+::\+Details\+Activity}}
+\subsubsection[{on\+Start}]{\setlength{\rightskip}{0pt plus 5cm}void eu.\+uloop.\+mobilitytracker.\+Details\+Activity.\+on\+Start (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1DetailsActivity_a1a3a01408a7a632c43f2ea12f14c66de}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1DetailsActivity_a440ff757e67eef94d6da34a599c04a96}{\index{eu\+::uloop\+::mobilitytracker\+::\+Details\+Activity@{eu\+::uloop\+::mobilitytracker\+::\+Details\+Activity}!on\+Stop@{on\+Stop}}
+\index{on\+Stop@{on\+Stop}!eu\+::uloop\+::mobilitytracker\+::\+Details\+Activity@{eu\+::uloop\+::mobilitytracker\+::\+Details\+Activity}}
+\subsubsection[{on\+Stop}]{\setlength{\rightskip}{0pt plus 5cm}void eu.\+uloop.\+mobilitytracker.\+Details\+Activity.\+on\+Stop (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1DetailsActivity_a440ff757e67eef94d6da34a599c04a96}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/eu/uloop/mobilitytracker/\hyperlink{DetailsActivity_8java}{Details\+Activity.\+java}\end{DoxyCompactItemize}

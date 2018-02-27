@@ -1,0 +1,4 @@
+key.store=uloop-release.keystore
+key.alias=uloop
+key.store.password=ULOOP2013
+key.alias.password=ULOOP2013

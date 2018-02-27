@@ -1,0 +1,29 @@
+\hypertarget{R_8java}{\section{gen/eu/uloop/mobilitytracker/\+R.java File Reference}
+\label{R_8java}\index{gen/eu/uloop/mobilitytracker/\+R.\+java@{gen/eu/uloop/mobilitytracker/\+R.\+java}}
+}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1R}{eu.\+uloop.\+mobilitytracker.\+R}
+\item 
+class {\bfseries eu.\+uloop.\+mobilitytracker.\+R.\+attr}
+\item 
+class {\bfseries eu.\+uloop.\+mobilitytracker.\+R.\+dimen}
+\item 
+class {\bfseries eu.\+uloop.\+mobilitytracker.\+R.\+drawable}
+\item 
+class {\bfseries eu.\+uloop.\+mobilitytracker.\+R.\+id}
+\item 
+class {\bfseries eu.\+uloop.\+mobilitytracker.\+R.\+layout}
+\item 
+class {\bfseries eu.\+uloop.\+mobilitytracker.\+R.\+menu}
+\item 
+class {\bfseries eu.\+uloop.\+mobilitytracker.\+R.\+string}
+\item 
+class {\bfseries eu.\+uloop.\+mobilitytracker.\+R.\+style}
+\end{DoxyCompactItemize}
+\subsection*{Packages}
+\begin{DoxyCompactItemize}
+\item 
+package \hyperlink{namespaceeu_1_1uloop_1_1mobilitytracker}{eu.\+uloop.\+mobilitytracker}
+\end{DoxyCompactItemize}

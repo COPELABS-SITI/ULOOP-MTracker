@@ -1,0 +1,47 @@
+\hypertarget{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1NetworkStatusMessageOrBuilder}{\section{eu.\+uloop.\+messages.\+Uloop\+Messages.\+Network\+Status\+Message\+Or\+Builder Interface Reference}
+\label{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1NetworkStatusMessageOrBuilder}\index{eu.\+uloop.\+messages.\+Uloop\+Messages.\+Network\+Status\+Message\+Or\+Builder@{eu.\+uloop.\+messages.\+Uloop\+Messages.\+Network\+Status\+Message\+Or\+Builder}}
+}
+Inheritance diagram for eu.\+uloop.\+messages.\+Uloop\+Messages.\+Network\+Status\+Message\+Or\+Builder\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1NetworkStatusMessageOrBuilder}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+boolean \hyperlink{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1NetworkStatusMessageOrBuilder_a74e77cbd33d0f2fda1d8c78b0248efcc}{has\+Nsrep} ()
+\item 
+eu.\+uloop.\+messages.\+Uloop\+Messages.\+Network\+Status\+Message\+Reply \hyperlink{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1NetworkStatusMessageOrBuilder_a5b925124f09e2722f5ebc6ba428fbbed}{get\+Nsrep} ()
+\item 
+\hyperlink{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1NetworkStatusMessageReplyOrBuilder}{eu.\+uloop.\+messages.\+Uloop\+Messages.\+Network\+Status\+Message\+Reply\+Or\+Builder} \hyperlink{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1NetworkStatusMessageOrBuilder_aa3f823c5fd78b62694b14bd44273a94e}{get\+Nsrep\+Or\+Builder} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1NetworkStatusMessageOrBuilder_a5b925124f09e2722f5ebc6ba428fbbed}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Network\+Status\+Message\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Network\+Status\+Message\+Or\+Builder}!get\+Nsrep@{get\+Nsrep}}
+\index{get\+Nsrep@{get\+Nsrep}!eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Network\+Status\+Message\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Network\+Status\+Message\+Or\+Builder}}
+\subsubsection[{get\+Nsrep}]{\setlength{\rightskip}{0pt plus 5cm}eu.\+uloop.\+messages.\+Uloop\+Messages.\+Network\+Status\+Message\+Reply eu.\+uloop.\+messages.\+Uloop\+Messages.\+Network\+Status\+Message\+Or\+Builder.\+get\+Nsrep (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1NetworkStatusMessageOrBuilder_a5b925124f09e2722f5ebc6ba428fbbed}
+\hypertarget{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1NetworkStatusMessageOrBuilder_aa3f823c5fd78b62694b14bd44273a94e}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Network\+Status\+Message\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Network\+Status\+Message\+Or\+Builder}!get\+Nsrep\+Or\+Builder@{get\+Nsrep\+Or\+Builder}}
+\index{get\+Nsrep\+Or\+Builder@{get\+Nsrep\+Or\+Builder}!eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Network\+Status\+Message\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Network\+Status\+Message\+Or\+Builder}}
+\subsubsection[{get\+Nsrep\+Or\+Builder}]{\setlength{\rightskip}{0pt plus 5cm}{\bf eu.\+uloop.\+messages.\+Uloop\+Messages.\+Network\+Status\+Message\+Reply\+Or\+Builder} eu.\+uloop.\+messages.\+Uloop\+Messages.\+Network\+Status\+Message\+Or\+Builder.\+get\+Nsrep\+Or\+Builder (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1NetworkStatusMessageOrBuilder_aa3f823c5fd78b62694b14bd44273a94e}
+\hypertarget{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1NetworkStatusMessageOrBuilder_a74e77cbd33d0f2fda1d8c78b0248efcc}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Network\+Status\+Message\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Network\+Status\+Message\+Or\+Builder}!has\+Nsrep@{has\+Nsrep}}
+\index{has\+Nsrep@{has\+Nsrep}!eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Network\+Status\+Message\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Network\+Status\+Message\+Or\+Builder}}
+\subsubsection[{has\+Nsrep}]{\setlength{\rightskip}{0pt plus 5cm}boolean eu.\+uloop.\+messages.\+Uloop\+Messages.\+Network\+Status\+Message\+Or\+Builder.\+has\+Nsrep (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1NetworkStatusMessageOrBuilder_a74e77cbd33d0f2fda1d8c78b0248efcc}
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/eu/uloop/messages/\hyperlink{UloopMessages_8java}{Uloop\+Messages.\+java}\end{DoxyCompactItemize}

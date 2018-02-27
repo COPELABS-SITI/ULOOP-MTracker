@@ -1,0 +1,518 @@
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource}{\section{eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Data\+Source Class Reference}
+\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource}\index{eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Data\+Source@{eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Data\+Source}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_af693f54273c35dc8324f963ff51f9444}{M\+Tracker\+Data\+Source} (Context context)
+\item 
+void \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_aaf04828bd8494b7b1233bcc67fe16e7c}{open\+D\+B} (boolean writable)  throws S\+Q\+L\+Exception 
+\item 
+void \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_af572eeea7eeca0462856542130e48a4a}{close\+D\+B} ()
+\item 
+long \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_a5521c1c8f4b28344d7f251bf6ab96410}{get\+Num\+A\+P} ()
+\item 
+long \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_a9e302a7eaf34e77b353863defaea19cc}{register\+New\+A\+P} (\hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerAP}{M\+Tracker\+A\+P} ap)
+\item 
+boolean \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_a20a7d39450e6ceed0b25e02f12568450}{update\+A\+P} (\hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerAP}{M\+Tracker\+A\+P} ap)
+\item 
+\hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerAP}{M\+Tracker\+A\+P} \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_a7197573addd0912c6dae79567ab22a20}{get\+A\+P} (String bssid)
+\item 
+boolean \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_ad6560b92283afc15dafdc2a5d702d9cf}{has\+A\+P} (String bssid)
+\item 
+Map$<$ String, \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerAP}{M\+Tracker\+A\+P} $>$ \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_ac6aa292fea98d121c0ae0ccf549dc7fa}{get\+All\+A\+P} ()
+\item 
+Map$<$ String, \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerAP}{M\+Tracker\+A\+P} $>$ \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_a55e5a52b26d01e60ca08757cf94e8b41}{get\+All\+A\+P} (List$<$ Scan\+Result $>$ available\+A\+P)
+\item 
+\hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerAP}{M\+Tracker\+A\+P} \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_a4f9666c05b19fba1bfceb9a0734390da}{get\+Best\+A\+P} ()
+\item 
+\hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerAP}{M\+Tracker\+A\+P} \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_a52bae6dd4aaa9f81280d4cb421360c39}{get\+Best\+A\+P} (List$<$ Scan\+Result $>$ available\+A\+P)
+\item 
+void \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_a0cee2b0f411369a93ad42572cdda102b}{write\+A\+P\+List\+To\+File} ()
+\item 
+long \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_ac10ee62fea68a3b1f8a34bfca4e16af1}{get\+Stationary\+Time} (\hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerAP}{M\+Tracker\+A\+P} ap)
+\item 
+long \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_a026e23013cc872da728dea53e7dde5fc}{get\+Stationary\+Time\+By\+Moment} (\hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerAP}{M\+Tracker\+A\+P} ap, int day\+Of\+The\+Week)
+\item 
+long \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_add0518908b40874c8752a3c7de05a9e5}{count\+Visits} (\hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerAP}{M\+Tracker\+A\+P} ap)
+\item 
+double \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_a56dc7ff72205459b80fee65474373162}{get\+Rank} (\hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerAP}{M\+Tracker\+A\+P} ap)
+\item 
+double \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_a3a61d8225caa68d8dd9e3047606e6611}{get\+Instantaneous\+Rank} (\hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerAP}{M\+Tracker\+A\+P} ap, Long current\+Duration)
+\item 
+long \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_a01c48031ea84bb65aee99a43c55ab38f}{register\+New\+Visit} (String S\+S\+I\+D, String B\+S\+S\+I\+D, Long start\+Time, Long end\+Time)
+\item 
+boolean \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_ac1648a220f4adaf41bc3fb8980d15153}{update\+Visit} (long \+\_\+id, String S\+S\+I\+D, String B\+S\+S\+I\+D, Long start\+Time, Long end\+Time)
+\item 
+List$<$ \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit}{M\+Tracker\+Visit} $>$ \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_aa4dbcac64cdddb8a8d4a78b613d06dac}{get\+All\+Visits} ()
+\item 
+List$<$ String $>$ \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_a307681e571f1edfca036f8f0eacc3016}{get\+All\+Visits\+String} (\hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerAP}{M\+Tracker\+A\+P} ap)
+\item 
+long \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_a3e83317ed2eb0632398c235b7209b92c}{get\+Num\+Visits} ()
+\item 
+void \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_a65f0f4c7635c82b15cea46b5de9ab3a4}{write\+Visit\+List\+To\+File} ()
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerAP}{M\+Tracker\+A\+P} \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_a2e2416c3e0a62bbdb71e4cff6a690668}{cursor\+To\+A\+P} (Cursor cursor)
+\item 
+\hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerVisit}{M\+Tracker\+Visit} \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_a694f1a1c7324237c6a78c9fa9afe56f3}{cursor\+To\+Visit} (Cursor cursor)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+S\+Q\+Lite\+Database \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_a7b4d7f0a2841d00604316b03597574ab}{db}
+\item 
+\hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerSQLiteHelper}{M\+Tracker\+S\+Q\+Lite\+Helper} \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_a5d3a9388200101ef3d058dc1aef984f2}{db\+Helper}
+\item 
+boolean \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_a29df0e4f00d3a69afdcc3ffb145b9ed4}{is\+Db\+Open}
+\item 
+Gregorian\+Calendar \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_a2b7984f3b6ac7c9c7aa72430b03d8fb7}{cal}
+\item 
+String\mbox{[}$\,$\mbox{]} \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_acd01b650db85f0c22de6fa1ab015b1c6}{all\+Columns\+Access\+Point}
+\item 
+String\mbox{[}$\,$\mbox{]} \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_abc2816de6350ca5e04f5c882402aa4fb}{all\+Columns\+Visit}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This class provides methods to insert, update and query the application database. It also provide methods to compute certain values, like the Rank and the Stationary Time, among others.
+
+\begin{DoxyAuthor}{Author}
+Jonnahtan Saltarin (U\+L\+H\+T) 
+
+Rute Sofia (U\+L\+H\+T) 
+
+Christian da Silva Pereira (U\+L\+H\+T) 
+
+Luis Amaral Lopes (U\+L\+H\+T)
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+3.\+0 
+\end{DoxyVersion}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_af693f54273c35dc8324f963ff51f9444}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source}!M\+Tracker\+Data\+Source@{M\+Tracker\+Data\+Source}}
+\index{M\+Tracker\+Data\+Source@{M\+Tracker\+Data\+Source}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source}}
+\subsubsection[{M\+Tracker\+Data\+Source}]{\setlength{\rightskip}{0pt plus 5cm}eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Data\+Source.\+M\+Tracker\+Data\+Source (
+\begin{DoxyParamCaption}
+\item[{Context}]{context}
+\end{DoxyParamCaption}
+)}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_af693f54273c35dc8324f963ff51f9444}
+Constructor that takes Android Context as input.
+
+
+\begin{DoxyParams}{Parameters}
+{\em context} & \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_af572eeea7eeca0462856542130e48a4a}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source}!close\+D\+B@{close\+D\+B}}
+\index{close\+D\+B@{close\+D\+B}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source}}
+\subsubsection[{close\+D\+B}]{\setlength{\rightskip}{0pt plus 5cm}void eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Data\+Source.\+close\+D\+B (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_af572eeea7eeca0462856542130e48a4a}
+Close the predefined M\+Tracker database. \hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_add0518908b40874c8752a3c7de05a9e5}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source}!count\+Visits@{count\+Visits}}
+\index{count\+Visits@{count\+Visits}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source}}
+\subsubsection[{count\+Visits}]{\setlength{\rightskip}{0pt plus 5cm}long eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Data\+Source.\+count\+Visits (
+\begin{DoxyParamCaption}
+\item[{{\bf M\+Tracker\+A\+P}}]{ap}
+\end{DoxyParamCaption}
+)}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_add0518908b40874c8752a3c7de05a9e5}
+Computes the Number of visits that the node has done to a given A\+P.
+
+
+\begin{DoxyParams}{Parameters}
+{\em ap} & The \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerAP}{M\+Tracker\+A\+P} whose Stationary Time is to be computed. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The number of visits. 
+\end{DoxyReturn}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_a2e2416c3e0a62bbdb71e4cff6a690668}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source}!cursor\+To\+A\+P@{cursor\+To\+A\+P}}
+\index{cursor\+To\+A\+P@{cursor\+To\+A\+P}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source}}
+\subsubsection[{cursor\+To\+A\+P}]{\setlength{\rightskip}{0pt plus 5cm}{\bf M\+Tracker\+A\+P} eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Data\+Source.\+cursor\+To\+A\+P (
+\begin{DoxyParamCaption}
+\item[{Cursor}]{cursor}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_a2e2416c3e0a62bbdb71e4cff6a690668}
+Converts a cursor pointing to a record in the A\+C\+C\+E\+S\+S\+\_\+\+P\+O\+I\+N\+T\+S table to a \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerAP}{M\+Tracker\+A\+P} object.
+
+
+\begin{DoxyParams}{Parameters}
+{\em cursor} & Cursor pointing to a record of the A\+C\+E\+S\+S\+\_\+\+P\+O\+I\+N\+T\+S table. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerAP}{M\+Tracker\+A\+P} object 
+\end{DoxyReturn}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_a694f1a1c7324237c6a78c9fa9afe56f3}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source}!cursor\+To\+Visit@{cursor\+To\+Visit}}
+\index{cursor\+To\+Visit@{cursor\+To\+Visit}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source}}
+\subsubsection[{cursor\+To\+Visit}]{\setlength{\rightskip}{0pt plus 5cm}{\bf M\+Tracker\+Visit} eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Data\+Source.\+cursor\+To\+Visit (
+\begin{DoxyParamCaption}
+\item[{Cursor}]{cursor}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_a694f1a1c7324237c6a78c9fa9afe56f3}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_ac6aa292fea98d121c0ae0ccf549dc7fa}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source}!get\+All\+A\+P@{get\+All\+A\+P}}
+\index{get\+All\+A\+P@{get\+All\+A\+P}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source}}
+\subsubsection[{get\+All\+A\+P}]{\setlength{\rightskip}{0pt plus 5cm}Map$<$String, {\bf M\+Tracker\+A\+P}$>$ eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Data\+Source.\+get\+All\+A\+P (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_ac6aa292fea98d121c0ae0ccf549dc7fa}
+Gets the all the A\+P recorded by the application on the A\+C\+C\+E\+S\+S\+\_\+\+P\+O\+I\+N\+T\+S table.
+
+\begin{DoxyReturn}{Returns}
+A map with the A\+P objects, and the bssid as key. 
+\end{DoxyReturn}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_a55e5a52b26d01e60ca08757cf94e8b41}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source}!get\+All\+A\+P@{get\+All\+A\+P}}
+\index{get\+All\+A\+P@{get\+All\+A\+P}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source}}
+\subsubsection[{get\+All\+A\+P}]{\setlength{\rightskip}{0pt plus 5cm}Map$<$String, {\bf M\+Tracker\+A\+P}$>$ eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Data\+Source.\+get\+All\+A\+P (
+\begin{DoxyParamCaption}
+\item[{List$<$ Scan\+Result $>$}]{available\+A\+P}
+\end{DoxyParamCaption}
+)}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_a55e5a52b26d01e60ca08757cf94e8b41}
+Gets the all the A\+P recorded by the application on the A\+C\+C\+E\+S\+S\+\_\+\+P\+O\+I\+N\+T\+S table, and the return only the ones that are also available in the List of Scan\+Result.
+
+\begin{DoxyReturn}{Returns}
+A map with the A\+P objects, and the bssid as key. 
+\end{DoxyReturn}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_aa4dbcac64cdddb8a8d4a78b613d06dac}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source}!get\+All\+Visits@{get\+All\+Visits}}
+\index{get\+All\+Visits@{get\+All\+Visits}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source}}
+\subsubsection[{get\+All\+Visits}]{\setlength{\rightskip}{0pt plus 5cm}List$<${\bf M\+Tracker\+Visit}$>$ eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Data\+Source.\+get\+All\+Visits (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_aa4dbcac64cdddb8a8d4a78b613d06dac}
+Get a List with all the visit objects stored in the database. \hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_a307681e571f1edfca036f8f0eacc3016}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source}!get\+All\+Visits\+String@{get\+All\+Visits\+String}}
+\index{get\+All\+Visits\+String@{get\+All\+Visits\+String}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source}}
+\subsubsection[{get\+All\+Visits\+String}]{\setlength{\rightskip}{0pt plus 5cm}List$<$String$>$ eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Data\+Source.\+get\+All\+Visits\+String (
+\begin{DoxyParamCaption}
+\item[{{\bf M\+Tracker\+A\+P}}]{ap}
+\end{DoxyParamCaption}
+)}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_a307681e571f1edfca036f8f0eacc3016}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_a7197573addd0912c6dae79567ab22a20}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source}!get\+A\+P@{get\+A\+P}}
+\index{get\+A\+P@{get\+A\+P}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source}}
+\subsubsection[{get\+A\+P}]{\setlength{\rightskip}{0pt plus 5cm}{\bf M\+Tracker\+A\+P} eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Data\+Source.\+get\+A\+P (
+\begin{DoxyParamCaption}
+\item[{String}]{bssid}
+\end{DoxyParamCaption}
+)}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_a7197573addd0912c6dae79567ab22a20}
+Gets an A\+P already registered by the application.
+
+
+\begin{DoxyParams}{Parameters}
+{\em bssid} & The ssid of the A\+P which information should be returned \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerAP}{M\+Tracker\+A\+P} object, null if not found. 
+\end{DoxyReturn}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_a4f9666c05b19fba1bfceb9a0734390da}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source}!get\+Best\+A\+P@{get\+Best\+A\+P}}
+\index{get\+Best\+A\+P@{get\+Best\+A\+P}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source}}
+\subsubsection[{get\+Best\+A\+P}]{\setlength{\rightskip}{0pt plus 5cm}{\bf M\+Tracker\+A\+P} eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Data\+Source.\+get\+Best\+A\+P (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_a4f9666c05b19fba1bfceb9a0734390da}
+Checks all the A\+P registered by the application and return the one with the highest Rank.
+
+\begin{DoxyReturn}{Returns}
+the best A\+P registered by the application. 
+\end{DoxyReturn}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_a52bae6dd4aaa9f81280d4cb421360c39}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source}!get\+Best\+A\+P@{get\+Best\+A\+P}}
+\index{get\+Best\+A\+P@{get\+Best\+A\+P}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source}}
+\subsubsection[{get\+Best\+A\+P}]{\setlength{\rightskip}{0pt plus 5cm}{\bf M\+Tracker\+A\+P} eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Data\+Source.\+get\+Best\+A\+P (
+\begin{DoxyParamCaption}
+\item[{List$<$ Scan\+Result $>$}]{available\+A\+P}
+\end{DoxyParamCaption}
+)}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_a52bae6dd4aaa9f81280d4cb421360c39}
+Checks the A\+Ps registered by the application and available in the List of Scan\+Result, and the return the one with the highest rank.
+
+\begin{DoxyReturn}{Returns}
+the best A\+P registered by the application. 
+\end{DoxyReturn}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_a3a61d8225caa68d8dd9e3047606e6611}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source}!get\+Instantaneous\+Rank@{get\+Instantaneous\+Rank}}
+\index{get\+Instantaneous\+Rank@{get\+Instantaneous\+Rank}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source}}
+\subsubsection[{get\+Instantaneous\+Rank}]{\setlength{\rightskip}{0pt plus 5cm}double eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Data\+Source.\+get\+Instantaneous\+Rank (
+\begin{DoxyParamCaption}
+\item[{{\bf M\+Tracker\+A\+P}}]{ap, }
+\item[{Long}]{current\+Duration}
+\end{DoxyParamCaption}
+)}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_a3a61d8225caa68d8dd9e3047606e6611}
+Test Method to compute the Rank of this node towards a given A\+P, taking into consideration the current visit time.
+
+
+\begin{DoxyParams}{Parameters}
+{\em ap} & The \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerAP}{M\+Tracker\+A\+P} whose Stationary Time is to be computed. \\
+\hline
+{\em current\+Duration} & current connection time. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The number of visits. 
+\end{DoxyReturn}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_a5521c1c8f4b28344d7f251bf6ab96410}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source}!get\+Num\+A\+P@{get\+Num\+A\+P}}
+\index{get\+Num\+A\+P@{get\+Num\+A\+P}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source}}
+\subsubsection[{get\+Num\+A\+P}]{\setlength{\rightskip}{0pt plus 5cm}long eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Data\+Source.\+get\+Num\+A\+P (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_a5521c1c8f4b28344d7f251bf6ab96410}
+Gets the number of records in the A\+C\+C\+E\+S\+S\+\_\+\+P\+O\+I\+N\+T\+S table. This is, the number of A\+P registered on the application.
+
+\begin{DoxyReturn}{Returns}
+the number of A\+P registered by the application. 
+\end{DoxyReturn}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_a3e83317ed2eb0632398c235b7209b92c}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source}!get\+Num\+Visits@{get\+Num\+Visits}}
+\index{get\+Num\+Visits@{get\+Num\+Visits}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source}}
+\subsubsection[{get\+Num\+Visits}]{\setlength{\rightskip}{0pt plus 5cm}long eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Data\+Source.\+get\+Num\+Visits (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_a3e83317ed2eb0632398c235b7209b92c}
+Get the number of visits registered in the database. \hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_a56dc7ff72205459b80fee65474373162}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source}!get\+Rank@{get\+Rank}}
+\index{get\+Rank@{get\+Rank}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source}}
+\subsubsection[{get\+Rank}]{\setlength{\rightskip}{0pt plus 5cm}double eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Data\+Source.\+get\+Rank (
+\begin{DoxyParamCaption}
+\item[{{\bf M\+Tracker\+A\+P}}]{ap}
+\end{DoxyParamCaption}
+)}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_a56dc7ff72205459b80fee65474373162}
+Computes the Rank of this node towards a given A\+P. The Rank is computed as
+
+
+\begin{DoxyParams}{Parameters}
+{\em ap} & The \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerAP}{M\+Tracker\+A\+P} whose Stationary Time is to be computed. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The number of visits. 
+\end{DoxyReturn}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_ac10ee62fea68a3b1f8a34bfca4e16af1}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source}!get\+Stationary\+Time@{get\+Stationary\+Time}}
+\index{get\+Stationary\+Time@{get\+Stationary\+Time}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source}}
+\subsubsection[{get\+Stationary\+Time}]{\setlength{\rightskip}{0pt plus 5cm}long eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Data\+Source.\+get\+Stationary\+Time (
+\begin{DoxyParamCaption}
+\item[{{\bf M\+Tracker\+A\+P}}]{ap}
+\end{DoxyParamCaption}
+)}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_ac10ee62fea68a3b1f8a34bfca4e16af1}
+Computes the Stationary Time for a given A\+P.
+
+
+\begin{DoxyParams}{Parameters}
+{\em ap} & The \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerAP}{M\+Tracker\+A\+P} whose Stationary Time is to be computed. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The stationary time for the given A\+P. 
+\end{DoxyReturn}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_a026e23013cc872da728dea53e7dde5fc}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source}!get\+Stationary\+Time\+By\+Moment@{get\+Stationary\+Time\+By\+Moment}}
+\index{get\+Stationary\+Time\+By\+Moment@{get\+Stationary\+Time\+By\+Moment}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source}}
+\subsubsection[{get\+Stationary\+Time\+By\+Moment}]{\setlength{\rightskip}{0pt plus 5cm}long eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Data\+Source.\+get\+Stationary\+Time\+By\+Moment (
+\begin{DoxyParamCaption}
+\item[{{\bf M\+Tracker\+A\+P}}]{ap, }
+\item[{int}]{day\+Of\+The\+Week}
+\end{DoxyParamCaption}
+)}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_a026e23013cc872da728dea53e7dde5fc}
+Computes the Stationary Time for a given A\+P, only taking into consideration records for a given Day of the Week.
+
+
+\begin{DoxyParams}{Parameters}
+{\em ap} & The \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerAP}{M\+Tracker\+A\+P} whose Stationary Time is to be computed. \\
+\hline
+{\em day\+Of\+The\+Week} & Day of the week that will restrict the computation of the stationary time. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The stationary time for the given A\+P. 
+\end{DoxyReturn}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_ad6560b92283afc15dafdc2a5d702d9cf}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source}!has\+A\+P@{has\+A\+P}}
+\index{has\+A\+P@{has\+A\+P}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source}}
+\subsubsection[{has\+A\+P}]{\setlength{\rightskip}{0pt plus 5cm}boolean eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Data\+Source.\+has\+A\+P (
+\begin{DoxyParamCaption}
+\item[{String}]{bssid}
+\end{DoxyParamCaption}
+)}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_ad6560b92283afc15dafdc2a5d702d9cf}
+Checks if a given A\+P has already been registered by the application.
+
+
+\begin{DoxyParams}{Parameters}
+{\em bssid} & The ssid of the A\+P \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true, if A\+P has already been registered by the application, false otherwise. 
+\end{DoxyReturn}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_aaf04828bd8494b7b1233bcc67fe16e7c}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source}!open\+D\+B@{open\+D\+B}}
+\index{open\+D\+B@{open\+D\+B}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source}}
+\subsubsection[{open\+D\+B}]{\setlength{\rightskip}{0pt plus 5cm}void eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Data\+Source.\+open\+D\+B (
+\begin{DoxyParamCaption}
+\item[{boolean}]{writable}
+\end{DoxyParamCaption}
+) throws S\+Q\+L\+Exception}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_aaf04828bd8494b7b1233bcc67fe16e7c}
+Opens the predefined M\+Tracker database.
+
+
+\begin{DoxyParams}{Parameters}
+{\em writable} & \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em S\+Q\+L\+Exception} & \\
+\hline
+\end{DoxyExceptions}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_a9e302a7eaf34e77b353863defaea19cc}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source}!register\+New\+A\+P@{register\+New\+A\+P}}
+\index{register\+New\+A\+P@{register\+New\+A\+P}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source}}
+\subsubsection[{register\+New\+A\+P}]{\setlength{\rightskip}{0pt plus 5cm}long eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Data\+Source.\+register\+New\+A\+P (
+\begin{DoxyParamCaption}
+\item[{{\bf M\+Tracker\+A\+P}}]{ap}
+\end{DoxyParamCaption}
+)}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_a9e302a7eaf34e77b353863defaea19cc}
+Register a new A\+P in the application. It creates a new record on the A\+C\+C\+E\+S\+S\+\_\+\+P\+O\+I\+N\+T\+S table, with the information passed as \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerAP}{M\+Tracker\+A\+P}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em ap} & Access point information. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the row I\+D of the newly inserted row, or -\/1 if an error occurred. 
+\end{DoxyReturn}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_a01c48031ea84bb65aee99a43c55ab38f}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source}!register\+New\+Visit@{register\+New\+Visit}}
+\index{register\+New\+Visit@{register\+New\+Visit}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source}}
+\subsubsection[{register\+New\+Visit}]{\setlength{\rightskip}{0pt plus 5cm}long eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Data\+Source.\+register\+New\+Visit (
+\begin{DoxyParamCaption}
+\item[{String}]{S\+S\+I\+D, }
+\item[{String}]{B\+S\+S\+I\+D, }
+\item[{Long}]{start\+Time, }
+\item[{Long}]{end\+Time}
+\end{DoxyParamCaption}
+)}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_a01c48031ea84bb65aee99a43c55ab38f}
+Register a new visit into the database.
+
+
+\begin{DoxyParams}{Parameters}
+{\em S\+S\+I\+D} & S\+S\+I\+D \\
+\hline
+{\em B\+S\+S\+I\+D} & B\+S\+S\+I\+D \\
+\hline
+{\em start\+Time} & Time at which the connection started. \\
+\hline
+{\em end\+Time} & Time at which the connection ended. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+id of the created record, -\/1 if an error occurs. 
+\end{DoxyReturn}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_a20a7d39450e6ceed0b25e02f12568450}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source}!update\+A\+P@{update\+A\+P}}
+\index{update\+A\+P@{update\+A\+P}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source}}
+\subsubsection[{update\+A\+P}]{\setlength{\rightskip}{0pt plus 5cm}boolean eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Data\+Source.\+update\+A\+P (
+\begin{DoxyParamCaption}
+\item[{{\bf M\+Tracker\+A\+P}}]{ap}
+\end{DoxyParamCaption}
+)}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_a20a7d39450e6ceed0b25e02f12568450}
+Update an A\+P already registered by the application. This modifies the corresponding record to the A\+P in the A\+C\+C\+E\+S\+S\+\_\+\+P\+O\+I\+N\+T\+S table.
+
+
+\begin{DoxyParams}{Parameters}
+{\em ap} & Access point information. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true, if successful. 
+\end{DoxyReturn}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_ac1648a220f4adaf41bc3fb8980d15153}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source}!update\+Visit@{update\+Visit}}
+\index{update\+Visit@{update\+Visit}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source}}
+\subsubsection[{update\+Visit}]{\setlength{\rightskip}{0pt plus 5cm}boolean eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Data\+Source.\+update\+Visit (
+\begin{DoxyParamCaption}
+\item[{long}]{\+\_\+id, }
+\item[{String}]{S\+S\+I\+D, }
+\item[{String}]{B\+S\+S\+I\+D, }
+\item[{Long}]{start\+Time, }
+\item[{Long}]{end\+Time}
+\end{DoxyParamCaption}
+)}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_ac1648a220f4adaf41bc3fb8980d15153}
+Updates an existing visit in the database.
+
+
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+id} & id of the record to update \\
+\hline
+{\em S\+S\+I\+D} & S\+S\+I\+D \\
+\hline
+{\em B\+S\+S\+I\+D} & B\+S\+S\+I\+D \\
+\hline
+{\em start\+Time} & Time at which the connection started. \\
+\hline
+{\em end\+Time} & Time at which the connection ended. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+id of the created record, -\/1 if an error occurs. 
+\end{DoxyReturn}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_a0cee2b0f411369a93ad42572cdda102b}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source}!write\+A\+P\+List\+To\+File@{write\+A\+P\+List\+To\+File}}
+\index{write\+A\+P\+List\+To\+File@{write\+A\+P\+List\+To\+File}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source}}
+\subsubsection[{write\+A\+P\+List\+To\+File}]{\setlength{\rightskip}{0pt plus 5cm}void eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Data\+Source.\+write\+A\+P\+List\+To\+File (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_a0cee2b0f411369a93ad42572cdda102b}
+Write all the A\+P registered by the application into a text file (M\+Tracker.\+txt), located in the root of the directory. \hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_a65f0f4c7635c82b15cea46b5de9ab3a4}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source}!write\+Visit\+List\+To\+File@{write\+Visit\+List\+To\+File}}
+\index{write\+Visit\+List\+To\+File@{write\+Visit\+List\+To\+File}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source}}
+\subsubsection[{write\+Visit\+List\+To\+File}]{\setlength{\rightskip}{0pt plus 5cm}void eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Data\+Source.\+write\+Visit\+List\+To\+File (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_a65f0f4c7635c82b15cea46b5de9ab3a4}
+Writes the Visit List to the file M\+Tracker\+Visits.\+txt. 
+
+\subsection{Member Data Documentation}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_acd01b650db85f0c22de6fa1ab015b1c6}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source}!all\+Columns\+Access\+Point@{all\+Columns\+Access\+Point}}
+\index{all\+Columns\+Access\+Point@{all\+Columns\+Access\+Point}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source}}
+\subsubsection[{all\+Columns\+Access\+Point}]{\setlength{\rightskip}{0pt plus 5cm}String \mbox{[}$\,$\mbox{]} eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Data\+Source.\+all\+Columns\+Access\+Point\hspace{0.3cm}{\ttfamily [private]}}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_acd01b650db85f0c22de6fa1ab015b1c6}
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+= \{ 
+                        MTrackerSQLiteHelper.COLUMN\_BSSID,
+                        MTrackerSQLiteHelper.COLUMN\_SSID,
+                        MTrackerSQLiteHelper.COLUMN\_ATTRACTIVENESS,
+                        MTrackerSQLiteHelper.COLUMN\_LASTGATEWAYIP
+        \}
+\end{DoxyCode}
+List of all columns on the A\+C\+C\+E\+S\+S\+\_\+\+P\+O\+I\+N\+T\+S table. \hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_abc2816de6350ca5e04f5c882402aa4fb}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source}!all\+Columns\+Visit@{all\+Columns\+Visit}}
+\index{all\+Columns\+Visit@{all\+Columns\+Visit}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source}}
+\subsubsection[{all\+Columns\+Visit}]{\setlength{\rightskip}{0pt plus 5cm}String \mbox{[}$\,$\mbox{]} eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Data\+Source.\+all\+Columns\+Visit\hspace{0.3cm}{\ttfamily [private]}}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_abc2816de6350ca5e04f5c882402aa4fb}
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+= \{ 
+                        MTrackerSQLiteHelper.COLUMN\_SSID,
+                        MTrackerSQLiteHelper.COLUMN\_BSSID,
+                        MTrackerSQLiteHelper.COLUMN\_TIMEON,
+                        MTrackerSQLiteHelper.COLUMN\_TIMEOUT,
+                        MTrackerSQLiteHelper.COLUMN\_DAYOFTHEWEEK,
+                        MTrackerSQLiteHelper.COLUMN\_HOUR
+        \}
+\end{DoxyCode}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_a2b7984f3b6ac7c9c7aa72430b03d8fb7}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source}!cal@{cal}}
+\index{cal@{cal}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source}}
+\subsubsection[{cal}]{\setlength{\rightskip}{0pt plus 5cm}Gregorian\+Calendar eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Data\+Source.\+cal\hspace{0.3cm}{\ttfamily [private]}}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_a2b7984f3b6ac7c9c7aa72430b03d8fb7}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_a7b4d7f0a2841d00604316b03597574ab}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source}!db@{db}}
+\index{db@{db}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source}}
+\subsubsection[{db}]{\setlength{\rightskip}{0pt plus 5cm}S\+Q\+Lite\+Database eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Data\+Source.\+db\hspace{0.3cm}{\ttfamily [private]}}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_a7b4d7f0a2841d00604316b03597574ab}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_a5d3a9388200101ef3d058dc1aef984f2}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source}!db\+Helper@{db\+Helper}}
+\index{db\+Helper@{db\+Helper}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source}}
+\subsubsection[{db\+Helper}]{\setlength{\rightskip}{0pt plus 5cm}{\bf M\+Tracker\+S\+Q\+Lite\+Helper} eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Data\+Source.\+db\+Helper\hspace{0.3cm}{\ttfamily [private]}}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_a5d3a9388200101ef3d058dc1aef984f2}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_a29df0e4f00d3a69afdcc3ffb145b9ed4}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source}!is\+Db\+Open@{is\+Db\+Open}}
+\index{is\+Db\+Open@{is\+Db\+Open}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+Data\+Source}}
+\subsubsection[{is\+Db\+Open}]{\setlength{\rightskip}{0pt plus 5cm}boolean eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Data\+Source.\+is\+Db\+Open\hspace{0.3cm}{\ttfamily [private]}}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerDataSource_a29df0e4f00d3a69afdcc3ffb145b9ed4}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/eu/uloop/mobilitytracker/\hyperlink{MTrackerDataSource_8java}{M\+Tracker\+Data\+Source.\+java}\end{DoxyCompactItemize}

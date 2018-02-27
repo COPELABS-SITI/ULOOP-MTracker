@@ -1,0 +1,273 @@
+\hypertarget{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType}{\section{eu.\+uloop.\+messages.\+Uloop\+Messages.\+Uloop\+Message\+Type Enum Reference}
+\label{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType}\index{eu.\+uloop.\+messages.\+Uloop\+Messages.\+Uloop\+Message\+Type@{eu.\+uloop.\+messages.\+Uloop\+Messages.\+Uloop\+Message\+Type}}
+}
+Inheritance diagram for eu.\+uloop.\+messages.\+Uloop\+Messages.\+Uloop\+Message\+Type\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+final int \hyperlink{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_abcc6d8ac19328ab0a00f00f7048a8eae}{get\+Number} ()
+\item 
+final \\*
+com.\+google.\+protobuf.\+Descriptors.\+Enum\+Value\+Descriptor \hyperlink{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_a267033fca5257cd3b9c671114828e754}{get\+Value\+Descriptor} ()
+\item 
+final \\*
+com.\+google.\+protobuf.\+Descriptors.\+Enum\+Descriptor \hyperlink{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_a0a5b813f886253f042d45af35eb85772}{get\+Descriptor\+For\+Type} ()
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType}{Uloop\+Message\+Type} \hyperlink{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_aba3200220ef915b16ae861d0e8a0c246}{value\+Of} (int \hyperlink{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_a757996108c5d548bcfaf69a86a385761}{value})
+\item 
+static \\*
+com.\+google.\+protobuf.\+Internal.\+Enum\+Lite\+Map\\*
+$<$ \hyperlink{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType}{Uloop\+Message\+Type} $>$ \hyperlink{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_a541a8409b2646f6b3974bb2c9147cef9}{internal\+Get\+Value\+Map} ()
+\item 
+static final \\*
+com.\+google.\+protobuf.\+Descriptors.\+Enum\+Descriptor \hyperlink{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_ae4788dc7a3795c2952f170dd243e5d0c}{get\+Descriptor} ()
+\item 
+static \hyperlink{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType}{Uloop\+Message\+Type} \hyperlink{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_a0158c3665518e84498cc3947b2ba89ab}{value\+Of} (com.\+google.\+protobuf.\+Descriptors.\+Enum\+Value\+Descriptor desc)
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_a457cbfce646e37005987a686aa1f876e}{U\+L\+O\+O\+P\+\_\+\+U\+N\+S\+P\+E\+C} =(0, 0)
+\item 
+\hyperlink{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_ad2d2caa5e4a4fd68d44f422b23af44ac}{U\+L\+O\+O\+P\+\_\+\+E\+N\+O\+U\+G\+H\+\_\+\+R\+E\+S\+O\+U\+R\+C\+E\+S} =(1, 1)
+\item 
+\hyperlink{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_a7290b987c0c214555491be7c4fc45835}{U\+L\+O\+O\+P\+\_\+\+C\+A\+C\+\_\+\+M\+E\+S\+S\+A\+G\+E} =(2, 2)
+\item 
+\hyperlink{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_a4c6be9e1d2048fb126a0c309ed5e8acf}{U\+L\+O\+O\+P\+\_\+\+M\+O\+B\+I\+L\+I\+T\+Y\+\_\+\+R\+M} =(3, 3)
+\item 
+\hyperlink{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_acfcddc123ef961d02b619e0e687a625a}{U\+L\+O\+O\+P\+\_\+\+M\+E\+M\+\_\+\+R\+E\+S\+O\+U\+R\+C\+E\+S} =(4, 4)
+\item 
+\hyperlink{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_afe52072954431f52c76dfc1abcc26807}{U\+L\+O\+O\+P\+\_\+\+N\+E\+W\+U\+S\+E\+R\+D\+E\+T\+A\+I\+L\+S} =(5, 5)
+\item 
+\hyperlink{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_a9e9d5e8074b3576749dcd41a7cc4545c}{U\+L\+O\+O\+P\+\_\+\+N\+E\+T\+W\+O\+R\+K\+S\+T\+A\+T\+U\+S} =(6, 6)
+\item 
+\hyperlink{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_a00a2706ce85a9e84cbc0218c55804705}{U\+L\+O\+O\+P\+\_\+\+T\+R\+U\+S\+T\+M\+E\+S\+S\+A\+G\+E} =(7, 7)
+\item 
+\hyperlink{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_ac62db035f61911b6d5a8a1de969cb817}{U\+L\+O\+O\+P\+\_\+\+Q\+O\+S\+M\+E\+S\+S\+A\+G\+E} =(8, 8)
+\item 
+\hyperlink{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_a2e48a358b6ba1af599146c95c4449b09}{U\+L\+O\+O\+P\+\_\+\+E\+X\+T\+E\+R\+N\+A\+L\+\_\+\+S\+E\+R\+V\+I\+C\+E} =(9, 9)
+\item 
+\hyperlink{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_a5279fcb970ff6e20df2536163d3cd33a}{U\+L\+O\+O\+P\+\_\+\+E\+X\+T\+E\+R\+N\+A\+L\+\_\+\+M\+T\+R\+A\+C\+K\+E\+R} =(10, 10)
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+staticfinal int \hyperlink{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_a47fabf998a195f19f247304313b3f85e}{U\+L\+O\+O\+P\+\_\+\+U\+N\+S\+P\+E\+C\+\_\+\+V\+A\+L\+U\+E} = 0
+\item 
+staticfinal int \hyperlink{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_a189a09fd86d165c2b0852f7c8ee625d0}{U\+L\+O\+O\+P\+\_\+\+E\+N\+O\+U\+G\+H\+\_\+\+R\+E\+S\+O\+U\+R\+C\+E\+S\+\_\+\+V\+A\+L\+U\+E} = 1
+\item 
+staticfinal int \hyperlink{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_a49adc846b939f464602acea9e01c6e71}{U\+L\+O\+O\+P\+\_\+\+C\+A\+C\+\_\+\+M\+E\+S\+S\+A\+G\+E\+\_\+\+V\+A\+L\+U\+E} = 2
+\item 
+staticfinal int \hyperlink{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_a01d2cd97565263fb97363f784dcf804b}{U\+L\+O\+O\+P\+\_\+\+M\+O\+B\+I\+L\+I\+T\+Y\+\_\+\+R\+M\+\_\+\+V\+A\+L\+U\+E} = 3
+\item 
+staticfinal int \hyperlink{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_a55a93bf1e295176e0b5c8855804ab5f3}{U\+L\+O\+O\+P\+\_\+\+M\+E\+M\+\_\+\+R\+E\+S\+O\+U\+R\+C\+E\+S\+\_\+\+V\+A\+L\+U\+E} = 4
+\item 
+staticfinal int \hyperlink{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_a41cc14787d3152d2b3e260d569366e9c}{U\+L\+O\+O\+P\+\_\+\+N\+E\+W\+U\+S\+E\+R\+D\+E\+T\+A\+I\+L\+S\+\_\+\+V\+A\+L\+U\+E} = 5
+\item 
+staticfinal int \hyperlink{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_a254b62dd08201d1eba1c90bdaa0c08f7}{U\+L\+O\+O\+P\+\_\+\+N\+E\+T\+W\+O\+R\+K\+S\+T\+A\+T\+U\+S\+\_\+\+V\+A\+L\+U\+E} = 6
+\item 
+staticfinal int \hyperlink{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_a8b25a66b59c2505ee11bca2164b2e83d}{U\+L\+O\+O\+P\+\_\+\+T\+R\+U\+S\+T\+M\+E\+S\+S\+A\+G\+E\+\_\+\+V\+A\+L\+U\+E} = 7
+\item 
+staticfinal int \hyperlink{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_a89d68e3c0962d286dea85b6f1280b82c}{U\+L\+O\+O\+P\+\_\+\+Q\+O\+S\+M\+E\+S\+S\+A\+G\+E\+\_\+\+V\+A\+L\+U\+E} = 8
+\item 
+staticfinal int \hyperlink{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_acf5d5ff984b25052735b75ec79271fba}{U\+L\+O\+O\+P\+\_\+\+E\+X\+T\+E\+R\+N\+A\+L\+\_\+\+S\+E\+R\+V\+I\+C\+E\+\_\+\+V\+A\+L\+U\+E} = 9
+\item 
+staticfinal int \hyperlink{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_a4f9777bb27c76f61628926bedc37a25d}{U\+L\+O\+O\+P\+\_\+\+E\+X\+T\+E\+R\+N\+A\+L\+\_\+\+M\+T\+R\+A\+C\+K\+E\+R\+\_\+\+V\+A\+L\+U\+E} = 10
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_a47bcc9408a8b6ebadc16ecf51e38ab5a}{Uloop\+Message\+Type} (int \hyperlink{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_aec1ce079512854d8a1e703fe37dcfd29}{index}, int \hyperlink{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_a757996108c5d548bcfaf69a86a385761}{value})
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final int \hyperlink{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_aec1ce079512854d8a1e703fe37dcfd29}{index}
+\item 
+final int \hyperlink{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_a757996108c5d548bcfaf69a86a385761}{value}
+\end{DoxyCompactItemize}
+\subsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+staticcom.\+google.\+protobuf.\+Internal.\+Enum\+Lite\+Map\\*
+$<$ \hyperlink{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType}{Uloop\+Message\+Type} $>$ \hyperlink{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_afb6e1f733b8bcb79ab024acc56156437}{internal\+Value\+Map}
+\item 
+staticfinal \hyperlink{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType}{Uloop\+Message\+Type}\mbox{[}$\,$\mbox{]} \hyperlink{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_acba7a3d491de5b16d9963b763ed919ee}{V\+A\+L\+U\+E\+S}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_a47bcc9408a8b6ebadc16ecf51e38ab5a}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type}!Uloop\+Message\+Type@{Uloop\+Message\+Type}}
+\index{Uloop\+Message\+Type@{Uloop\+Message\+Type}!eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type}}
+\subsubsection[{Uloop\+Message\+Type}]{\setlength{\rightskip}{0pt plus 5cm}eu.\+uloop.\+messages.\+Uloop\+Messages.\+Uloop\+Message\+Type.\+Uloop\+Message\+Type (
+\begin{DoxyParamCaption}
+\item[{int}]{index, }
+\item[{int}]{value}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_a47bcc9408a8b6ebadc16ecf51e38ab5a}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_ae4788dc7a3795c2952f170dd243e5d0c}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type}!get\+Descriptor@{get\+Descriptor}}
+\index{get\+Descriptor@{get\+Descriptor}!eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type}}
+\subsubsection[{get\+Descriptor}]{\setlength{\rightskip}{0pt plus 5cm}static final com.\+google.\+protobuf.\+Descriptors.\+Enum\+Descriptor eu.\+uloop.\+messages.\+Uloop\+Messages.\+Uloop\+Message\+Type.\+get\+Descriptor (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_ae4788dc7a3795c2952f170dd243e5d0c}
+\hypertarget{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_a0a5b813f886253f042d45af35eb85772}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type}!get\+Descriptor\+For\+Type@{get\+Descriptor\+For\+Type}}
+\index{get\+Descriptor\+For\+Type@{get\+Descriptor\+For\+Type}!eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type}}
+\subsubsection[{get\+Descriptor\+For\+Type}]{\setlength{\rightskip}{0pt plus 5cm}final com.\+google.\+protobuf.\+Descriptors.\+Enum\+Descriptor eu.\+uloop.\+messages.\+Uloop\+Messages.\+Uloop\+Message\+Type.\+get\+Descriptor\+For\+Type (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_a0a5b813f886253f042d45af35eb85772}
+\hypertarget{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_abcc6d8ac19328ab0a00f00f7048a8eae}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type}!get\+Number@{get\+Number}}
+\index{get\+Number@{get\+Number}!eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type}}
+\subsubsection[{get\+Number}]{\setlength{\rightskip}{0pt plus 5cm}final int eu.\+uloop.\+messages.\+Uloop\+Messages.\+Uloop\+Message\+Type.\+get\+Number (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_abcc6d8ac19328ab0a00f00f7048a8eae}
+\hypertarget{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_a267033fca5257cd3b9c671114828e754}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type}!get\+Value\+Descriptor@{get\+Value\+Descriptor}}
+\index{get\+Value\+Descriptor@{get\+Value\+Descriptor}!eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type}}
+\subsubsection[{get\+Value\+Descriptor}]{\setlength{\rightskip}{0pt plus 5cm}final com.\+google.\+protobuf.\+Descriptors.\+Enum\+Value\+Descriptor eu.\+uloop.\+messages.\+Uloop\+Messages.\+Uloop\+Message\+Type.\+get\+Value\+Descriptor (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_a267033fca5257cd3b9c671114828e754}
+\hypertarget{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_a541a8409b2646f6b3974bb2c9147cef9}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type}!internal\+Get\+Value\+Map@{internal\+Get\+Value\+Map}}
+\index{internal\+Get\+Value\+Map@{internal\+Get\+Value\+Map}!eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type}}
+\subsubsection[{internal\+Get\+Value\+Map}]{\setlength{\rightskip}{0pt plus 5cm}static com.\+google.\+protobuf.\+Internal.\+Enum\+Lite\+Map$<${\bf Uloop\+Message\+Type}$>$ eu.\+uloop.\+messages.\+Uloop\+Messages.\+Uloop\+Message\+Type.\+internal\+Get\+Value\+Map (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_a541a8409b2646f6b3974bb2c9147cef9}
+\hypertarget{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_aba3200220ef915b16ae861d0e8a0c246}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type}!value\+Of@{value\+Of}}
+\index{value\+Of@{value\+Of}!eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type}}
+\subsubsection[{value\+Of}]{\setlength{\rightskip}{0pt plus 5cm}static {\bf Uloop\+Message\+Type} eu.\+uloop.\+messages.\+Uloop\+Messages.\+Uloop\+Message\+Type.\+value\+Of (
+\begin{DoxyParamCaption}
+\item[{int}]{value}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_aba3200220ef915b16ae861d0e8a0c246}
+\hypertarget{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_a0158c3665518e84498cc3947b2ba89ab}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type}!value\+Of@{value\+Of}}
+\index{value\+Of@{value\+Of}!eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type}}
+\subsubsection[{value\+Of}]{\setlength{\rightskip}{0pt plus 5cm}static {\bf Uloop\+Message\+Type} eu.\+uloop.\+messages.\+Uloop\+Messages.\+Uloop\+Message\+Type.\+value\+Of (
+\begin{DoxyParamCaption}
+\item[{com.\+google.\+protobuf.\+Descriptors.\+Enum\+Value\+Descriptor}]{desc}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_a0158c3665518e84498cc3947b2ba89ab}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_aec1ce079512854d8a1e703fe37dcfd29}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type}!index@{index}}
+\index{index@{index}!eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type}}
+\subsubsection[{index}]{\setlength{\rightskip}{0pt plus 5cm}final int eu.\+uloop.\+messages.\+Uloop\+Messages.\+Uloop\+Message\+Type.\+index\hspace{0.3cm}{\ttfamily [private]}}}\label{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_aec1ce079512854d8a1e703fe37dcfd29}
+\hypertarget{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_afb6e1f733b8bcb79ab024acc56156437}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type}!internal\+Value\+Map@{internal\+Value\+Map}}
+\index{internal\+Value\+Map@{internal\+Value\+Map}!eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type}}
+\subsubsection[{internal\+Value\+Map}]{\setlength{\rightskip}{0pt plus 5cm} static  com.\+google.\+protobuf.\+Internal.\+Enum\+Lite\+Map$<${\bf Uloop\+Message\+Type}$>$ eu.\+uloop.\+messages.\+Uloop\+Messages.\+Uloop\+Message\+Type.\+internal\+Value\+Map\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_afb6e1f733b8bcb79ab024acc56156437}
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+=
+          \textcolor{keyword}{new} com.google.protobuf.Internal.EnumLiteMap<\hyperlink{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_a47bcc9408a8b6ebadc16ecf51e38ab5a}{UloopMessageType}>() \{
+            \textcolor{keyword}{public} \hyperlink{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_a47bcc9408a8b6ebadc16ecf51e38ab5a}{UloopMessageType} findValueByNumber(\textcolor{keywordtype}{int} number) \{
+              \textcolor{keywordflow}{return} \hyperlink{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_a47bcc9408a8b6ebadc16ecf51e38ab5a}{UloopMessageType}.valueOf(number);
+            \}
+          \}
+\end{DoxyCode}
+\hypertarget{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_a7290b987c0c214555491be7c4fc45835}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type}!U\+L\+O\+O\+P\+\_\+\+C\+A\+C\+\_\+\+M\+E\+S\+S\+A\+G\+E@{U\+L\+O\+O\+P\+\_\+\+C\+A\+C\+\_\+\+M\+E\+S\+S\+A\+G\+E}}
+\index{U\+L\+O\+O\+P\+\_\+\+C\+A\+C\+\_\+\+M\+E\+S\+S\+A\+G\+E@{U\+L\+O\+O\+P\+\_\+\+C\+A\+C\+\_\+\+M\+E\+S\+S\+A\+G\+E}!eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type}}
+\subsubsection[{U\+L\+O\+O\+P\+\_\+\+C\+A\+C\+\_\+\+M\+E\+S\+S\+A\+G\+E}]{\setlength{\rightskip}{0pt plus 5cm}eu.\+uloop.\+messages.\+Uloop\+Messages.\+Uloop\+Message\+Type.\+U\+L\+O\+O\+P\+\_\+\+C\+A\+C\+\_\+\+M\+E\+S\+S\+A\+G\+E =(2, 2)}}\label{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_a7290b987c0c214555491be7c4fc45835}
+\hypertarget{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_a49adc846b939f464602acea9e01c6e71}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type}!U\+L\+O\+O\+P\+\_\+\+C\+A\+C\+\_\+\+M\+E\+S\+S\+A\+G\+E\+\_\+\+V\+A\+L\+U\+E@{U\+L\+O\+O\+P\+\_\+\+C\+A\+C\+\_\+\+M\+E\+S\+S\+A\+G\+E\+\_\+\+V\+A\+L\+U\+E}}
+\index{U\+L\+O\+O\+P\+\_\+\+C\+A\+C\+\_\+\+M\+E\+S\+S\+A\+G\+E\+\_\+\+V\+A\+L\+U\+E@{U\+L\+O\+O\+P\+\_\+\+C\+A\+C\+\_\+\+M\+E\+S\+S\+A\+G\+E\+\_\+\+V\+A\+L\+U\+E}!eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type}}
+\subsubsection[{U\+L\+O\+O\+P\+\_\+\+C\+A\+C\+\_\+\+M\+E\+S\+S\+A\+G\+E\+\_\+\+V\+A\+L\+U\+E}]{\setlength{\rightskip}{0pt plus 5cm} static  final int eu.\+uloop.\+messages.\+Uloop\+Messages.\+Uloop\+Message\+Type.\+U\+L\+O\+O\+P\+\_\+\+C\+A\+C\+\_\+\+M\+E\+S\+S\+A\+G\+E\+\_\+\+V\+A\+L\+U\+E = 2\hspace{0.3cm}{\ttfamily [static]}}}\label{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_a49adc846b939f464602acea9e01c6e71}
+\hypertarget{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_ad2d2caa5e4a4fd68d44f422b23af44ac}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type}!U\+L\+O\+O\+P\+\_\+\+E\+N\+O\+U\+G\+H\+\_\+\+R\+E\+S\+O\+U\+R\+C\+E\+S@{U\+L\+O\+O\+P\+\_\+\+E\+N\+O\+U\+G\+H\+\_\+\+R\+E\+S\+O\+U\+R\+C\+E\+S}}
+\index{U\+L\+O\+O\+P\+\_\+\+E\+N\+O\+U\+G\+H\+\_\+\+R\+E\+S\+O\+U\+R\+C\+E\+S@{U\+L\+O\+O\+P\+\_\+\+E\+N\+O\+U\+G\+H\+\_\+\+R\+E\+S\+O\+U\+R\+C\+E\+S}!eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type}}
+\subsubsection[{U\+L\+O\+O\+P\+\_\+\+E\+N\+O\+U\+G\+H\+\_\+\+R\+E\+S\+O\+U\+R\+C\+E\+S}]{\setlength{\rightskip}{0pt plus 5cm}eu.\+uloop.\+messages.\+Uloop\+Messages.\+Uloop\+Message\+Type.\+U\+L\+O\+O\+P\+\_\+\+E\+N\+O\+U\+G\+H\+\_\+\+R\+E\+S\+O\+U\+R\+C\+E\+S =(1, 1)}}\label{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_ad2d2caa5e4a4fd68d44f422b23af44ac}
+\hypertarget{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_a189a09fd86d165c2b0852f7c8ee625d0}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type}!U\+L\+O\+O\+P\+\_\+\+E\+N\+O\+U\+G\+H\+\_\+\+R\+E\+S\+O\+U\+R\+C\+E\+S\+\_\+\+V\+A\+L\+U\+E@{U\+L\+O\+O\+P\+\_\+\+E\+N\+O\+U\+G\+H\+\_\+\+R\+E\+S\+O\+U\+R\+C\+E\+S\+\_\+\+V\+A\+L\+U\+E}}
+\index{U\+L\+O\+O\+P\+\_\+\+E\+N\+O\+U\+G\+H\+\_\+\+R\+E\+S\+O\+U\+R\+C\+E\+S\+\_\+\+V\+A\+L\+U\+E@{U\+L\+O\+O\+P\+\_\+\+E\+N\+O\+U\+G\+H\+\_\+\+R\+E\+S\+O\+U\+R\+C\+E\+S\+\_\+\+V\+A\+L\+U\+E}!eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type}}
+\subsubsection[{U\+L\+O\+O\+P\+\_\+\+E\+N\+O\+U\+G\+H\+\_\+\+R\+E\+S\+O\+U\+R\+C\+E\+S\+\_\+\+V\+A\+L\+U\+E}]{\setlength{\rightskip}{0pt plus 5cm} static  final int eu.\+uloop.\+messages.\+Uloop\+Messages.\+Uloop\+Message\+Type.\+U\+L\+O\+O\+P\+\_\+\+E\+N\+O\+U\+G\+H\+\_\+\+R\+E\+S\+O\+U\+R\+C\+E\+S\+\_\+\+V\+A\+L\+U\+E = 1\hspace{0.3cm}{\ttfamily [static]}}}\label{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_a189a09fd86d165c2b0852f7c8ee625d0}
+\hypertarget{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_a5279fcb970ff6e20df2536163d3cd33a}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type}!U\+L\+O\+O\+P\+\_\+\+E\+X\+T\+E\+R\+N\+A\+L\+\_\+\+M\+T\+R\+A\+C\+K\+E\+R@{U\+L\+O\+O\+P\+\_\+\+E\+X\+T\+E\+R\+N\+A\+L\+\_\+\+M\+T\+R\+A\+C\+K\+E\+R}}
+\index{U\+L\+O\+O\+P\+\_\+\+E\+X\+T\+E\+R\+N\+A\+L\+\_\+\+M\+T\+R\+A\+C\+K\+E\+R@{U\+L\+O\+O\+P\+\_\+\+E\+X\+T\+E\+R\+N\+A\+L\+\_\+\+M\+T\+R\+A\+C\+K\+E\+R}!eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type}}
+\subsubsection[{U\+L\+O\+O\+P\+\_\+\+E\+X\+T\+E\+R\+N\+A\+L\+\_\+\+M\+T\+R\+A\+C\+K\+E\+R}]{\setlength{\rightskip}{0pt plus 5cm}eu.\+uloop.\+messages.\+Uloop\+Messages.\+Uloop\+Message\+Type.\+U\+L\+O\+O\+P\+\_\+\+E\+X\+T\+E\+R\+N\+A\+L\+\_\+\+M\+T\+R\+A\+C\+K\+E\+R =(10, 10)}}\label{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_a5279fcb970ff6e20df2536163d3cd33a}
+\hypertarget{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_a4f9777bb27c76f61628926bedc37a25d}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type}!U\+L\+O\+O\+P\+\_\+\+E\+X\+T\+E\+R\+N\+A\+L\+\_\+\+M\+T\+R\+A\+C\+K\+E\+R\+\_\+\+V\+A\+L\+U\+E@{U\+L\+O\+O\+P\+\_\+\+E\+X\+T\+E\+R\+N\+A\+L\+\_\+\+M\+T\+R\+A\+C\+K\+E\+R\+\_\+\+V\+A\+L\+U\+E}}
+\index{U\+L\+O\+O\+P\+\_\+\+E\+X\+T\+E\+R\+N\+A\+L\+\_\+\+M\+T\+R\+A\+C\+K\+E\+R\+\_\+\+V\+A\+L\+U\+E@{U\+L\+O\+O\+P\+\_\+\+E\+X\+T\+E\+R\+N\+A\+L\+\_\+\+M\+T\+R\+A\+C\+K\+E\+R\+\_\+\+V\+A\+L\+U\+E}!eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type}}
+\subsubsection[{U\+L\+O\+O\+P\+\_\+\+E\+X\+T\+E\+R\+N\+A\+L\+\_\+\+M\+T\+R\+A\+C\+K\+E\+R\+\_\+\+V\+A\+L\+U\+E}]{\setlength{\rightskip}{0pt plus 5cm} static  final int eu.\+uloop.\+messages.\+Uloop\+Messages.\+Uloop\+Message\+Type.\+U\+L\+O\+O\+P\+\_\+\+E\+X\+T\+E\+R\+N\+A\+L\+\_\+\+M\+T\+R\+A\+C\+K\+E\+R\+\_\+\+V\+A\+L\+U\+E = 10\hspace{0.3cm}{\ttfamily [static]}}}\label{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_a4f9777bb27c76f61628926bedc37a25d}
+\hypertarget{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_a2e48a358b6ba1af599146c95c4449b09}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type}!U\+L\+O\+O\+P\+\_\+\+E\+X\+T\+E\+R\+N\+A\+L\+\_\+\+S\+E\+R\+V\+I\+C\+E@{U\+L\+O\+O\+P\+\_\+\+E\+X\+T\+E\+R\+N\+A\+L\+\_\+\+S\+E\+R\+V\+I\+C\+E}}
+\index{U\+L\+O\+O\+P\+\_\+\+E\+X\+T\+E\+R\+N\+A\+L\+\_\+\+S\+E\+R\+V\+I\+C\+E@{U\+L\+O\+O\+P\+\_\+\+E\+X\+T\+E\+R\+N\+A\+L\+\_\+\+S\+E\+R\+V\+I\+C\+E}!eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type}}
+\subsubsection[{U\+L\+O\+O\+P\+\_\+\+E\+X\+T\+E\+R\+N\+A\+L\+\_\+\+S\+E\+R\+V\+I\+C\+E}]{\setlength{\rightskip}{0pt plus 5cm}eu.\+uloop.\+messages.\+Uloop\+Messages.\+Uloop\+Message\+Type.\+U\+L\+O\+O\+P\+\_\+\+E\+X\+T\+E\+R\+N\+A\+L\+\_\+\+S\+E\+R\+V\+I\+C\+E =(9, 9)}}\label{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_a2e48a358b6ba1af599146c95c4449b09}
+\hypertarget{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_acf5d5ff984b25052735b75ec79271fba}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type}!U\+L\+O\+O\+P\+\_\+\+E\+X\+T\+E\+R\+N\+A\+L\+\_\+\+S\+E\+R\+V\+I\+C\+E\+\_\+\+V\+A\+L\+U\+E@{U\+L\+O\+O\+P\+\_\+\+E\+X\+T\+E\+R\+N\+A\+L\+\_\+\+S\+E\+R\+V\+I\+C\+E\+\_\+\+V\+A\+L\+U\+E}}
+\index{U\+L\+O\+O\+P\+\_\+\+E\+X\+T\+E\+R\+N\+A\+L\+\_\+\+S\+E\+R\+V\+I\+C\+E\+\_\+\+V\+A\+L\+U\+E@{U\+L\+O\+O\+P\+\_\+\+E\+X\+T\+E\+R\+N\+A\+L\+\_\+\+S\+E\+R\+V\+I\+C\+E\+\_\+\+V\+A\+L\+U\+E}!eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type}}
+\subsubsection[{U\+L\+O\+O\+P\+\_\+\+E\+X\+T\+E\+R\+N\+A\+L\+\_\+\+S\+E\+R\+V\+I\+C\+E\+\_\+\+V\+A\+L\+U\+E}]{\setlength{\rightskip}{0pt plus 5cm} static  final int eu.\+uloop.\+messages.\+Uloop\+Messages.\+Uloop\+Message\+Type.\+U\+L\+O\+O\+P\+\_\+\+E\+X\+T\+E\+R\+N\+A\+L\+\_\+\+S\+E\+R\+V\+I\+C\+E\+\_\+\+V\+A\+L\+U\+E = 9\hspace{0.3cm}{\ttfamily [static]}}}\label{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_acf5d5ff984b25052735b75ec79271fba}
+\hypertarget{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_acfcddc123ef961d02b619e0e687a625a}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type}!U\+L\+O\+O\+P\+\_\+\+M\+E\+M\+\_\+\+R\+E\+S\+O\+U\+R\+C\+E\+S@{U\+L\+O\+O\+P\+\_\+\+M\+E\+M\+\_\+\+R\+E\+S\+O\+U\+R\+C\+E\+S}}
+\index{U\+L\+O\+O\+P\+\_\+\+M\+E\+M\+\_\+\+R\+E\+S\+O\+U\+R\+C\+E\+S@{U\+L\+O\+O\+P\+\_\+\+M\+E\+M\+\_\+\+R\+E\+S\+O\+U\+R\+C\+E\+S}!eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type}}
+\subsubsection[{U\+L\+O\+O\+P\+\_\+\+M\+E\+M\+\_\+\+R\+E\+S\+O\+U\+R\+C\+E\+S}]{\setlength{\rightskip}{0pt plus 5cm}eu.\+uloop.\+messages.\+Uloop\+Messages.\+Uloop\+Message\+Type.\+U\+L\+O\+O\+P\+\_\+\+M\+E\+M\+\_\+\+R\+E\+S\+O\+U\+R\+C\+E\+S =(4, 4)}}\label{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_acfcddc123ef961d02b619e0e687a625a}
+\hypertarget{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_a55a93bf1e295176e0b5c8855804ab5f3}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type}!U\+L\+O\+O\+P\+\_\+\+M\+E\+M\+\_\+\+R\+E\+S\+O\+U\+R\+C\+E\+S\+\_\+\+V\+A\+L\+U\+E@{U\+L\+O\+O\+P\+\_\+\+M\+E\+M\+\_\+\+R\+E\+S\+O\+U\+R\+C\+E\+S\+\_\+\+V\+A\+L\+U\+E}}
+\index{U\+L\+O\+O\+P\+\_\+\+M\+E\+M\+\_\+\+R\+E\+S\+O\+U\+R\+C\+E\+S\+\_\+\+V\+A\+L\+U\+E@{U\+L\+O\+O\+P\+\_\+\+M\+E\+M\+\_\+\+R\+E\+S\+O\+U\+R\+C\+E\+S\+\_\+\+V\+A\+L\+U\+E}!eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type}}
+\subsubsection[{U\+L\+O\+O\+P\+\_\+\+M\+E\+M\+\_\+\+R\+E\+S\+O\+U\+R\+C\+E\+S\+\_\+\+V\+A\+L\+U\+E}]{\setlength{\rightskip}{0pt plus 5cm} static  final int eu.\+uloop.\+messages.\+Uloop\+Messages.\+Uloop\+Message\+Type.\+U\+L\+O\+O\+P\+\_\+\+M\+E\+M\+\_\+\+R\+E\+S\+O\+U\+R\+C\+E\+S\+\_\+\+V\+A\+L\+U\+E = 4\hspace{0.3cm}{\ttfamily [static]}}}\label{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_a55a93bf1e295176e0b5c8855804ab5f3}
+\hypertarget{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_a4c6be9e1d2048fb126a0c309ed5e8acf}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type}!U\+L\+O\+O\+P\+\_\+\+M\+O\+B\+I\+L\+I\+T\+Y\+\_\+\+R\+M@{U\+L\+O\+O\+P\+\_\+\+M\+O\+B\+I\+L\+I\+T\+Y\+\_\+\+R\+M}}
+\index{U\+L\+O\+O\+P\+\_\+\+M\+O\+B\+I\+L\+I\+T\+Y\+\_\+\+R\+M@{U\+L\+O\+O\+P\+\_\+\+M\+O\+B\+I\+L\+I\+T\+Y\+\_\+\+R\+M}!eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type}}
+\subsubsection[{U\+L\+O\+O\+P\+\_\+\+M\+O\+B\+I\+L\+I\+T\+Y\+\_\+\+R\+M}]{\setlength{\rightskip}{0pt plus 5cm}eu.\+uloop.\+messages.\+Uloop\+Messages.\+Uloop\+Message\+Type.\+U\+L\+O\+O\+P\+\_\+\+M\+O\+B\+I\+L\+I\+T\+Y\+\_\+\+R\+M =(3, 3)}}\label{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_a4c6be9e1d2048fb126a0c309ed5e8acf}
+\hypertarget{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_a01d2cd97565263fb97363f784dcf804b}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type}!U\+L\+O\+O\+P\+\_\+\+M\+O\+B\+I\+L\+I\+T\+Y\+\_\+\+R\+M\+\_\+\+V\+A\+L\+U\+E@{U\+L\+O\+O\+P\+\_\+\+M\+O\+B\+I\+L\+I\+T\+Y\+\_\+\+R\+M\+\_\+\+V\+A\+L\+U\+E}}
+\index{U\+L\+O\+O\+P\+\_\+\+M\+O\+B\+I\+L\+I\+T\+Y\+\_\+\+R\+M\+\_\+\+V\+A\+L\+U\+E@{U\+L\+O\+O\+P\+\_\+\+M\+O\+B\+I\+L\+I\+T\+Y\+\_\+\+R\+M\+\_\+\+V\+A\+L\+U\+E}!eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type}}
+\subsubsection[{U\+L\+O\+O\+P\+\_\+\+M\+O\+B\+I\+L\+I\+T\+Y\+\_\+\+R\+M\+\_\+\+V\+A\+L\+U\+E}]{\setlength{\rightskip}{0pt plus 5cm} static  final int eu.\+uloop.\+messages.\+Uloop\+Messages.\+Uloop\+Message\+Type.\+U\+L\+O\+O\+P\+\_\+\+M\+O\+B\+I\+L\+I\+T\+Y\+\_\+\+R\+M\+\_\+\+V\+A\+L\+U\+E = 3\hspace{0.3cm}{\ttfamily [static]}}}\label{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_a01d2cd97565263fb97363f784dcf804b}
+\hypertarget{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_a9e9d5e8074b3576749dcd41a7cc4545c}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type}!U\+L\+O\+O\+P\+\_\+\+N\+E\+T\+W\+O\+R\+K\+S\+T\+A\+T\+U\+S@{U\+L\+O\+O\+P\+\_\+\+N\+E\+T\+W\+O\+R\+K\+S\+T\+A\+T\+U\+S}}
+\index{U\+L\+O\+O\+P\+\_\+\+N\+E\+T\+W\+O\+R\+K\+S\+T\+A\+T\+U\+S@{U\+L\+O\+O\+P\+\_\+\+N\+E\+T\+W\+O\+R\+K\+S\+T\+A\+T\+U\+S}!eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type}}
+\subsubsection[{U\+L\+O\+O\+P\+\_\+\+N\+E\+T\+W\+O\+R\+K\+S\+T\+A\+T\+U\+S}]{\setlength{\rightskip}{0pt plus 5cm}eu.\+uloop.\+messages.\+Uloop\+Messages.\+Uloop\+Message\+Type.\+U\+L\+O\+O\+P\+\_\+\+N\+E\+T\+W\+O\+R\+K\+S\+T\+A\+T\+U\+S =(6, 6)}}\label{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_a9e9d5e8074b3576749dcd41a7cc4545c}
+\hypertarget{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_a254b62dd08201d1eba1c90bdaa0c08f7}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type}!U\+L\+O\+O\+P\+\_\+\+N\+E\+T\+W\+O\+R\+K\+S\+T\+A\+T\+U\+S\+\_\+\+V\+A\+L\+U\+E@{U\+L\+O\+O\+P\+\_\+\+N\+E\+T\+W\+O\+R\+K\+S\+T\+A\+T\+U\+S\+\_\+\+V\+A\+L\+U\+E}}
+\index{U\+L\+O\+O\+P\+\_\+\+N\+E\+T\+W\+O\+R\+K\+S\+T\+A\+T\+U\+S\+\_\+\+V\+A\+L\+U\+E@{U\+L\+O\+O\+P\+\_\+\+N\+E\+T\+W\+O\+R\+K\+S\+T\+A\+T\+U\+S\+\_\+\+V\+A\+L\+U\+E}!eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type}}
+\subsubsection[{U\+L\+O\+O\+P\+\_\+\+N\+E\+T\+W\+O\+R\+K\+S\+T\+A\+T\+U\+S\+\_\+\+V\+A\+L\+U\+E}]{\setlength{\rightskip}{0pt plus 5cm} static  final int eu.\+uloop.\+messages.\+Uloop\+Messages.\+Uloop\+Message\+Type.\+U\+L\+O\+O\+P\+\_\+\+N\+E\+T\+W\+O\+R\+K\+S\+T\+A\+T\+U\+S\+\_\+\+V\+A\+L\+U\+E = 6\hspace{0.3cm}{\ttfamily [static]}}}\label{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_a254b62dd08201d1eba1c90bdaa0c08f7}
+\hypertarget{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_afe52072954431f52c76dfc1abcc26807}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type}!U\+L\+O\+O\+P\+\_\+\+N\+E\+W\+U\+S\+E\+R\+D\+E\+T\+A\+I\+L\+S@{U\+L\+O\+O\+P\+\_\+\+N\+E\+W\+U\+S\+E\+R\+D\+E\+T\+A\+I\+L\+S}}
+\index{U\+L\+O\+O\+P\+\_\+\+N\+E\+W\+U\+S\+E\+R\+D\+E\+T\+A\+I\+L\+S@{U\+L\+O\+O\+P\+\_\+\+N\+E\+W\+U\+S\+E\+R\+D\+E\+T\+A\+I\+L\+S}!eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type}}
+\subsubsection[{U\+L\+O\+O\+P\+\_\+\+N\+E\+W\+U\+S\+E\+R\+D\+E\+T\+A\+I\+L\+S}]{\setlength{\rightskip}{0pt plus 5cm}eu.\+uloop.\+messages.\+Uloop\+Messages.\+Uloop\+Message\+Type.\+U\+L\+O\+O\+P\+\_\+\+N\+E\+W\+U\+S\+E\+R\+D\+E\+T\+A\+I\+L\+S =(5, 5)}}\label{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_afe52072954431f52c76dfc1abcc26807}
+\hypertarget{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_a41cc14787d3152d2b3e260d569366e9c}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type}!U\+L\+O\+O\+P\+\_\+\+N\+E\+W\+U\+S\+E\+R\+D\+E\+T\+A\+I\+L\+S\+\_\+\+V\+A\+L\+U\+E@{U\+L\+O\+O\+P\+\_\+\+N\+E\+W\+U\+S\+E\+R\+D\+E\+T\+A\+I\+L\+S\+\_\+\+V\+A\+L\+U\+E}}
+\index{U\+L\+O\+O\+P\+\_\+\+N\+E\+W\+U\+S\+E\+R\+D\+E\+T\+A\+I\+L\+S\+\_\+\+V\+A\+L\+U\+E@{U\+L\+O\+O\+P\+\_\+\+N\+E\+W\+U\+S\+E\+R\+D\+E\+T\+A\+I\+L\+S\+\_\+\+V\+A\+L\+U\+E}!eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type}}
+\subsubsection[{U\+L\+O\+O\+P\+\_\+\+N\+E\+W\+U\+S\+E\+R\+D\+E\+T\+A\+I\+L\+S\+\_\+\+V\+A\+L\+U\+E}]{\setlength{\rightskip}{0pt plus 5cm} static  final int eu.\+uloop.\+messages.\+Uloop\+Messages.\+Uloop\+Message\+Type.\+U\+L\+O\+O\+P\+\_\+\+N\+E\+W\+U\+S\+E\+R\+D\+E\+T\+A\+I\+L\+S\+\_\+\+V\+A\+L\+U\+E = 5\hspace{0.3cm}{\ttfamily [static]}}}\label{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_a41cc14787d3152d2b3e260d569366e9c}
+\hypertarget{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_ac62db035f61911b6d5a8a1de969cb817}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type}!U\+L\+O\+O\+P\+\_\+\+Q\+O\+S\+M\+E\+S\+S\+A\+G\+E@{U\+L\+O\+O\+P\+\_\+\+Q\+O\+S\+M\+E\+S\+S\+A\+G\+E}}
+\index{U\+L\+O\+O\+P\+\_\+\+Q\+O\+S\+M\+E\+S\+S\+A\+G\+E@{U\+L\+O\+O\+P\+\_\+\+Q\+O\+S\+M\+E\+S\+S\+A\+G\+E}!eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type}}
+\subsubsection[{U\+L\+O\+O\+P\+\_\+\+Q\+O\+S\+M\+E\+S\+S\+A\+G\+E}]{\setlength{\rightskip}{0pt plus 5cm}eu.\+uloop.\+messages.\+Uloop\+Messages.\+Uloop\+Message\+Type.\+U\+L\+O\+O\+P\+\_\+\+Q\+O\+S\+M\+E\+S\+S\+A\+G\+E =(8, 8)}}\label{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_ac62db035f61911b6d5a8a1de969cb817}
+\hypertarget{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_a89d68e3c0962d286dea85b6f1280b82c}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type}!U\+L\+O\+O\+P\+\_\+\+Q\+O\+S\+M\+E\+S\+S\+A\+G\+E\+\_\+\+V\+A\+L\+U\+E@{U\+L\+O\+O\+P\+\_\+\+Q\+O\+S\+M\+E\+S\+S\+A\+G\+E\+\_\+\+V\+A\+L\+U\+E}}
+\index{U\+L\+O\+O\+P\+\_\+\+Q\+O\+S\+M\+E\+S\+S\+A\+G\+E\+\_\+\+V\+A\+L\+U\+E@{U\+L\+O\+O\+P\+\_\+\+Q\+O\+S\+M\+E\+S\+S\+A\+G\+E\+\_\+\+V\+A\+L\+U\+E}!eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type}}
+\subsubsection[{U\+L\+O\+O\+P\+\_\+\+Q\+O\+S\+M\+E\+S\+S\+A\+G\+E\+\_\+\+V\+A\+L\+U\+E}]{\setlength{\rightskip}{0pt plus 5cm} static  final int eu.\+uloop.\+messages.\+Uloop\+Messages.\+Uloop\+Message\+Type.\+U\+L\+O\+O\+P\+\_\+\+Q\+O\+S\+M\+E\+S\+S\+A\+G\+E\+\_\+\+V\+A\+L\+U\+E = 8\hspace{0.3cm}{\ttfamily [static]}}}\label{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_a89d68e3c0962d286dea85b6f1280b82c}
+\hypertarget{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_a00a2706ce85a9e84cbc0218c55804705}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type}!U\+L\+O\+O\+P\+\_\+\+T\+R\+U\+S\+T\+M\+E\+S\+S\+A\+G\+E@{U\+L\+O\+O\+P\+\_\+\+T\+R\+U\+S\+T\+M\+E\+S\+S\+A\+G\+E}}
+\index{U\+L\+O\+O\+P\+\_\+\+T\+R\+U\+S\+T\+M\+E\+S\+S\+A\+G\+E@{U\+L\+O\+O\+P\+\_\+\+T\+R\+U\+S\+T\+M\+E\+S\+S\+A\+G\+E}!eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type}}
+\subsubsection[{U\+L\+O\+O\+P\+\_\+\+T\+R\+U\+S\+T\+M\+E\+S\+S\+A\+G\+E}]{\setlength{\rightskip}{0pt plus 5cm}eu.\+uloop.\+messages.\+Uloop\+Messages.\+Uloop\+Message\+Type.\+U\+L\+O\+O\+P\+\_\+\+T\+R\+U\+S\+T\+M\+E\+S\+S\+A\+G\+E =(7, 7)}}\label{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_a00a2706ce85a9e84cbc0218c55804705}
+\hypertarget{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_a8b25a66b59c2505ee11bca2164b2e83d}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type}!U\+L\+O\+O\+P\+\_\+\+T\+R\+U\+S\+T\+M\+E\+S\+S\+A\+G\+E\+\_\+\+V\+A\+L\+U\+E@{U\+L\+O\+O\+P\+\_\+\+T\+R\+U\+S\+T\+M\+E\+S\+S\+A\+G\+E\+\_\+\+V\+A\+L\+U\+E}}
+\index{U\+L\+O\+O\+P\+\_\+\+T\+R\+U\+S\+T\+M\+E\+S\+S\+A\+G\+E\+\_\+\+V\+A\+L\+U\+E@{U\+L\+O\+O\+P\+\_\+\+T\+R\+U\+S\+T\+M\+E\+S\+S\+A\+G\+E\+\_\+\+V\+A\+L\+U\+E}!eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type}}
+\subsubsection[{U\+L\+O\+O\+P\+\_\+\+T\+R\+U\+S\+T\+M\+E\+S\+S\+A\+G\+E\+\_\+\+V\+A\+L\+U\+E}]{\setlength{\rightskip}{0pt plus 5cm} static  final int eu.\+uloop.\+messages.\+Uloop\+Messages.\+Uloop\+Message\+Type.\+U\+L\+O\+O\+P\+\_\+\+T\+R\+U\+S\+T\+M\+E\+S\+S\+A\+G\+E\+\_\+\+V\+A\+L\+U\+E = 7\hspace{0.3cm}{\ttfamily [static]}}}\label{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_a8b25a66b59c2505ee11bca2164b2e83d}
+\hypertarget{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_a457cbfce646e37005987a686aa1f876e}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type}!U\+L\+O\+O\+P\+\_\+\+U\+N\+S\+P\+E\+C@{U\+L\+O\+O\+P\+\_\+\+U\+N\+S\+P\+E\+C}}
+\index{U\+L\+O\+O\+P\+\_\+\+U\+N\+S\+P\+E\+C@{U\+L\+O\+O\+P\+\_\+\+U\+N\+S\+P\+E\+C}!eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type}}
+\subsubsection[{U\+L\+O\+O\+P\+\_\+\+U\+N\+S\+P\+E\+C}]{\setlength{\rightskip}{0pt plus 5cm}eu.\+uloop.\+messages.\+Uloop\+Messages.\+Uloop\+Message\+Type.\+U\+L\+O\+O\+P\+\_\+\+U\+N\+S\+P\+E\+C =(0, 0)}}\label{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_a457cbfce646e37005987a686aa1f876e}
+\hypertarget{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_a47fabf998a195f19f247304313b3f85e}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type}!U\+L\+O\+O\+P\+\_\+\+U\+N\+S\+P\+E\+C\+\_\+\+V\+A\+L\+U\+E@{U\+L\+O\+O\+P\+\_\+\+U\+N\+S\+P\+E\+C\+\_\+\+V\+A\+L\+U\+E}}
+\index{U\+L\+O\+O\+P\+\_\+\+U\+N\+S\+P\+E\+C\+\_\+\+V\+A\+L\+U\+E@{U\+L\+O\+O\+P\+\_\+\+U\+N\+S\+P\+E\+C\+\_\+\+V\+A\+L\+U\+E}!eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type}}
+\subsubsection[{U\+L\+O\+O\+P\+\_\+\+U\+N\+S\+P\+E\+C\+\_\+\+V\+A\+L\+U\+E}]{\setlength{\rightskip}{0pt plus 5cm} static  final int eu.\+uloop.\+messages.\+Uloop\+Messages.\+Uloop\+Message\+Type.\+U\+L\+O\+O\+P\+\_\+\+U\+N\+S\+P\+E\+C\+\_\+\+V\+A\+L\+U\+E = 0\hspace{0.3cm}{\ttfamily [static]}}}\label{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_a47fabf998a195f19f247304313b3f85e}
+\hypertarget{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_a757996108c5d548bcfaf69a86a385761}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type}!value@{value}}
+\index{value@{value}!eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type}}
+\subsubsection[{value}]{\setlength{\rightskip}{0pt plus 5cm}final int eu.\+uloop.\+messages.\+Uloop\+Messages.\+Uloop\+Message\+Type.\+value\hspace{0.3cm}{\ttfamily [private]}}}\label{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_a757996108c5d548bcfaf69a86a385761}
+\hypertarget{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_acba7a3d491de5b16d9963b763ed919ee}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type}!V\+A\+L\+U\+E\+S@{V\+A\+L\+U\+E\+S}}
+\index{V\+A\+L\+U\+E\+S@{V\+A\+L\+U\+E\+S}!eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Uloop\+Message\+Type}}
+\subsubsection[{V\+A\+L\+U\+E\+S}]{\setlength{\rightskip}{0pt plus 5cm} static  final {\bf Uloop\+Message\+Type} \mbox{[}$\,$\mbox{]} eu.\+uloop.\+messages.\+Uloop\+Messages.\+Uloop\+Message\+Type.\+V\+A\+L\+U\+E\+S\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_acba7a3d491de5b16d9963b763ed919ee}
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+= \{
+      \hyperlink{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_a457cbfce646e37005987a686aa1f876e}{ULOOP\_UNSPEC}, \hyperlink{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_ad2d2caa5e4a4fd68d44f422b23af44ac}{ULOOP\_ENOUGH\_RESOURCES}, 
+      \hyperlink{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_a7290b987c0c214555491be7c4fc45835}{ULOOP\_CAC\_MESSAGE}, \hyperlink{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_a4c6be9e1d2048fb126a0c309ed5e8acf}{ULOOP\_MOBILITY\_RM}, 
+      \hyperlink{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_acfcddc123ef961d02b619e0e687a625a}{ULOOP\_MEM\_RESOURCES}, \hyperlink{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_afe52072954431f52c76dfc1abcc26807}{ULOOP\_NEWUSERDETAILS}, 
+      \hyperlink{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_a9e9d5e8074b3576749dcd41a7cc4545c}{ULOOP\_NETWORKSTATUS}, \hyperlink{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_a00a2706ce85a9e84cbc0218c55804705}{ULOOP\_TRUSTMESSAGE}, 
+      \hyperlink{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_ac62db035f61911b6d5a8a1de969cb817}{ULOOP\_QOSMESSAGE}, \hyperlink{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_a2e48a358b6ba1af599146c95c4449b09}{ULOOP\_EXTERNAL\_SERVICE}, 
+      \hyperlink{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType_a5279fcb970ff6e20df2536163d3cd33a}{ULOOP\_EXTERNAL\_MTRACKER}, 
+    \}
+\end{DoxyCode}
+
+
+The documentation for this enum was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/eu/uloop/messages/\hyperlink{UloopMessages_8java}{Uloop\+Messages.\+java}\end{DoxyCompactItemize}

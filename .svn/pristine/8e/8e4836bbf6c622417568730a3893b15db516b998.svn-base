@@ -1,0 +1,74 @@
+\hypertarget{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1EnoughResourcesMessageRequestOrBuilder}{\section{eu.\+uloop.\+messages.\+Uloop\+Messages.\+Enough\+Resources\+Message\+Request\+Or\+Builder Interface Reference}
+\label{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1EnoughResourcesMessageRequestOrBuilder}\index{eu.\+uloop.\+messages.\+Uloop\+Messages.\+Enough\+Resources\+Message\+Request\+Or\+Builder@{eu.\+uloop.\+messages.\+Uloop\+Messages.\+Enough\+Resources\+Message\+Request\+Or\+Builder}}
+}
+Inheritance diagram for eu.\+uloop.\+messages.\+Uloop\+Messages.\+Enough\+Resources\+Message\+Request\+Or\+Builder\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1EnoughResourcesMessageRequestOrBuilder}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+boolean \hyperlink{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1EnoughResourcesMessageRequestOrBuilder_acb6b122d250a9d33b1719cf09c503a92}{has\+Cryptoid} ()
+\item 
+com.\+google.\+protobuf.\+Byte\+String \hyperlink{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1EnoughResourcesMessageRequestOrBuilder_a4dab493ebc532d67379d4effa1571948}{get\+Cryptoid} ()
+\item 
+boolean \hyperlink{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1EnoughResourcesMessageRequestOrBuilder_ad6a44338faeecfb2e0d8136ceb58d133}{has\+Token} ()
+\item 
+double \hyperlink{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1EnoughResourcesMessageRequestOrBuilder_a79f2612a20e1d83e8e1ae0702435e2a0}{get\+Token} ()
+\item 
+boolean \hyperlink{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1EnoughResourcesMessageRequestOrBuilder_affc52875e965cf2529453ff79f8f9a69}{has\+Macaddress} ()
+\item 
+com.\+google.\+protobuf.\+Byte\+String \hyperlink{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1EnoughResourcesMessageRequestOrBuilder_aa25de85e180eb723b9ec337c841f64f9}{get\+Macaddress} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1EnoughResourcesMessageRequestOrBuilder_a4dab493ebc532d67379d4effa1571948}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Enough\+Resources\+Message\+Request\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Enough\+Resources\+Message\+Request\+Or\+Builder}!get\+Cryptoid@{get\+Cryptoid}}
+\index{get\+Cryptoid@{get\+Cryptoid}!eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Enough\+Resources\+Message\+Request\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Enough\+Resources\+Message\+Request\+Or\+Builder}}
+\subsubsection[{get\+Cryptoid}]{\setlength{\rightskip}{0pt plus 5cm}com.\+google.\+protobuf.\+Byte\+String eu.\+uloop.\+messages.\+Uloop\+Messages.\+Enough\+Resources\+Message\+Request\+Or\+Builder.\+get\+Cryptoid (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1EnoughResourcesMessageRequestOrBuilder_a4dab493ebc532d67379d4effa1571948}
+\hypertarget{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1EnoughResourcesMessageRequestOrBuilder_aa25de85e180eb723b9ec337c841f64f9}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Enough\+Resources\+Message\+Request\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Enough\+Resources\+Message\+Request\+Or\+Builder}!get\+Macaddress@{get\+Macaddress}}
+\index{get\+Macaddress@{get\+Macaddress}!eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Enough\+Resources\+Message\+Request\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Enough\+Resources\+Message\+Request\+Or\+Builder}}
+\subsubsection[{get\+Macaddress}]{\setlength{\rightskip}{0pt plus 5cm}com.\+google.\+protobuf.\+Byte\+String eu.\+uloop.\+messages.\+Uloop\+Messages.\+Enough\+Resources\+Message\+Request\+Or\+Builder.\+get\+Macaddress (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1EnoughResourcesMessageRequestOrBuilder_aa25de85e180eb723b9ec337c841f64f9}
+\hypertarget{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1EnoughResourcesMessageRequestOrBuilder_a79f2612a20e1d83e8e1ae0702435e2a0}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Enough\+Resources\+Message\+Request\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Enough\+Resources\+Message\+Request\+Or\+Builder}!get\+Token@{get\+Token}}
+\index{get\+Token@{get\+Token}!eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Enough\+Resources\+Message\+Request\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Enough\+Resources\+Message\+Request\+Or\+Builder}}
+\subsubsection[{get\+Token}]{\setlength{\rightskip}{0pt plus 5cm}double eu.\+uloop.\+messages.\+Uloop\+Messages.\+Enough\+Resources\+Message\+Request\+Or\+Builder.\+get\+Token (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1EnoughResourcesMessageRequestOrBuilder_a79f2612a20e1d83e8e1ae0702435e2a0}
+\hypertarget{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1EnoughResourcesMessageRequestOrBuilder_acb6b122d250a9d33b1719cf09c503a92}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Enough\+Resources\+Message\+Request\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Enough\+Resources\+Message\+Request\+Or\+Builder}!has\+Cryptoid@{has\+Cryptoid}}
+\index{has\+Cryptoid@{has\+Cryptoid}!eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Enough\+Resources\+Message\+Request\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Enough\+Resources\+Message\+Request\+Or\+Builder}}
+\subsubsection[{has\+Cryptoid}]{\setlength{\rightskip}{0pt plus 5cm}boolean eu.\+uloop.\+messages.\+Uloop\+Messages.\+Enough\+Resources\+Message\+Request\+Or\+Builder.\+has\+Cryptoid (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1EnoughResourcesMessageRequestOrBuilder_acb6b122d250a9d33b1719cf09c503a92}
+\hypertarget{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1EnoughResourcesMessageRequestOrBuilder_affc52875e965cf2529453ff79f8f9a69}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Enough\+Resources\+Message\+Request\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Enough\+Resources\+Message\+Request\+Or\+Builder}!has\+Macaddress@{has\+Macaddress}}
+\index{has\+Macaddress@{has\+Macaddress}!eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Enough\+Resources\+Message\+Request\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Enough\+Resources\+Message\+Request\+Or\+Builder}}
+\subsubsection[{has\+Macaddress}]{\setlength{\rightskip}{0pt plus 5cm}boolean eu.\+uloop.\+messages.\+Uloop\+Messages.\+Enough\+Resources\+Message\+Request\+Or\+Builder.\+has\+Macaddress (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1EnoughResourcesMessageRequestOrBuilder_affc52875e965cf2529453ff79f8f9a69}
+\hypertarget{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1EnoughResourcesMessageRequestOrBuilder_ad6a44338faeecfb2e0d8136ceb58d133}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Enough\+Resources\+Message\+Request\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Enough\+Resources\+Message\+Request\+Or\+Builder}!has\+Token@{has\+Token}}
+\index{has\+Token@{has\+Token}!eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Enough\+Resources\+Message\+Request\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Enough\+Resources\+Message\+Request\+Or\+Builder}}
+\subsubsection[{has\+Token}]{\setlength{\rightskip}{0pt plus 5cm}boolean eu.\+uloop.\+messages.\+Uloop\+Messages.\+Enough\+Resources\+Message\+Request\+Or\+Builder.\+has\+Token (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1EnoughResourcesMessageRequestOrBuilder_ad6a44338faeecfb2e0d8136ceb58d133}
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/eu/uloop/messages/\hyperlink{UloopMessages_8java}{Uloop\+Messages.\+java}\end{DoxyCompactItemize}

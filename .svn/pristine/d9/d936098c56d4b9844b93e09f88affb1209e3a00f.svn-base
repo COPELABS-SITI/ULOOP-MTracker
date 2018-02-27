@@ -1,0 +1,403 @@
+\hypertarget{classeu_1_1uloop_1_1messages_1_1UloopMessages}{\section{eu.\+uloop.\+messages.\+Uloop\+Messages Class Reference}
+\label{classeu_1_1uloop_1_1messages_1_1UloopMessages}\index{eu.\+uloop.\+messages.\+Uloop\+Messages@{eu.\+uloop.\+messages.\+Uloop\+Messages}}
+}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries Enough\+Resources\+C\+A\+C\+Reply}
+\item 
+interface \hyperlink{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1EnoughResourcesCACReplyOrBuilder}{Enough\+Resources\+C\+A\+C\+Reply\+Or\+Builder}
+\item 
+class {\bfseries Enough\+Resources\+Message\+Reply}
+\item 
+interface \hyperlink{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1EnoughResourcesMessageReplyOrBuilder}{Enough\+Resources\+Message\+Reply\+Or\+Builder}
+\item 
+class {\bfseries Enough\+Resources\+Message\+Request}
+\item 
+interface \hyperlink{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1EnoughResourcesMessageRequestOrBuilder}{Enough\+Resources\+Message\+Request\+Or\+Builder}
+\item 
+enum \hyperlink{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1MessageType}{Message\+Type}
+\item 
+class {\bfseries M\+Tracker\+Message}
+\item 
+interface \hyperlink{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1MTrackerMessageOrBuilder}{M\+Tracker\+Message\+Or\+Builder}
+\item 
+class {\bfseries M\+Tracker\+Predicted\+Move}
+\item 
+interface \hyperlink{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1MTrackerPredictedMoveOrBuilder}{M\+Tracker\+Predicted\+Move\+Or\+Builder}
+\item 
+class {\bfseries Network\+Status\+Message}
+\item 
+interface \hyperlink{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1NetworkStatusMessageOrBuilder}{Network\+Status\+Message\+Or\+Builder}
+\item 
+class {\bfseries Network\+Status\+Message\+Reply}
+\item 
+interface \hyperlink{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1NetworkStatusMessageReplyOrBuilder}{Network\+Status\+Message\+Reply\+Or\+Builder}
+\item 
+class {\bfseries New\+User\+Details\+Message}
+\item 
+interface \hyperlink{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1NewUserDetailsMessageOrBuilder}{New\+User\+Details\+Message\+Or\+Builder}
+\item 
+class {\bfseries Qo\+S\+Message}
+\item 
+interface \hyperlink{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1QoSMessageOrBuilder}{Qo\+S\+Message\+Or\+Builder}
+\item 
+class {\bfseries Qos\+Request}
+\item 
+interface \hyperlink{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1QosRequestOrBuilder}{Qos\+Request\+Or\+Builder}
+\item 
+class {\bfseries Qo\+S\+Tuple}
+\item 
+interface \hyperlink{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1QoSTupleOrBuilder}{Qo\+S\+Tuple\+Or\+Builder}
+\item 
+class {\bfseries Resource\+Message}
+\item 
+interface \hyperlink{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1ResourceMessageOrBuilder}{Resource\+Message\+Or\+Builder}
+\item 
+class {\bfseries Service\+Message}
+\item 
+interface \hyperlink{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1ServiceMessageOrBuilder}{Service\+Message\+Or\+Builder}
+\item 
+class {\bfseries Service\+Reply}
+\item 
+interface \hyperlink{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1ServiceReplyOrBuilder}{Service\+Reply\+Or\+Builder}
+\item 
+class {\bfseries Service\+Request}
+\item 
+interface \hyperlink{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1ServiceRequestOrBuilder}{Service\+Request\+Or\+Builder}
+\item 
+class {\bfseries Service\+Update}
+\item 
+interface \hyperlink{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1ServiceUpdateOrBuilder}{Service\+Update\+Or\+Builder}
+\item 
+class {\bfseries Trust\+Information\+Reply}
+\item 
+interface \hyperlink{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1TrustInformationReplyOrBuilder}{Trust\+Information\+Reply\+Or\+Builder}
+\item 
+class {\bfseries Trust\+Information\+Request}
+\item 
+interface \hyperlink{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1TrustInformationRequestOrBuilder}{Trust\+Information\+Request\+Or\+Builder}
+\item 
+class {\bfseries Trust\+Message}
+\item 
+interface \hyperlink{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1TrustMessageOrBuilder}{Trust\+Message\+Or\+Builder}
+\item 
+class {\bfseries Uloop\+Header\+Message}
+\item 
+interface \hyperlink{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopHeaderMessageOrBuilder}{Uloop\+Header\+Message\+Or\+Builder}
+\item 
+class {\bfseries Uloop\+Message}
+\item 
+interface \hyperlink{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageOrBuilder}{Uloop\+Message\+Or\+Builder}
+\item 
+enum \hyperlink{enumeu_1_1uloop_1_1messages_1_1UloopMessages_1_1UloopMessageType}{Uloop\+Message\+Type}
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \hyperlink{classeu_1_1uloop_1_1messages_1_1UloopMessages_ae0d6da89089f061c824359536d2bf306}{register\+All\+Extensions} (com.\+google.\+protobuf.\+Extension\+Registry registry)
+\item 
+static \\*
+com.\+google.\+protobuf.\+Descriptors.\+File\+Descriptor \hyperlink{classeu_1_1uloop_1_1messages_1_1UloopMessages_a85f9353364f660f87e8add6b72f2764d}{get\+Descriptor} ()
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classeu_1_1uloop_1_1messages_1_1UloopMessages_a76633ecab518a92765e1cda2be7ac933}{Uloop\+Messages} ()
+\end{DoxyCompactItemize}
+\subsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static \\*
+com.\+google.\+protobuf.\+Descriptors.\+Descriptor \hyperlink{classeu_1_1uloop_1_1messages_1_1UloopMessages_a92756ddbdccab1a7b949efc15332a9bc}{internal\+\_\+static\+\_\+\+Uloop\+Header\+Message\+\_\+descriptor}
+\item 
+static \\*
+com.\+google.\+protobuf.\+Generated\+Message.\+Field\+Accessor\+Table \hyperlink{classeu_1_1uloop_1_1messages_1_1UloopMessages_a0a2d5416115a8a55909263b7b9dfb426}{internal\+\_\+static\+\_\+\+Uloop\+Header\+Message\+\_\+field\+Accessor\+Table}
+\item 
+static \\*
+com.\+google.\+protobuf.\+Descriptors.\+Descriptor \hyperlink{classeu_1_1uloop_1_1messages_1_1UloopMessages_aadb12b9c55c653d196602ff19c5363d8}{internal\+\_\+static\+\_\+\+Uloop\+Message\+\_\+descriptor}
+\item 
+static \\*
+com.\+google.\+protobuf.\+Generated\+Message.\+Field\+Accessor\+Table \hyperlink{classeu_1_1uloop_1_1messages_1_1UloopMessages_ae0cd74209ad30222560d98b1f128284b}{internal\+\_\+static\+\_\+\+Uloop\+Message\+\_\+field\+Accessor\+Table}
+\item 
+static \\*
+com.\+google.\+protobuf.\+Descriptors.\+Descriptor \hyperlink{classeu_1_1uloop_1_1messages_1_1UloopMessages_a1a6d4025f05bf288d58b169382c9c9e2}{internal\+\_\+static\+\_\+\+Trust\+Message\+\_\+descriptor}
+\item 
+static \\*
+com.\+google.\+protobuf.\+Generated\+Message.\+Field\+Accessor\+Table \hyperlink{classeu_1_1uloop_1_1messages_1_1UloopMessages_a83ff78d9cd200ccaaadeabb6a2a9b56a}{internal\+\_\+static\+\_\+\+Trust\+Message\+\_\+field\+Accessor\+Table}
+\item 
+static \\*
+com.\+google.\+protobuf.\+Descriptors.\+Descriptor \hyperlink{classeu_1_1uloop_1_1messages_1_1UloopMessages_a895ebcb0f3a6f7aa01aa805496a74fee}{internal\+\_\+static\+\_\+\+Trust\+Information\+Request\+\_\+descriptor}
+\item 
+static \\*
+com.\+google.\+protobuf.\+Generated\+Message.\+Field\+Accessor\+Table \hyperlink{classeu_1_1uloop_1_1messages_1_1UloopMessages_a0fc348dcef0a2592edb3e59ce006cae9}{internal\+\_\+static\+\_\+\+Trust\+Information\+Request\+\_\+field\+Accessor\+Table}
+\item 
+static \\*
+com.\+google.\+protobuf.\+Descriptors.\+Descriptor \hyperlink{classeu_1_1uloop_1_1messages_1_1UloopMessages_a8422666b5aae3440210ca268f96b31fd}{internal\+\_\+static\+\_\+\+Trust\+Information\+Reply\+\_\+descriptor}
+\item 
+static \\*
+com.\+google.\+protobuf.\+Generated\+Message.\+Field\+Accessor\+Table \hyperlink{classeu_1_1uloop_1_1messages_1_1UloopMessages_ac5eadf2024818c42a966293a0e8913f3}{internal\+\_\+static\+\_\+\+Trust\+Information\+Reply\+\_\+field\+Accessor\+Table}
+\item 
+static \\*
+com.\+google.\+protobuf.\+Descriptors.\+Descriptor \hyperlink{classeu_1_1uloop_1_1messages_1_1UloopMessages_a437d118939f90ea7390b61e9b6d1f14f}{internal\+\_\+static\+\_\+\+Resource\+Message\+\_\+descriptor}
+\item 
+static \\*
+com.\+google.\+protobuf.\+Generated\+Message.\+Field\+Accessor\+Table \hyperlink{classeu_1_1uloop_1_1messages_1_1UloopMessages_a779fc46d71f92f0e1a202d24851d6d12}{internal\+\_\+static\+\_\+\+Resource\+Message\+\_\+field\+Accessor\+Table}
+\item 
+static \\*
+com.\+google.\+protobuf.\+Descriptors.\+Descriptor \hyperlink{classeu_1_1uloop_1_1messages_1_1UloopMessages_a6c5e33e803615ad68afaa7964ddbccf4}{internal\+\_\+static\+\_\+\+Enough\+Resources\+Message\+Request\+\_\+descriptor}
+\item 
+static \\*
+com.\+google.\+protobuf.\+Generated\+Message.\+Field\+Accessor\+Table \hyperlink{classeu_1_1uloop_1_1messages_1_1UloopMessages_ac36c402f4d353cb8cfc600c251418f26}{internal\+\_\+static\+\_\+\+Enough\+Resources\+Message\+Request\+\_\+field\+Accessor\+Table}
+\item 
+static \\*
+com.\+google.\+protobuf.\+Descriptors.\+Descriptor \hyperlink{classeu_1_1uloop_1_1messages_1_1UloopMessages_a2c059efcf8b7786c85652dc9d00807d0}{internal\+\_\+static\+\_\+\+Enough\+Resources\+Message\+Reply\+\_\+descriptor}
+\item 
+static \\*
+com.\+google.\+protobuf.\+Generated\+Message.\+Field\+Accessor\+Table \hyperlink{classeu_1_1uloop_1_1messages_1_1UloopMessages_ae18af8b65d7a3d8ef4178dd00f396109}{internal\+\_\+static\+\_\+\+Enough\+Resources\+Message\+Reply\+\_\+field\+Accessor\+Table}
+\item 
+static \\*
+com.\+google.\+protobuf.\+Descriptors.\+Descriptor \hyperlink{classeu_1_1uloop_1_1messages_1_1UloopMessages_a1548c25b1878ff52b1c429efb4114b47}{internal\+\_\+static\+\_\+\+Network\+Status\+Message\+\_\+descriptor}
+\item 
+static \\*
+com.\+google.\+protobuf.\+Generated\+Message.\+Field\+Accessor\+Table \hyperlink{classeu_1_1uloop_1_1messages_1_1UloopMessages_ad504a7f23c5c2472dbb3f0dfe4d5ecf2}{internal\+\_\+static\+\_\+\+Network\+Status\+Message\+\_\+field\+Accessor\+Table}
+\item 
+static \\*
+com.\+google.\+protobuf.\+Descriptors.\+Descriptor \hyperlink{classeu_1_1uloop_1_1messages_1_1UloopMessages_a9a9bfeab2ecc83a915fbe551f1270789}{internal\+\_\+static\+\_\+\+Network\+Status\+Message\+Reply\+\_\+descriptor}
+\item 
+static \\*
+com.\+google.\+protobuf.\+Generated\+Message.\+Field\+Accessor\+Table \hyperlink{classeu_1_1uloop_1_1messages_1_1UloopMessages_a714c29a2294a45a05d027ef6afa8b60f}{internal\+\_\+static\+\_\+\+Network\+Status\+Message\+Reply\+\_\+field\+Accessor\+Table}
+\item 
+static \\*
+com.\+google.\+protobuf.\+Descriptors.\+Descriptor \hyperlink{classeu_1_1uloop_1_1messages_1_1UloopMessages_aa8e4a3407f3edb922e57c52f9a5f9ebe}{internal\+\_\+static\+\_\+\+New\+User\+Details\+Message\+\_\+descriptor}
+\item 
+static \\*
+com.\+google.\+protobuf.\+Generated\+Message.\+Field\+Accessor\+Table \hyperlink{classeu_1_1uloop_1_1messages_1_1UloopMessages_acac2c9a7fd7c01c4deb1e5d69998d710}{internal\+\_\+static\+\_\+\+New\+User\+Details\+Message\+\_\+field\+Accessor\+Table}
+\item 
+static \\*
+com.\+google.\+protobuf.\+Descriptors.\+Descriptor \hyperlink{classeu_1_1uloop_1_1messages_1_1UloopMessages_af9aa28de37b70f0216665c987c4b9ee7}{internal\+\_\+static\+\_\+\+Enough\+Resources\+C\+A\+C\+Reply\+\_\+descriptor}
+\item 
+static \\*
+com.\+google.\+protobuf.\+Generated\+Message.\+Field\+Accessor\+Table \hyperlink{classeu_1_1uloop_1_1messages_1_1UloopMessages_a2ba2dbf4bfc8a06d95883aeb423ed5a8}{internal\+\_\+static\+\_\+\+Enough\+Resources\+C\+A\+C\+Reply\+\_\+field\+Accessor\+Table}
+\item 
+static \\*
+com.\+google.\+protobuf.\+Descriptors.\+Descriptor \hyperlink{classeu_1_1uloop_1_1messages_1_1UloopMessages_a71572f7b64f17621962caf1d60d6d0ce}{internal\+\_\+static\+\_\+\+Qo\+S\+Tuple\+\_\+descriptor}
+\item 
+static \\*
+com.\+google.\+protobuf.\+Generated\+Message.\+Field\+Accessor\+Table \hyperlink{classeu_1_1uloop_1_1messages_1_1UloopMessages_adc5d5ba5d04a4bad68a4e5a1cc834291}{internal\+\_\+static\+\_\+\+Qo\+S\+Tuple\+\_\+field\+Accessor\+Table}
+\item 
+static \\*
+com.\+google.\+protobuf.\+Descriptors.\+Descriptor \hyperlink{classeu_1_1uloop_1_1messages_1_1UloopMessages_a03694238d664803cb53995373081e55b}{internal\+\_\+static\+\_\+\+Qos\+Request\+\_\+descriptor}
+\item 
+static \\*
+com.\+google.\+protobuf.\+Generated\+Message.\+Field\+Accessor\+Table \hyperlink{classeu_1_1uloop_1_1messages_1_1UloopMessages_ad85d8a775bb9eeb1654ab1b19f5840ea}{internal\+\_\+static\+\_\+\+Qos\+Request\+\_\+field\+Accessor\+Table}
+\item 
+static \\*
+com.\+google.\+protobuf.\+Descriptors.\+Descriptor \hyperlink{classeu_1_1uloop_1_1messages_1_1UloopMessages_a8415c0ad79f3b9782444e4077ab76783}{internal\+\_\+static\+\_\+\+Qo\+S\+Message\+\_\+descriptor}
+\item 
+static \\*
+com.\+google.\+protobuf.\+Generated\+Message.\+Field\+Accessor\+Table \hyperlink{classeu_1_1uloop_1_1messages_1_1UloopMessages_a84f90631f9e489032752d82274ff45ce}{internal\+\_\+static\+\_\+\+Qo\+S\+Message\+\_\+field\+Accessor\+Table}
+\item 
+static \\*
+com.\+google.\+protobuf.\+Descriptors.\+Descriptor \hyperlink{classeu_1_1uloop_1_1messages_1_1UloopMessages_a222acc27e2fff15cbd453c3b3e9d1021}{internal\+\_\+static\+\_\+\+Service\+Message\+\_\+descriptor}
+\item 
+static \\*
+com.\+google.\+protobuf.\+Generated\+Message.\+Field\+Accessor\+Table \hyperlink{classeu_1_1uloop_1_1messages_1_1UloopMessages_a93347f1c47043928d4fcd134acde5089}{internal\+\_\+static\+\_\+\+Service\+Message\+\_\+field\+Accessor\+Table}
+\item 
+static \\*
+com.\+google.\+protobuf.\+Descriptors.\+Descriptor \hyperlink{classeu_1_1uloop_1_1messages_1_1UloopMessages_a059c423d6c15676f8b44e8d9325a9f70}{internal\+\_\+static\+\_\+\+Service\+Request\+\_\+descriptor}
+\item 
+static \\*
+com.\+google.\+protobuf.\+Generated\+Message.\+Field\+Accessor\+Table \hyperlink{classeu_1_1uloop_1_1messages_1_1UloopMessages_a4cf92dd9b6666ccc757b25a4715fc139}{internal\+\_\+static\+\_\+\+Service\+Request\+\_\+field\+Accessor\+Table}
+\item 
+static \\*
+com.\+google.\+protobuf.\+Descriptors.\+Descriptor \hyperlink{classeu_1_1uloop_1_1messages_1_1UloopMessages_a6f7c2ff86a5562aefdb693f28f9599d8}{internal\+\_\+static\+\_\+\+Service\+Reply\+\_\+descriptor}
+\item 
+static \\*
+com.\+google.\+protobuf.\+Generated\+Message.\+Field\+Accessor\+Table \hyperlink{classeu_1_1uloop_1_1messages_1_1UloopMessages_a5877368b1e1fbe2f8f127789c85786b7}{internal\+\_\+static\+\_\+\+Service\+Reply\+\_\+field\+Accessor\+Table}
+\item 
+static \\*
+com.\+google.\+protobuf.\+Descriptors.\+Descriptor \hyperlink{classeu_1_1uloop_1_1messages_1_1UloopMessages_a089623dfd6fb18d666d480858aeb31f9}{internal\+\_\+static\+\_\+\+Service\+Update\+\_\+descriptor}
+\item 
+static \\*
+com.\+google.\+protobuf.\+Generated\+Message.\+Field\+Accessor\+Table \hyperlink{classeu_1_1uloop_1_1messages_1_1UloopMessages_a2d99a386e4eed12f8c841d85687ba392}{internal\+\_\+static\+\_\+\+Service\+Update\+\_\+field\+Accessor\+Table}
+\item 
+static \\*
+com.\+google.\+protobuf.\+Descriptors.\+Descriptor \hyperlink{classeu_1_1uloop_1_1messages_1_1UloopMessages_a76ed45449af8022294150fafbb8ae52f}{internal\+\_\+static\+\_\+\+M\+Tracker\+Predicted\+Move\+\_\+descriptor}
+\item 
+static \\*
+com.\+google.\+protobuf.\+Generated\+Message.\+Field\+Accessor\+Table \hyperlink{classeu_1_1uloop_1_1messages_1_1UloopMessages_a34b19abab07a6d39fe629c7673cf27d2}{internal\+\_\+static\+\_\+\+M\+Tracker\+Predicted\+Move\+\_\+field\+Accessor\+Table}
+\item 
+static \\*
+com.\+google.\+protobuf.\+Descriptors.\+Descriptor \hyperlink{classeu_1_1uloop_1_1messages_1_1UloopMessages_a63af724585d58cde5017afa1ec20e247}{internal\+\_\+static\+\_\+\+M\+Tracker\+Message\+\_\+descriptor}
+\item 
+static \\*
+com.\+google.\+protobuf.\+Generated\+Message.\+Field\+Accessor\+Table \hyperlink{classeu_1_1uloop_1_1messages_1_1UloopMessages_ad10baa33ecd408dc08fc596a1bb9d5bc}{internal\+\_\+static\+\_\+\+M\+Tracker\+Message\+\_\+field\+Accessor\+Table}
+\item 
+static \\*
+com.\+google.\+protobuf.\+Descriptors.\+File\+Descriptor \hyperlink{classeu_1_1uloop_1_1messages_1_1UloopMessages_af51f042b34b6d2f834014b5dc697e6f5}{descriptor}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classeu_1_1uloop_1_1messages_1_1UloopMessages_a76633ecab518a92765e1cda2be7ac933}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}!Uloop\+Messages@{Uloop\+Messages}}
+\index{Uloop\+Messages@{Uloop\+Messages}!eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}}
+\subsubsection[{Uloop\+Messages}]{\setlength{\rightskip}{0pt plus 5cm}eu.\+uloop.\+messages.\+Uloop\+Messages.\+Uloop\+Messages (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classeu_1_1uloop_1_1messages_1_1UloopMessages_a76633ecab518a92765e1cda2be7ac933}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classeu_1_1uloop_1_1messages_1_1UloopMessages_a85f9353364f660f87e8add6b72f2764d}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}!get\+Descriptor@{get\+Descriptor}}
+\index{get\+Descriptor@{get\+Descriptor}!eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}}
+\subsubsection[{get\+Descriptor}]{\setlength{\rightskip}{0pt plus 5cm}static com.\+google.\+protobuf.\+Descriptors.\+File\+Descriptor eu.\+uloop.\+messages.\+Uloop\+Messages.\+get\+Descriptor (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{classeu_1_1uloop_1_1messages_1_1UloopMessages_a85f9353364f660f87e8add6b72f2764d}
+\hypertarget{classeu_1_1uloop_1_1messages_1_1UloopMessages_ae0d6da89089f061c824359536d2bf306}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}!register\+All\+Extensions@{register\+All\+Extensions}}
+\index{register\+All\+Extensions@{register\+All\+Extensions}!eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}}
+\subsubsection[{register\+All\+Extensions}]{\setlength{\rightskip}{0pt plus 5cm}static void eu.\+uloop.\+messages.\+Uloop\+Messages.\+register\+All\+Extensions (
+\begin{DoxyParamCaption}
+\item[{com.\+google.\+protobuf.\+Extension\+Registry}]{registry}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{classeu_1_1uloop_1_1messages_1_1UloopMessages_ae0d6da89089f061c824359536d2bf306}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classeu_1_1uloop_1_1messages_1_1UloopMessages_af51f042b34b6d2f834014b5dc697e6f5}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}!descriptor@{descriptor}}
+\index{descriptor@{descriptor}!eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}}
+\subsubsection[{descriptor}]{\setlength{\rightskip}{0pt plus 5cm}com.\+google.\+protobuf.\+Descriptors.\+File\+Descriptor eu.\+uloop.\+messages.\+Uloop\+Messages.\+descriptor\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classeu_1_1uloop_1_1messages_1_1UloopMessages_af51f042b34b6d2f834014b5dc697e6f5}
+\hypertarget{classeu_1_1uloop_1_1messages_1_1UloopMessages_af9aa28de37b70f0216665c987c4b9ee7}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}!internal\+\_\+static\+\_\+\+Enough\+Resources\+C\+A\+C\+Reply\+\_\+descriptor@{internal\+\_\+static\+\_\+\+Enough\+Resources\+C\+A\+C\+Reply\+\_\+descriptor}}
+\index{internal\+\_\+static\+\_\+\+Enough\+Resources\+C\+A\+C\+Reply\+\_\+descriptor@{internal\+\_\+static\+\_\+\+Enough\+Resources\+C\+A\+C\+Reply\+\_\+descriptor}!eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}}
+\subsubsection[{internal\+\_\+static\+\_\+\+Enough\+Resources\+C\+A\+C\+Reply\+\_\+descriptor}]{\setlength{\rightskip}{0pt plus 5cm}com.\+google.\+protobuf.\+Descriptors.\+Descriptor eu.\+uloop.\+messages.\+Uloop\+Messages.\+internal\+\_\+static\+\_\+\+Enough\+Resources\+C\+A\+C\+Reply\+\_\+descriptor\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classeu_1_1uloop_1_1messages_1_1UloopMessages_af9aa28de37b70f0216665c987c4b9ee7}
+\hypertarget{classeu_1_1uloop_1_1messages_1_1UloopMessages_a2ba2dbf4bfc8a06d95883aeb423ed5a8}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}!internal\+\_\+static\+\_\+\+Enough\+Resources\+C\+A\+C\+Reply\+\_\+field\+Accessor\+Table@{internal\+\_\+static\+\_\+\+Enough\+Resources\+C\+A\+C\+Reply\+\_\+field\+Accessor\+Table}}
+\index{internal\+\_\+static\+\_\+\+Enough\+Resources\+C\+A\+C\+Reply\+\_\+field\+Accessor\+Table@{internal\+\_\+static\+\_\+\+Enough\+Resources\+C\+A\+C\+Reply\+\_\+field\+Accessor\+Table}!eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}}
+\subsubsection[{internal\+\_\+static\+\_\+\+Enough\+Resources\+C\+A\+C\+Reply\+\_\+field\+Accessor\+Table}]{\setlength{\rightskip}{0pt plus 5cm}com.\+google.\+protobuf.\+Generated\+Message.\+Field\+Accessor\+Table eu.\+uloop.\+messages.\+Uloop\+Messages.\+internal\+\_\+static\+\_\+\+Enough\+Resources\+C\+A\+C\+Reply\+\_\+field\+Accessor\+Table\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classeu_1_1uloop_1_1messages_1_1UloopMessages_a2ba2dbf4bfc8a06d95883aeb423ed5a8}
+\hypertarget{classeu_1_1uloop_1_1messages_1_1UloopMessages_a2c059efcf8b7786c85652dc9d00807d0}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}!internal\+\_\+static\+\_\+\+Enough\+Resources\+Message\+Reply\+\_\+descriptor@{internal\+\_\+static\+\_\+\+Enough\+Resources\+Message\+Reply\+\_\+descriptor}}
+\index{internal\+\_\+static\+\_\+\+Enough\+Resources\+Message\+Reply\+\_\+descriptor@{internal\+\_\+static\+\_\+\+Enough\+Resources\+Message\+Reply\+\_\+descriptor}!eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}}
+\subsubsection[{internal\+\_\+static\+\_\+\+Enough\+Resources\+Message\+Reply\+\_\+descriptor}]{\setlength{\rightskip}{0pt plus 5cm}com.\+google.\+protobuf.\+Descriptors.\+Descriptor eu.\+uloop.\+messages.\+Uloop\+Messages.\+internal\+\_\+static\+\_\+\+Enough\+Resources\+Message\+Reply\+\_\+descriptor\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classeu_1_1uloop_1_1messages_1_1UloopMessages_a2c059efcf8b7786c85652dc9d00807d0}
+\hypertarget{classeu_1_1uloop_1_1messages_1_1UloopMessages_ae18af8b65d7a3d8ef4178dd00f396109}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}!internal\+\_\+static\+\_\+\+Enough\+Resources\+Message\+Reply\+\_\+field\+Accessor\+Table@{internal\+\_\+static\+\_\+\+Enough\+Resources\+Message\+Reply\+\_\+field\+Accessor\+Table}}
+\index{internal\+\_\+static\+\_\+\+Enough\+Resources\+Message\+Reply\+\_\+field\+Accessor\+Table@{internal\+\_\+static\+\_\+\+Enough\+Resources\+Message\+Reply\+\_\+field\+Accessor\+Table}!eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}}
+\subsubsection[{internal\+\_\+static\+\_\+\+Enough\+Resources\+Message\+Reply\+\_\+field\+Accessor\+Table}]{\setlength{\rightskip}{0pt plus 5cm}com.\+google.\+protobuf.\+Generated\+Message.\+Field\+Accessor\+Table eu.\+uloop.\+messages.\+Uloop\+Messages.\+internal\+\_\+static\+\_\+\+Enough\+Resources\+Message\+Reply\+\_\+field\+Accessor\+Table\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classeu_1_1uloop_1_1messages_1_1UloopMessages_ae18af8b65d7a3d8ef4178dd00f396109}
+\hypertarget{classeu_1_1uloop_1_1messages_1_1UloopMessages_a6c5e33e803615ad68afaa7964ddbccf4}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}!internal\+\_\+static\+\_\+\+Enough\+Resources\+Message\+Request\+\_\+descriptor@{internal\+\_\+static\+\_\+\+Enough\+Resources\+Message\+Request\+\_\+descriptor}}
+\index{internal\+\_\+static\+\_\+\+Enough\+Resources\+Message\+Request\+\_\+descriptor@{internal\+\_\+static\+\_\+\+Enough\+Resources\+Message\+Request\+\_\+descriptor}!eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}}
+\subsubsection[{internal\+\_\+static\+\_\+\+Enough\+Resources\+Message\+Request\+\_\+descriptor}]{\setlength{\rightskip}{0pt plus 5cm}com.\+google.\+protobuf.\+Descriptors.\+Descriptor eu.\+uloop.\+messages.\+Uloop\+Messages.\+internal\+\_\+static\+\_\+\+Enough\+Resources\+Message\+Request\+\_\+descriptor\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classeu_1_1uloop_1_1messages_1_1UloopMessages_a6c5e33e803615ad68afaa7964ddbccf4}
+\hypertarget{classeu_1_1uloop_1_1messages_1_1UloopMessages_ac36c402f4d353cb8cfc600c251418f26}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}!internal\+\_\+static\+\_\+\+Enough\+Resources\+Message\+Request\+\_\+field\+Accessor\+Table@{internal\+\_\+static\+\_\+\+Enough\+Resources\+Message\+Request\+\_\+field\+Accessor\+Table}}
+\index{internal\+\_\+static\+\_\+\+Enough\+Resources\+Message\+Request\+\_\+field\+Accessor\+Table@{internal\+\_\+static\+\_\+\+Enough\+Resources\+Message\+Request\+\_\+field\+Accessor\+Table}!eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}}
+\subsubsection[{internal\+\_\+static\+\_\+\+Enough\+Resources\+Message\+Request\+\_\+field\+Accessor\+Table}]{\setlength{\rightskip}{0pt plus 5cm}com.\+google.\+protobuf.\+Generated\+Message.\+Field\+Accessor\+Table eu.\+uloop.\+messages.\+Uloop\+Messages.\+internal\+\_\+static\+\_\+\+Enough\+Resources\+Message\+Request\+\_\+field\+Accessor\+Table\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classeu_1_1uloop_1_1messages_1_1UloopMessages_ac36c402f4d353cb8cfc600c251418f26}
+\hypertarget{classeu_1_1uloop_1_1messages_1_1UloopMessages_a63af724585d58cde5017afa1ec20e247}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}!internal\+\_\+static\+\_\+\+M\+Tracker\+Message\+\_\+descriptor@{internal\+\_\+static\+\_\+\+M\+Tracker\+Message\+\_\+descriptor}}
+\index{internal\+\_\+static\+\_\+\+M\+Tracker\+Message\+\_\+descriptor@{internal\+\_\+static\+\_\+\+M\+Tracker\+Message\+\_\+descriptor}!eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}}
+\subsubsection[{internal\+\_\+static\+\_\+\+M\+Tracker\+Message\+\_\+descriptor}]{\setlength{\rightskip}{0pt plus 5cm}com.\+google.\+protobuf.\+Descriptors.\+Descriptor eu.\+uloop.\+messages.\+Uloop\+Messages.\+internal\+\_\+static\+\_\+\+M\+Tracker\+Message\+\_\+descriptor\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classeu_1_1uloop_1_1messages_1_1UloopMessages_a63af724585d58cde5017afa1ec20e247}
+\hypertarget{classeu_1_1uloop_1_1messages_1_1UloopMessages_ad10baa33ecd408dc08fc596a1bb9d5bc}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}!internal\+\_\+static\+\_\+\+M\+Tracker\+Message\+\_\+field\+Accessor\+Table@{internal\+\_\+static\+\_\+\+M\+Tracker\+Message\+\_\+field\+Accessor\+Table}}
+\index{internal\+\_\+static\+\_\+\+M\+Tracker\+Message\+\_\+field\+Accessor\+Table@{internal\+\_\+static\+\_\+\+M\+Tracker\+Message\+\_\+field\+Accessor\+Table}!eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}}
+\subsubsection[{internal\+\_\+static\+\_\+\+M\+Tracker\+Message\+\_\+field\+Accessor\+Table}]{\setlength{\rightskip}{0pt plus 5cm}com.\+google.\+protobuf.\+Generated\+Message.\+Field\+Accessor\+Table eu.\+uloop.\+messages.\+Uloop\+Messages.\+internal\+\_\+static\+\_\+\+M\+Tracker\+Message\+\_\+field\+Accessor\+Table\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classeu_1_1uloop_1_1messages_1_1UloopMessages_ad10baa33ecd408dc08fc596a1bb9d5bc}
+\hypertarget{classeu_1_1uloop_1_1messages_1_1UloopMessages_a76ed45449af8022294150fafbb8ae52f}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}!internal\+\_\+static\+\_\+\+M\+Tracker\+Predicted\+Move\+\_\+descriptor@{internal\+\_\+static\+\_\+\+M\+Tracker\+Predicted\+Move\+\_\+descriptor}}
+\index{internal\+\_\+static\+\_\+\+M\+Tracker\+Predicted\+Move\+\_\+descriptor@{internal\+\_\+static\+\_\+\+M\+Tracker\+Predicted\+Move\+\_\+descriptor}!eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}}
+\subsubsection[{internal\+\_\+static\+\_\+\+M\+Tracker\+Predicted\+Move\+\_\+descriptor}]{\setlength{\rightskip}{0pt plus 5cm}com.\+google.\+protobuf.\+Descriptors.\+Descriptor eu.\+uloop.\+messages.\+Uloop\+Messages.\+internal\+\_\+static\+\_\+\+M\+Tracker\+Predicted\+Move\+\_\+descriptor\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classeu_1_1uloop_1_1messages_1_1UloopMessages_a76ed45449af8022294150fafbb8ae52f}
+\hypertarget{classeu_1_1uloop_1_1messages_1_1UloopMessages_a34b19abab07a6d39fe629c7673cf27d2}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}!internal\+\_\+static\+\_\+\+M\+Tracker\+Predicted\+Move\+\_\+field\+Accessor\+Table@{internal\+\_\+static\+\_\+\+M\+Tracker\+Predicted\+Move\+\_\+field\+Accessor\+Table}}
+\index{internal\+\_\+static\+\_\+\+M\+Tracker\+Predicted\+Move\+\_\+field\+Accessor\+Table@{internal\+\_\+static\+\_\+\+M\+Tracker\+Predicted\+Move\+\_\+field\+Accessor\+Table}!eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}}
+\subsubsection[{internal\+\_\+static\+\_\+\+M\+Tracker\+Predicted\+Move\+\_\+field\+Accessor\+Table}]{\setlength{\rightskip}{0pt plus 5cm}com.\+google.\+protobuf.\+Generated\+Message.\+Field\+Accessor\+Table eu.\+uloop.\+messages.\+Uloop\+Messages.\+internal\+\_\+static\+\_\+\+M\+Tracker\+Predicted\+Move\+\_\+field\+Accessor\+Table\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classeu_1_1uloop_1_1messages_1_1UloopMessages_a34b19abab07a6d39fe629c7673cf27d2}
+\hypertarget{classeu_1_1uloop_1_1messages_1_1UloopMessages_a1548c25b1878ff52b1c429efb4114b47}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}!internal\+\_\+static\+\_\+\+Network\+Status\+Message\+\_\+descriptor@{internal\+\_\+static\+\_\+\+Network\+Status\+Message\+\_\+descriptor}}
+\index{internal\+\_\+static\+\_\+\+Network\+Status\+Message\+\_\+descriptor@{internal\+\_\+static\+\_\+\+Network\+Status\+Message\+\_\+descriptor}!eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}}
+\subsubsection[{internal\+\_\+static\+\_\+\+Network\+Status\+Message\+\_\+descriptor}]{\setlength{\rightskip}{0pt plus 5cm}com.\+google.\+protobuf.\+Descriptors.\+Descriptor eu.\+uloop.\+messages.\+Uloop\+Messages.\+internal\+\_\+static\+\_\+\+Network\+Status\+Message\+\_\+descriptor\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classeu_1_1uloop_1_1messages_1_1UloopMessages_a1548c25b1878ff52b1c429efb4114b47}
+\hypertarget{classeu_1_1uloop_1_1messages_1_1UloopMessages_ad504a7f23c5c2472dbb3f0dfe4d5ecf2}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}!internal\+\_\+static\+\_\+\+Network\+Status\+Message\+\_\+field\+Accessor\+Table@{internal\+\_\+static\+\_\+\+Network\+Status\+Message\+\_\+field\+Accessor\+Table}}
+\index{internal\+\_\+static\+\_\+\+Network\+Status\+Message\+\_\+field\+Accessor\+Table@{internal\+\_\+static\+\_\+\+Network\+Status\+Message\+\_\+field\+Accessor\+Table}!eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}}
+\subsubsection[{internal\+\_\+static\+\_\+\+Network\+Status\+Message\+\_\+field\+Accessor\+Table}]{\setlength{\rightskip}{0pt plus 5cm}com.\+google.\+protobuf.\+Generated\+Message.\+Field\+Accessor\+Table eu.\+uloop.\+messages.\+Uloop\+Messages.\+internal\+\_\+static\+\_\+\+Network\+Status\+Message\+\_\+field\+Accessor\+Table\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classeu_1_1uloop_1_1messages_1_1UloopMessages_ad504a7f23c5c2472dbb3f0dfe4d5ecf2}
+\hypertarget{classeu_1_1uloop_1_1messages_1_1UloopMessages_a9a9bfeab2ecc83a915fbe551f1270789}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}!internal\+\_\+static\+\_\+\+Network\+Status\+Message\+Reply\+\_\+descriptor@{internal\+\_\+static\+\_\+\+Network\+Status\+Message\+Reply\+\_\+descriptor}}
+\index{internal\+\_\+static\+\_\+\+Network\+Status\+Message\+Reply\+\_\+descriptor@{internal\+\_\+static\+\_\+\+Network\+Status\+Message\+Reply\+\_\+descriptor}!eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}}
+\subsubsection[{internal\+\_\+static\+\_\+\+Network\+Status\+Message\+Reply\+\_\+descriptor}]{\setlength{\rightskip}{0pt plus 5cm}com.\+google.\+protobuf.\+Descriptors.\+Descriptor eu.\+uloop.\+messages.\+Uloop\+Messages.\+internal\+\_\+static\+\_\+\+Network\+Status\+Message\+Reply\+\_\+descriptor\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classeu_1_1uloop_1_1messages_1_1UloopMessages_a9a9bfeab2ecc83a915fbe551f1270789}
+\hypertarget{classeu_1_1uloop_1_1messages_1_1UloopMessages_a714c29a2294a45a05d027ef6afa8b60f}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}!internal\+\_\+static\+\_\+\+Network\+Status\+Message\+Reply\+\_\+field\+Accessor\+Table@{internal\+\_\+static\+\_\+\+Network\+Status\+Message\+Reply\+\_\+field\+Accessor\+Table}}
+\index{internal\+\_\+static\+\_\+\+Network\+Status\+Message\+Reply\+\_\+field\+Accessor\+Table@{internal\+\_\+static\+\_\+\+Network\+Status\+Message\+Reply\+\_\+field\+Accessor\+Table}!eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}}
+\subsubsection[{internal\+\_\+static\+\_\+\+Network\+Status\+Message\+Reply\+\_\+field\+Accessor\+Table}]{\setlength{\rightskip}{0pt plus 5cm}com.\+google.\+protobuf.\+Generated\+Message.\+Field\+Accessor\+Table eu.\+uloop.\+messages.\+Uloop\+Messages.\+internal\+\_\+static\+\_\+\+Network\+Status\+Message\+Reply\+\_\+field\+Accessor\+Table\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classeu_1_1uloop_1_1messages_1_1UloopMessages_a714c29a2294a45a05d027ef6afa8b60f}
+\hypertarget{classeu_1_1uloop_1_1messages_1_1UloopMessages_aa8e4a3407f3edb922e57c52f9a5f9ebe}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}!internal\+\_\+static\+\_\+\+New\+User\+Details\+Message\+\_\+descriptor@{internal\+\_\+static\+\_\+\+New\+User\+Details\+Message\+\_\+descriptor}}
+\index{internal\+\_\+static\+\_\+\+New\+User\+Details\+Message\+\_\+descriptor@{internal\+\_\+static\+\_\+\+New\+User\+Details\+Message\+\_\+descriptor}!eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}}
+\subsubsection[{internal\+\_\+static\+\_\+\+New\+User\+Details\+Message\+\_\+descriptor}]{\setlength{\rightskip}{0pt plus 5cm}com.\+google.\+protobuf.\+Descriptors.\+Descriptor eu.\+uloop.\+messages.\+Uloop\+Messages.\+internal\+\_\+static\+\_\+\+New\+User\+Details\+Message\+\_\+descriptor\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classeu_1_1uloop_1_1messages_1_1UloopMessages_aa8e4a3407f3edb922e57c52f9a5f9ebe}
+\hypertarget{classeu_1_1uloop_1_1messages_1_1UloopMessages_acac2c9a7fd7c01c4deb1e5d69998d710}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}!internal\+\_\+static\+\_\+\+New\+User\+Details\+Message\+\_\+field\+Accessor\+Table@{internal\+\_\+static\+\_\+\+New\+User\+Details\+Message\+\_\+field\+Accessor\+Table}}
+\index{internal\+\_\+static\+\_\+\+New\+User\+Details\+Message\+\_\+field\+Accessor\+Table@{internal\+\_\+static\+\_\+\+New\+User\+Details\+Message\+\_\+field\+Accessor\+Table}!eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}}
+\subsubsection[{internal\+\_\+static\+\_\+\+New\+User\+Details\+Message\+\_\+field\+Accessor\+Table}]{\setlength{\rightskip}{0pt plus 5cm}com.\+google.\+protobuf.\+Generated\+Message.\+Field\+Accessor\+Table eu.\+uloop.\+messages.\+Uloop\+Messages.\+internal\+\_\+static\+\_\+\+New\+User\+Details\+Message\+\_\+field\+Accessor\+Table\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classeu_1_1uloop_1_1messages_1_1UloopMessages_acac2c9a7fd7c01c4deb1e5d69998d710}
+\hypertarget{classeu_1_1uloop_1_1messages_1_1UloopMessages_a8415c0ad79f3b9782444e4077ab76783}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}!internal\+\_\+static\+\_\+\+Qo\+S\+Message\+\_\+descriptor@{internal\+\_\+static\+\_\+\+Qo\+S\+Message\+\_\+descriptor}}
+\index{internal\+\_\+static\+\_\+\+Qo\+S\+Message\+\_\+descriptor@{internal\+\_\+static\+\_\+\+Qo\+S\+Message\+\_\+descriptor}!eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}}
+\subsubsection[{internal\+\_\+static\+\_\+\+Qo\+S\+Message\+\_\+descriptor}]{\setlength{\rightskip}{0pt plus 5cm}com.\+google.\+protobuf.\+Descriptors.\+Descriptor eu.\+uloop.\+messages.\+Uloop\+Messages.\+internal\+\_\+static\+\_\+\+Qo\+S\+Message\+\_\+descriptor\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classeu_1_1uloop_1_1messages_1_1UloopMessages_a8415c0ad79f3b9782444e4077ab76783}
+\hypertarget{classeu_1_1uloop_1_1messages_1_1UloopMessages_a84f90631f9e489032752d82274ff45ce}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}!internal\+\_\+static\+\_\+\+Qo\+S\+Message\+\_\+field\+Accessor\+Table@{internal\+\_\+static\+\_\+\+Qo\+S\+Message\+\_\+field\+Accessor\+Table}}
+\index{internal\+\_\+static\+\_\+\+Qo\+S\+Message\+\_\+field\+Accessor\+Table@{internal\+\_\+static\+\_\+\+Qo\+S\+Message\+\_\+field\+Accessor\+Table}!eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}}
+\subsubsection[{internal\+\_\+static\+\_\+\+Qo\+S\+Message\+\_\+field\+Accessor\+Table}]{\setlength{\rightskip}{0pt plus 5cm}com.\+google.\+protobuf.\+Generated\+Message.\+Field\+Accessor\+Table eu.\+uloop.\+messages.\+Uloop\+Messages.\+internal\+\_\+static\+\_\+\+Qo\+S\+Message\+\_\+field\+Accessor\+Table\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classeu_1_1uloop_1_1messages_1_1UloopMessages_a84f90631f9e489032752d82274ff45ce}
+\hypertarget{classeu_1_1uloop_1_1messages_1_1UloopMessages_a03694238d664803cb53995373081e55b}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}!internal\+\_\+static\+\_\+\+Qos\+Request\+\_\+descriptor@{internal\+\_\+static\+\_\+\+Qos\+Request\+\_\+descriptor}}
+\index{internal\+\_\+static\+\_\+\+Qos\+Request\+\_\+descriptor@{internal\+\_\+static\+\_\+\+Qos\+Request\+\_\+descriptor}!eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}}
+\subsubsection[{internal\+\_\+static\+\_\+\+Qos\+Request\+\_\+descriptor}]{\setlength{\rightskip}{0pt plus 5cm}com.\+google.\+protobuf.\+Descriptors.\+Descriptor eu.\+uloop.\+messages.\+Uloop\+Messages.\+internal\+\_\+static\+\_\+\+Qos\+Request\+\_\+descriptor\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classeu_1_1uloop_1_1messages_1_1UloopMessages_a03694238d664803cb53995373081e55b}
+\hypertarget{classeu_1_1uloop_1_1messages_1_1UloopMessages_ad85d8a775bb9eeb1654ab1b19f5840ea}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}!internal\+\_\+static\+\_\+\+Qos\+Request\+\_\+field\+Accessor\+Table@{internal\+\_\+static\+\_\+\+Qos\+Request\+\_\+field\+Accessor\+Table}}
+\index{internal\+\_\+static\+\_\+\+Qos\+Request\+\_\+field\+Accessor\+Table@{internal\+\_\+static\+\_\+\+Qos\+Request\+\_\+field\+Accessor\+Table}!eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}}
+\subsubsection[{internal\+\_\+static\+\_\+\+Qos\+Request\+\_\+field\+Accessor\+Table}]{\setlength{\rightskip}{0pt plus 5cm}com.\+google.\+protobuf.\+Generated\+Message.\+Field\+Accessor\+Table eu.\+uloop.\+messages.\+Uloop\+Messages.\+internal\+\_\+static\+\_\+\+Qos\+Request\+\_\+field\+Accessor\+Table\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classeu_1_1uloop_1_1messages_1_1UloopMessages_ad85d8a775bb9eeb1654ab1b19f5840ea}
+\hypertarget{classeu_1_1uloop_1_1messages_1_1UloopMessages_a71572f7b64f17621962caf1d60d6d0ce}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}!internal\+\_\+static\+\_\+\+Qo\+S\+Tuple\+\_\+descriptor@{internal\+\_\+static\+\_\+\+Qo\+S\+Tuple\+\_\+descriptor}}
+\index{internal\+\_\+static\+\_\+\+Qo\+S\+Tuple\+\_\+descriptor@{internal\+\_\+static\+\_\+\+Qo\+S\+Tuple\+\_\+descriptor}!eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}}
+\subsubsection[{internal\+\_\+static\+\_\+\+Qo\+S\+Tuple\+\_\+descriptor}]{\setlength{\rightskip}{0pt plus 5cm}com.\+google.\+protobuf.\+Descriptors.\+Descriptor eu.\+uloop.\+messages.\+Uloop\+Messages.\+internal\+\_\+static\+\_\+\+Qo\+S\+Tuple\+\_\+descriptor\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classeu_1_1uloop_1_1messages_1_1UloopMessages_a71572f7b64f17621962caf1d60d6d0ce}
+\hypertarget{classeu_1_1uloop_1_1messages_1_1UloopMessages_adc5d5ba5d04a4bad68a4e5a1cc834291}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}!internal\+\_\+static\+\_\+\+Qo\+S\+Tuple\+\_\+field\+Accessor\+Table@{internal\+\_\+static\+\_\+\+Qo\+S\+Tuple\+\_\+field\+Accessor\+Table}}
+\index{internal\+\_\+static\+\_\+\+Qo\+S\+Tuple\+\_\+field\+Accessor\+Table@{internal\+\_\+static\+\_\+\+Qo\+S\+Tuple\+\_\+field\+Accessor\+Table}!eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}}
+\subsubsection[{internal\+\_\+static\+\_\+\+Qo\+S\+Tuple\+\_\+field\+Accessor\+Table}]{\setlength{\rightskip}{0pt plus 5cm}com.\+google.\+protobuf.\+Generated\+Message.\+Field\+Accessor\+Table eu.\+uloop.\+messages.\+Uloop\+Messages.\+internal\+\_\+static\+\_\+\+Qo\+S\+Tuple\+\_\+field\+Accessor\+Table\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classeu_1_1uloop_1_1messages_1_1UloopMessages_adc5d5ba5d04a4bad68a4e5a1cc834291}
+\hypertarget{classeu_1_1uloop_1_1messages_1_1UloopMessages_a437d118939f90ea7390b61e9b6d1f14f}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}!internal\+\_\+static\+\_\+\+Resource\+Message\+\_\+descriptor@{internal\+\_\+static\+\_\+\+Resource\+Message\+\_\+descriptor}}
+\index{internal\+\_\+static\+\_\+\+Resource\+Message\+\_\+descriptor@{internal\+\_\+static\+\_\+\+Resource\+Message\+\_\+descriptor}!eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}}
+\subsubsection[{internal\+\_\+static\+\_\+\+Resource\+Message\+\_\+descriptor}]{\setlength{\rightskip}{0pt plus 5cm}com.\+google.\+protobuf.\+Descriptors.\+Descriptor eu.\+uloop.\+messages.\+Uloop\+Messages.\+internal\+\_\+static\+\_\+\+Resource\+Message\+\_\+descriptor\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classeu_1_1uloop_1_1messages_1_1UloopMessages_a437d118939f90ea7390b61e9b6d1f14f}
+\hypertarget{classeu_1_1uloop_1_1messages_1_1UloopMessages_a779fc46d71f92f0e1a202d24851d6d12}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}!internal\+\_\+static\+\_\+\+Resource\+Message\+\_\+field\+Accessor\+Table@{internal\+\_\+static\+\_\+\+Resource\+Message\+\_\+field\+Accessor\+Table}}
+\index{internal\+\_\+static\+\_\+\+Resource\+Message\+\_\+field\+Accessor\+Table@{internal\+\_\+static\+\_\+\+Resource\+Message\+\_\+field\+Accessor\+Table}!eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}}
+\subsubsection[{internal\+\_\+static\+\_\+\+Resource\+Message\+\_\+field\+Accessor\+Table}]{\setlength{\rightskip}{0pt plus 5cm}com.\+google.\+protobuf.\+Generated\+Message.\+Field\+Accessor\+Table eu.\+uloop.\+messages.\+Uloop\+Messages.\+internal\+\_\+static\+\_\+\+Resource\+Message\+\_\+field\+Accessor\+Table\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classeu_1_1uloop_1_1messages_1_1UloopMessages_a779fc46d71f92f0e1a202d24851d6d12}
+\hypertarget{classeu_1_1uloop_1_1messages_1_1UloopMessages_a222acc27e2fff15cbd453c3b3e9d1021}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}!internal\+\_\+static\+\_\+\+Service\+Message\+\_\+descriptor@{internal\+\_\+static\+\_\+\+Service\+Message\+\_\+descriptor}}
+\index{internal\+\_\+static\+\_\+\+Service\+Message\+\_\+descriptor@{internal\+\_\+static\+\_\+\+Service\+Message\+\_\+descriptor}!eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}}
+\subsubsection[{internal\+\_\+static\+\_\+\+Service\+Message\+\_\+descriptor}]{\setlength{\rightskip}{0pt plus 5cm}com.\+google.\+protobuf.\+Descriptors.\+Descriptor eu.\+uloop.\+messages.\+Uloop\+Messages.\+internal\+\_\+static\+\_\+\+Service\+Message\+\_\+descriptor\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classeu_1_1uloop_1_1messages_1_1UloopMessages_a222acc27e2fff15cbd453c3b3e9d1021}
+\hypertarget{classeu_1_1uloop_1_1messages_1_1UloopMessages_a93347f1c47043928d4fcd134acde5089}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}!internal\+\_\+static\+\_\+\+Service\+Message\+\_\+field\+Accessor\+Table@{internal\+\_\+static\+\_\+\+Service\+Message\+\_\+field\+Accessor\+Table}}
+\index{internal\+\_\+static\+\_\+\+Service\+Message\+\_\+field\+Accessor\+Table@{internal\+\_\+static\+\_\+\+Service\+Message\+\_\+field\+Accessor\+Table}!eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}}
+\subsubsection[{internal\+\_\+static\+\_\+\+Service\+Message\+\_\+field\+Accessor\+Table}]{\setlength{\rightskip}{0pt plus 5cm}com.\+google.\+protobuf.\+Generated\+Message.\+Field\+Accessor\+Table eu.\+uloop.\+messages.\+Uloop\+Messages.\+internal\+\_\+static\+\_\+\+Service\+Message\+\_\+field\+Accessor\+Table\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classeu_1_1uloop_1_1messages_1_1UloopMessages_a93347f1c47043928d4fcd134acde5089}
+\hypertarget{classeu_1_1uloop_1_1messages_1_1UloopMessages_a6f7c2ff86a5562aefdb693f28f9599d8}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}!internal\+\_\+static\+\_\+\+Service\+Reply\+\_\+descriptor@{internal\+\_\+static\+\_\+\+Service\+Reply\+\_\+descriptor}}
+\index{internal\+\_\+static\+\_\+\+Service\+Reply\+\_\+descriptor@{internal\+\_\+static\+\_\+\+Service\+Reply\+\_\+descriptor}!eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}}
+\subsubsection[{internal\+\_\+static\+\_\+\+Service\+Reply\+\_\+descriptor}]{\setlength{\rightskip}{0pt plus 5cm}com.\+google.\+protobuf.\+Descriptors.\+Descriptor eu.\+uloop.\+messages.\+Uloop\+Messages.\+internal\+\_\+static\+\_\+\+Service\+Reply\+\_\+descriptor\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classeu_1_1uloop_1_1messages_1_1UloopMessages_a6f7c2ff86a5562aefdb693f28f9599d8}
+\hypertarget{classeu_1_1uloop_1_1messages_1_1UloopMessages_a5877368b1e1fbe2f8f127789c85786b7}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}!internal\+\_\+static\+\_\+\+Service\+Reply\+\_\+field\+Accessor\+Table@{internal\+\_\+static\+\_\+\+Service\+Reply\+\_\+field\+Accessor\+Table}}
+\index{internal\+\_\+static\+\_\+\+Service\+Reply\+\_\+field\+Accessor\+Table@{internal\+\_\+static\+\_\+\+Service\+Reply\+\_\+field\+Accessor\+Table}!eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}}
+\subsubsection[{internal\+\_\+static\+\_\+\+Service\+Reply\+\_\+field\+Accessor\+Table}]{\setlength{\rightskip}{0pt plus 5cm}com.\+google.\+protobuf.\+Generated\+Message.\+Field\+Accessor\+Table eu.\+uloop.\+messages.\+Uloop\+Messages.\+internal\+\_\+static\+\_\+\+Service\+Reply\+\_\+field\+Accessor\+Table\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classeu_1_1uloop_1_1messages_1_1UloopMessages_a5877368b1e1fbe2f8f127789c85786b7}
+\hypertarget{classeu_1_1uloop_1_1messages_1_1UloopMessages_a059c423d6c15676f8b44e8d9325a9f70}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}!internal\+\_\+static\+\_\+\+Service\+Request\+\_\+descriptor@{internal\+\_\+static\+\_\+\+Service\+Request\+\_\+descriptor}}
+\index{internal\+\_\+static\+\_\+\+Service\+Request\+\_\+descriptor@{internal\+\_\+static\+\_\+\+Service\+Request\+\_\+descriptor}!eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}}
+\subsubsection[{internal\+\_\+static\+\_\+\+Service\+Request\+\_\+descriptor}]{\setlength{\rightskip}{0pt plus 5cm}com.\+google.\+protobuf.\+Descriptors.\+Descriptor eu.\+uloop.\+messages.\+Uloop\+Messages.\+internal\+\_\+static\+\_\+\+Service\+Request\+\_\+descriptor\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classeu_1_1uloop_1_1messages_1_1UloopMessages_a059c423d6c15676f8b44e8d9325a9f70}
+\hypertarget{classeu_1_1uloop_1_1messages_1_1UloopMessages_a4cf92dd9b6666ccc757b25a4715fc139}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}!internal\+\_\+static\+\_\+\+Service\+Request\+\_\+field\+Accessor\+Table@{internal\+\_\+static\+\_\+\+Service\+Request\+\_\+field\+Accessor\+Table}}
+\index{internal\+\_\+static\+\_\+\+Service\+Request\+\_\+field\+Accessor\+Table@{internal\+\_\+static\+\_\+\+Service\+Request\+\_\+field\+Accessor\+Table}!eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}}
+\subsubsection[{internal\+\_\+static\+\_\+\+Service\+Request\+\_\+field\+Accessor\+Table}]{\setlength{\rightskip}{0pt plus 5cm}com.\+google.\+protobuf.\+Generated\+Message.\+Field\+Accessor\+Table eu.\+uloop.\+messages.\+Uloop\+Messages.\+internal\+\_\+static\+\_\+\+Service\+Request\+\_\+field\+Accessor\+Table\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classeu_1_1uloop_1_1messages_1_1UloopMessages_a4cf92dd9b6666ccc757b25a4715fc139}
+\hypertarget{classeu_1_1uloop_1_1messages_1_1UloopMessages_a089623dfd6fb18d666d480858aeb31f9}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}!internal\+\_\+static\+\_\+\+Service\+Update\+\_\+descriptor@{internal\+\_\+static\+\_\+\+Service\+Update\+\_\+descriptor}}
+\index{internal\+\_\+static\+\_\+\+Service\+Update\+\_\+descriptor@{internal\+\_\+static\+\_\+\+Service\+Update\+\_\+descriptor}!eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}}
+\subsubsection[{internal\+\_\+static\+\_\+\+Service\+Update\+\_\+descriptor}]{\setlength{\rightskip}{0pt plus 5cm}com.\+google.\+protobuf.\+Descriptors.\+Descriptor eu.\+uloop.\+messages.\+Uloop\+Messages.\+internal\+\_\+static\+\_\+\+Service\+Update\+\_\+descriptor\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classeu_1_1uloop_1_1messages_1_1UloopMessages_a089623dfd6fb18d666d480858aeb31f9}
+\hypertarget{classeu_1_1uloop_1_1messages_1_1UloopMessages_a2d99a386e4eed12f8c841d85687ba392}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}!internal\+\_\+static\+\_\+\+Service\+Update\+\_\+field\+Accessor\+Table@{internal\+\_\+static\+\_\+\+Service\+Update\+\_\+field\+Accessor\+Table}}
+\index{internal\+\_\+static\+\_\+\+Service\+Update\+\_\+field\+Accessor\+Table@{internal\+\_\+static\+\_\+\+Service\+Update\+\_\+field\+Accessor\+Table}!eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}}
+\subsubsection[{internal\+\_\+static\+\_\+\+Service\+Update\+\_\+field\+Accessor\+Table}]{\setlength{\rightskip}{0pt plus 5cm}com.\+google.\+protobuf.\+Generated\+Message.\+Field\+Accessor\+Table eu.\+uloop.\+messages.\+Uloop\+Messages.\+internal\+\_\+static\+\_\+\+Service\+Update\+\_\+field\+Accessor\+Table\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classeu_1_1uloop_1_1messages_1_1UloopMessages_a2d99a386e4eed12f8c841d85687ba392}
+\hypertarget{classeu_1_1uloop_1_1messages_1_1UloopMessages_a8422666b5aae3440210ca268f96b31fd}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}!internal\+\_\+static\+\_\+\+Trust\+Information\+Reply\+\_\+descriptor@{internal\+\_\+static\+\_\+\+Trust\+Information\+Reply\+\_\+descriptor}}
+\index{internal\+\_\+static\+\_\+\+Trust\+Information\+Reply\+\_\+descriptor@{internal\+\_\+static\+\_\+\+Trust\+Information\+Reply\+\_\+descriptor}!eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}}
+\subsubsection[{internal\+\_\+static\+\_\+\+Trust\+Information\+Reply\+\_\+descriptor}]{\setlength{\rightskip}{0pt plus 5cm}com.\+google.\+protobuf.\+Descriptors.\+Descriptor eu.\+uloop.\+messages.\+Uloop\+Messages.\+internal\+\_\+static\+\_\+\+Trust\+Information\+Reply\+\_\+descriptor\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classeu_1_1uloop_1_1messages_1_1UloopMessages_a8422666b5aae3440210ca268f96b31fd}
+\hypertarget{classeu_1_1uloop_1_1messages_1_1UloopMessages_ac5eadf2024818c42a966293a0e8913f3}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}!internal\+\_\+static\+\_\+\+Trust\+Information\+Reply\+\_\+field\+Accessor\+Table@{internal\+\_\+static\+\_\+\+Trust\+Information\+Reply\+\_\+field\+Accessor\+Table}}
+\index{internal\+\_\+static\+\_\+\+Trust\+Information\+Reply\+\_\+field\+Accessor\+Table@{internal\+\_\+static\+\_\+\+Trust\+Information\+Reply\+\_\+field\+Accessor\+Table}!eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}}
+\subsubsection[{internal\+\_\+static\+\_\+\+Trust\+Information\+Reply\+\_\+field\+Accessor\+Table}]{\setlength{\rightskip}{0pt plus 5cm}com.\+google.\+protobuf.\+Generated\+Message.\+Field\+Accessor\+Table eu.\+uloop.\+messages.\+Uloop\+Messages.\+internal\+\_\+static\+\_\+\+Trust\+Information\+Reply\+\_\+field\+Accessor\+Table\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classeu_1_1uloop_1_1messages_1_1UloopMessages_ac5eadf2024818c42a966293a0e8913f3}
+\hypertarget{classeu_1_1uloop_1_1messages_1_1UloopMessages_a895ebcb0f3a6f7aa01aa805496a74fee}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}!internal\+\_\+static\+\_\+\+Trust\+Information\+Request\+\_\+descriptor@{internal\+\_\+static\+\_\+\+Trust\+Information\+Request\+\_\+descriptor}}
+\index{internal\+\_\+static\+\_\+\+Trust\+Information\+Request\+\_\+descriptor@{internal\+\_\+static\+\_\+\+Trust\+Information\+Request\+\_\+descriptor}!eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}}
+\subsubsection[{internal\+\_\+static\+\_\+\+Trust\+Information\+Request\+\_\+descriptor}]{\setlength{\rightskip}{0pt plus 5cm}com.\+google.\+protobuf.\+Descriptors.\+Descriptor eu.\+uloop.\+messages.\+Uloop\+Messages.\+internal\+\_\+static\+\_\+\+Trust\+Information\+Request\+\_\+descriptor\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classeu_1_1uloop_1_1messages_1_1UloopMessages_a895ebcb0f3a6f7aa01aa805496a74fee}
+\hypertarget{classeu_1_1uloop_1_1messages_1_1UloopMessages_a0fc348dcef0a2592edb3e59ce006cae9}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}!internal\+\_\+static\+\_\+\+Trust\+Information\+Request\+\_\+field\+Accessor\+Table@{internal\+\_\+static\+\_\+\+Trust\+Information\+Request\+\_\+field\+Accessor\+Table}}
+\index{internal\+\_\+static\+\_\+\+Trust\+Information\+Request\+\_\+field\+Accessor\+Table@{internal\+\_\+static\+\_\+\+Trust\+Information\+Request\+\_\+field\+Accessor\+Table}!eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}}
+\subsubsection[{internal\+\_\+static\+\_\+\+Trust\+Information\+Request\+\_\+field\+Accessor\+Table}]{\setlength{\rightskip}{0pt plus 5cm}com.\+google.\+protobuf.\+Generated\+Message.\+Field\+Accessor\+Table eu.\+uloop.\+messages.\+Uloop\+Messages.\+internal\+\_\+static\+\_\+\+Trust\+Information\+Request\+\_\+field\+Accessor\+Table\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classeu_1_1uloop_1_1messages_1_1UloopMessages_a0fc348dcef0a2592edb3e59ce006cae9}
+\hypertarget{classeu_1_1uloop_1_1messages_1_1UloopMessages_a1a6d4025f05bf288d58b169382c9c9e2}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}!internal\+\_\+static\+\_\+\+Trust\+Message\+\_\+descriptor@{internal\+\_\+static\+\_\+\+Trust\+Message\+\_\+descriptor}}
+\index{internal\+\_\+static\+\_\+\+Trust\+Message\+\_\+descriptor@{internal\+\_\+static\+\_\+\+Trust\+Message\+\_\+descriptor}!eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}}
+\subsubsection[{internal\+\_\+static\+\_\+\+Trust\+Message\+\_\+descriptor}]{\setlength{\rightskip}{0pt plus 5cm}com.\+google.\+protobuf.\+Descriptors.\+Descriptor eu.\+uloop.\+messages.\+Uloop\+Messages.\+internal\+\_\+static\+\_\+\+Trust\+Message\+\_\+descriptor\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classeu_1_1uloop_1_1messages_1_1UloopMessages_a1a6d4025f05bf288d58b169382c9c9e2}
+\hypertarget{classeu_1_1uloop_1_1messages_1_1UloopMessages_a83ff78d9cd200ccaaadeabb6a2a9b56a}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}!internal\+\_\+static\+\_\+\+Trust\+Message\+\_\+field\+Accessor\+Table@{internal\+\_\+static\+\_\+\+Trust\+Message\+\_\+field\+Accessor\+Table}}
+\index{internal\+\_\+static\+\_\+\+Trust\+Message\+\_\+field\+Accessor\+Table@{internal\+\_\+static\+\_\+\+Trust\+Message\+\_\+field\+Accessor\+Table}!eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}}
+\subsubsection[{internal\+\_\+static\+\_\+\+Trust\+Message\+\_\+field\+Accessor\+Table}]{\setlength{\rightskip}{0pt plus 5cm}com.\+google.\+protobuf.\+Generated\+Message.\+Field\+Accessor\+Table eu.\+uloop.\+messages.\+Uloop\+Messages.\+internal\+\_\+static\+\_\+\+Trust\+Message\+\_\+field\+Accessor\+Table\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classeu_1_1uloop_1_1messages_1_1UloopMessages_a83ff78d9cd200ccaaadeabb6a2a9b56a}
+\hypertarget{classeu_1_1uloop_1_1messages_1_1UloopMessages_a92756ddbdccab1a7b949efc15332a9bc}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}!internal\+\_\+static\+\_\+\+Uloop\+Header\+Message\+\_\+descriptor@{internal\+\_\+static\+\_\+\+Uloop\+Header\+Message\+\_\+descriptor}}
+\index{internal\+\_\+static\+\_\+\+Uloop\+Header\+Message\+\_\+descriptor@{internal\+\_\+static\+\_\+\+Uloop\+Header\+Message\+\_\+descriptor}!eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}}
+\subsubsection[{internal\+\_\+static\+\_\+\+Uloop\+Header\+Message\+\_\+descriptor}]{\setlength{\rightskip}{0pt plus 5cm}com.\+google.\+protobuf.\+Descriptors.\+Descriptor eu.\+uloop.\+messages.\+Uloop\+Messages.\+internal\+\_\+static\+\_\+\+Uloop\+Header\+Message\+\_\+descriptor\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classeu_1_1uloop_1_1messages_1_1UloopMessages_a92756ddbdccab1a7b949efc15332a9bc}
+\hypertarget{classeu_1_1uloop_1_1messages_1_1UloopMessages_a0a2d5416115a8a55909263b7b9dfb426}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}!internal\+\_\+static\+\_\+\+Uloop\+Header\+Message\+\_\+field\+Accessor\+Table@{internal\+\_\+static\+\_\+\+Uloop\+Header\+Message\+\_\+field\+Accessor\+Table}}
+\index{internal\+\_\+static\+\_\+\+Uloop\+Header\+Message\+\_\+field\+Accessor\+Table@{internal\+\_\+static\+\_\+\+Uloop\+Header\+Message\+\_\+field\+Accessor\+Table}!eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}}
+\subsubsection[{internal\+\_\+static\+\_\+\+Uloop\+Header\+Message\+\_\+field\+Accessor\+Table}]{\setlength{\rightskip}{0pt plus 5cm}com.\+google.\+protobuf.\+Generated\+Message.\+Field\+Accessor\+Table eu.\+uloop.\+messages.\+Uloop\+Messages.\+internal\+\_\+static\+\_\+\+Uloop\+Header\+Message\+\_\+field\+Accessor\+Table\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classeu_1_1uloop_1_1messages_1_1UloopMessages_a0a2d5416115a8a55909263b7b9dfb426}
+\hypertarget{classeu_1_1uloop_1_1messages_1_1UloopMessages_aadb12b9c55c653d196602ff19c5363d8}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}!internal\+\_\+static\+\_\+\+Uloop\+Message\+\_\+descriptor@{internal\+\_\+static\+\_\+\+Uloop\+Message\+\_\+descriptor}}
+\index{internal\+\_\+static\+\_\+\+Uloop\+Message\+\_\+descriptor@{internal\+\_\+static\+\_\+\+Uloop\+Message\+\_\+descriptor}!eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}}
+\subsubsection[{internal\+\_\+static\+\_\+\+Uloop\+Message\+\_\+descriptor}]{\setlength{\rightskip}{0pt plus 5cm}com.\+google.\+protobuf.\+Descriptors.\+Descriptor eu.\+uloop.\+messages.\+Uloop\+Messages.\+internal\+\_\+static\+\_\+\+Uloop\+Message\+\_\+descriptor\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classeu_1_1uloop_1_1messages_1_1UloopMessages_aadb12b9c55c653d196602ff19c5363d8}
+\hypertarget{classeu_1_1uloop_1_1messages_1_1UloopMessages_ae0cd74209ad30222560d98b1f128284b}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}!internal\+\_\+static\+\_\+\+Uloop\+Message\+\_\+field\+Accessor\+Table@{internal\+\_\+static\+\_\+\+Uloop\+Message\+\_\+field\+Accessor\+Table}}
+\index{internal\+\_\+static\+\_\+\+Uloop\+Message\+\_\+field\+Accessor\+Table@{internal\+\_\+static\+\_\+\+Uloop\+Message\+\_\+field\+Accessor\+Table}!eu\+::uloop\+::messages\+::\+Uloop\+Messages@{eu\+::uloop\+::messages\+::\+Uloop\+Messages}}
+\subsubsection[{internal\+\_\+static\+\_\+\+Uloop\+Message\+\_\+field\+Accessor\+Table}]{\setlength{\rightskip}{0pt plus 5cm}com.\+google.\+protobuf.\+Generated\+Message.\+Field\+Accessor\+Table eu.\+uloop.\+messages.\+Uloop\+Messages.\+internal\+\_\+static\+\_\+\+Uloop\+Message\+\_\+field\+Accessor\+Table\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classeu_1_1uloop_1_1messages_1_1UloopMessages_ae0cd74209ad30222560d98b1f128284b}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/eu/uloop/messages/\hyperlink{UloopMessages_8java}{Uloop\+Messages.\+java}\end{DoxyCompactItemize}

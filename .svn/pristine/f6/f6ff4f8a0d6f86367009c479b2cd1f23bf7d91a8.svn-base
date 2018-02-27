@@ -1,0 +1,137 @@
+\hypertarget{interfacelib_1_1api_1_1UloopMessageAPI}{\section{lib.\+api.\+Uloop\+Message\+A\+P\+I Interface Reference}
+\label{interfacelib_1_1api_1_1UloopMessageAPI}\index{lib.\+api.\+Uloop\+Message\+A\+P\+I@{lib.\+api.\+Uloop\+Message\+A\+P\+I}}
+}
+Inheritance diagram for lib.\+api.\+Uloop\+Message\+A\+P\+I\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{interfacelib_1_1api_1_1UloopMessageAPI}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{interfacelib_1_1api_1_1UloopMessageAPI_a026a74704c323ac8fce79bd9db7084a6}{send\+\_\+service\+\_\+request} (\hyperlink{classlib_1_1api_1_1UloopService}{Uloop\+Service} ulservice)
+\item 
+\hyperlink{classlib_1_1api_1_1UloopService}{Uloop\+Service} \hyperlink{interfacelib_1_1api_1_1UloopMessageAPI_a7867cdc90ec092d844190a00546de522}{recv\+\_\+service\+\_\+request} ()
+\item 
+void \hyperlink{interfacelib_1_1api_1_1UloopMessageAPI_a1d2c724d79a4840d2c09f108b23b19cd}{send\+\_\+service\+\_\+reply} (\hyperlink{classlib_1_1api_1_1UloopService}{Uloop\+Service} ulservice)
+\item 
+\hyperlink{classlib_1_1api_1_1UloopService}{Uloop\+Service} \hyperlink{interfacelib_1_1api_1_1UloopMessageAPI_a5b3cb0b20ff7d84eaccbe88b83271b4c}{recv\+\_\+service\+\_\+reply} ()
+\item 
+void \hyperlink{interfacelib_1_1api_1_1UloopMessageAPI_ad39bbf025b74e84cc9f09f92e52eda45}{send\+\_\+service\+\_\+update} (\hyperlink{classlib_1_1api_1_1UloopService}{Uloop\+Service} ulservice)
+\item 
+\hyperlink{classlib_1_1api_1_1UloopService}{Uloop\+Service} \hyperlink{interfacelib_1_1api_1_1UloopMessageAPI_add962f0753657aa31556e0646f153ad6}{recv\+\_\+service\+\_\+update} ()
+\item 
+void \hyperlink{interfacelib_1_1api_1_1UloopMessageAPI_a2d2dfb697a4b02117b056665cc0c0c3d}{send\+\_\+mtracker\+\_\+message} (\hyperlink{classlib_1_1api_1_1UloopMTracker}{Uloop\+M\+Tracker} ulmr)
+\item 
+\hyperlink{classlib_1_1api_1_1UloopMTracker}{Uloop\+M\+Tracker} \hyperlink{interfacelib_1_1api_1_1UloopMessageAPI_aa1e8c5bebf79203984533fb723a01e19}{recv\+\_\+mtracker\+\_\+message} ()
+\item 
+Uloop\+Message \hyperlink{interfacelib_1_1api_1_1UloopMessageAPI_a8dd1f6a62bff709cb8a0ffd63f22415a}{recv\+\_\+message} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{interfacelib_1_1api_1_1UloopMessageAPI_a8dd1f6a62bff709cb8a0ffd63f22415a}{\index{lib\+::api\+::\+Uloop\+Message\+A\+P\+I@{lib\+::api\+::\+Uloop\+Message\+A\+P\+I}!recv\+\_\+message@{recv\+\_\+message}}
+\index{recv\+\_\+message@{recv\+\_\+message}!lib\+::api\+::\+Uloop\+Message\+A\+P\+I@{lib\+::api\+::\+Uloop\+Message\+A\+P\+I}}
+\subsubsection[{recv\+\_\+message}]{\setlength{\rightskip}{0pt plus 5cm}Uloop\+Message lib.\+api.\+Uloop\+Message\+A\+P\+I.\+recv\+\_\+message (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfacelib_1_1api_1_1UloopMessageAPI_a8dd1f6a62bff709cb8a0ffd63f22415a}
+
+
+Implemented in \hyperlink{classlib_1_1api_1_1UloopMessageAPIImp_aedb5cf7280f59aa3f60447d67d8dca43}{lib.\+api.\+Uloop\+Message\+A\+P\+I\+Imp}.
+
+\hypertarget{interfacelib_1_1api_1_1UloopMessageAPI_aa1e8c5bebf79203984533fb723a01e19}{\index{lib\+::api\+::\+Uloop\+Message\+A\+P\+I@{lib\+::api\+::\+Uloop\+Message\+A\+P\+I}!recv\+\_\+mtracker\+\_\+message@{recv\+\_\+mtracker\+\_\+message}}
+\index{recv\+\_\+mtracker\+\_\+message@{recv\+\_\+mtracker\+\_\+message}!lib\+::api\+::\+Uloop\+Message\+A\+P\+I@{lib\+::api\+::\+Uloop\+Message\+A\+P\+I}}
+\subsubsection[{recv\+\_\+mtracker\+\_\+message}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Uloop\+M\+Tracker} lib.\+api.\+Uloop\+Message\+A\+P\+I.\+recv\+\_\+mtracker\+\_\+message (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfacelib_1_1api_1_1UloopMessageAPI_aa1e8c5bebf79203984533fb723a01e19}
+
+
+Implemented in \hyperlink{classlib_1_1api_1_1UloopMessageAPIImp_a374e184c88066fedddb8e49c55ce308c}{lib.\+api.\+Uloop\+Message\+A\+P\+I\+Imp}.
+
+\hypertarget{interfacelib_1_1api_1_1UloopMessageAPI_a5b3cb0b20ff7d84eaccbe88b83271b4c}{\index{lib\+::api\+::\+Uloop\+Message\+A\+P\+I@{lib\+::api\+::\+Uloop\+Message\+A\+P\+I}!recv\+\_\+service\+\_\+reply@{recv\+\_\+service\+\_\+reply}}
+\index{recv\+\_\+service\+\_\+reply@{recv\+\_\+service\+\_\+reply}!lib\+::api\+::\+Uloop\+Message\+A\+P\+I@{lib\+::api\+::\+Uloop\+Message\+A\+P\+I}}
+\subsubsection[{recv\+\_\+service\+\_\+reply}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Uloop\+Service} lib.\+api.\+Uloop\+Message\+A\+P\+I.\+recv\+\_\+service\+\_\+reply (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfacelib_1_1api_1_1UloopMessageAPI_a5b3cb0b20ff7d84eaccbe88b83271b4c}
+
+
+Implemented in \hyperlink{classlib_1_1api_1_1UloopMessageAPIImp_aaa61e6ce7c0251ed1fc6b0419eaf7be5}{lib.\+api.\+Uloop\+Message\+A\+P\+I\+Imp}.
+
+\hypertarget{interfacelib_1_1api_1_1UloopMessageAPI_a7867cdc90ec092d844190a00546de522}{\index{lib\+::api\+::\+Uloop\+Message\+A\+P\+I@{lib\+::api\+::\+Uloop\+Message\+A\+P\+I}!recv\+\_\+service\+\_\+request@{recv\+\_\+service\+\_\+request}}
+\index{recv\+\_\+service\+\_\+request@{recv\+\_\+service\+\_\+request}!lib\+::api\+::\+Uloop\+Message\+A\+P\+I@{lib\+::api\+::\+Uloop\+Message\+A\+P\+I}}
+\subsubsection[{recv\+\_\+service\+\_\+request}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Uloop\+Service} lib.\+api.\+Uloop\+Message\+A\+P\+I.\+recv\+\_\+service\+\_\+request (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfacelib_1_1api_1_1UloopMessageAPI_a7867cdc90ec092d844190a00546de522}
+
+
+Implemented in \hyperlink{classlib_1_1api_1_1UloopMessageAPIImp_a918fe9df065241f3e783ac54c605301d}{lib.\+api.\+Uloop\+Message\+A\+P\+I\+Imp}.
+
+\hypertarget{interfacelib_1_1api_1_1UloopMessageAPI_add962f0753657aa31556e0646f153ad6}{\index{lib\+::api\+::\+Uloop\+Message\+A\+P\+I@{lib\+::api\+::\+Uloop\+Message\+A\+P\+I}!recv\+\_\+service\+\_\+update@{recv\+\_\+service\+\_\+update}}
+\index{recv\+\_\+service\+\_\+update@{recv\+\_\+service\+\_\+update}!lib\+::api\+::\+Uloop\+Message\+A\+P\+I@{lib\+::api\+::\+Uloop\+Message\+A\+P\+I}}
+\subsubsection[{recv\+\_\+service\+\_\+update}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Uloop\+Service} lib.\+api.\+Uloop\+Message\+A\+P\+I.\+recv\+\_\+service\+\_\+update (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfacelib_1_1api_1_1UloopMessageAPI_add962f0753657aa31556e0646f153ad6}
+
+
+Implemented in \hyperlink{classlib_1_1api_1_1UloopMessageAPIImp_a42681424df55773d662182f95cbb0182}{lib.\+api.\+Uloop\+Message\+A\+P\+I\+Imp}.
+
+\hypertarget{interfacelib_1_1api_1_1UloopMessageAPI_a2d2dfb697a4b02117b056665cc0c0c3d}{\index{lib\+::api\+::\+Uloop\+Message\+A\+P\+I@{lib\+::api\+::\+Uloop\+Message\+A\+P\+I}!send\+\_\+mtracker\+\_\+message@{send\+\_\+mtracker\+\_\+message}}
+\index{send\+\_\+mtracker\+\_\+message@{send\+\_\+mtracker\+\_\+message}!lib\+::api\+::\+Uloop\+Message\+A\+P\+I@{lib\+::api\+::\+Uloop\+Message\+A\+P\+I}}
+\subsubsection[{send\+\_\+mtracker\+\_\+message}]{\setlength{\rightskip}{0pt plus 5cm}void lib.\+api.\+Uloop\+Message\+A\+P\+I.\+send\+\_\+mtracker\+\_\+message (
+\begin{DoxyParamCaption}
+\item[{{\bf Uloop\+M\+Tracker}}]{ulmr}
+\end{DoxyParamCaption}
+)}}\label{interfacelib_1_1api_1_1UloopMessageAPI_a2d2dfb697a4b02117b056665cc0c0c3d}
+
+
+Implemented in \hyperlink{classlib_1_1api_1_1UloopMessageAPIImp_a589278b172d0d5c26198311faea04ff2}{lib.\+api.\+Uloop\+Message\+A\+P\+I\+Imp}.
+
+\hypertarget{interfacelib_1_1api_1_1UloopMessageAPI_a1d2c724d79a4840d2c09f108b23b19cd}{\index{lib\+::api\+::\+Uloop\+Message\+A\+P\+I@{lib\+::api\+::\+Uloop\+Message\+A\+P\+I}!send\+\_\+service\+\_\+reply@{send\+\_\+service\+\_\+reply}}
+\index{send\+\_\+service\+\_\+reply@{send\+\_\+service\+\_\+reply}!lib\+::api\+::\+Uloop\+Message\+A\+P\+I@{lib\+::api\+::\+Uloop\+Message\+A\+P\+I}}
+\subsubsection[{send\+\_\+service\+\_\+reply}]{\setlength{\rightskip}{0pt plus 5cm}void lib.\+api.\+Uloop\+Message\+A\+P\+I.\+send\+\_\+service\+\_\+reply (
+\begin{DoxyParamCaption}
+\item[{{\bf Uloop\+Service}}]{ulservice}
+\end{DoxyParamCaption}
+)}}\label{interfacelib_1_1api_1_1UloopMessageAPI_a1d2c724d79a4840d2c09f108b23b19cd}
+
+
+Implemented in \hyperlink{classlib_1_1api_1_1UloopMessageAPIImp_a0e3433dc0fd5bb808c02e9a6a0aacd5b}{lib.\+api.\+Uloop\+Message\+A\+P\+I\+Imp}.
+
+\hypertarget{interfacelib_1_1api_1_1UloopMessageAPI_a026a74704c323ac8fce79bd9db7084a6}{\index{lib\+::api\+::\+Uloop\+Message\+A\+P\+I@{lib\+::api\+::\+Uloop\+Message\+A\+P\+I}!send\+\_\+service\+\_\+request@{send\+\_\+service\+\_\+request}}
+\index{send\+\_\+service\+\_\+request@{send\+\_\+service\+\_\+request}!lib\+::api\+::\+Uloop\+Message\+A\+P\+I@{lib\+::api\+::\+Uloop\+Message\+A\+P\+I}}
+\subsubsection[{send\+\_\+service\+\_\+request}]{\setlength{\rightskip}{0pt plus 5cm}void lib.\+api.\+Uloop\+Message\+A\+P\+I.\+send\+\_\+service\+\_\+request (
+\begin{DoxyParamCaption}
+\item[{{\bf Uloop\+Service}}]{ulservice}
+\end{DoxyParamCaption}
+)}}\label{interfacelib_1_1api_1_1UloopMessageAPI_a026a74704c323ac8fce79bd9db7084a6}
+
+
+Implemented in \hyperlink{classlib_1_1api_1_1UloopMessageAPIImp_adc9aa0916e7369b762406eec312399c2}{lib.\+api.\+Uloop\+Message\+A\+P\+I\+Imp}.
+
+\hypertarget{interfacelib_1_1api_1_1UloopMessageAPI_ad39bbf025b74e84cc9f09f92e52eda45}{\index{lib\+::api\+::\+Uloop\+Message\+A\+P\+I@{lib\+::api\+::\+Uloop\+Message\+A\+P\+I}!send\+\_\+service\+\_\+update@{send\+\_\+service\+\_\+update}}
+\index{send\+\_\+service\+\_\+update@{send\+\_\+service\+\_\+update}!lib\+::api\+::\+Uloop\+Message\+A\+P\+I@{lib\+::api\+::\+Uloop\+Message\+A\+P\+I}}
+\subsubsection[{send\+\_\+service\+\_\+update}]{\setlength{\rightskip}{0pt plus 5cm}void lib.\+api.\+Uloop\+Message\+A\+P\+I.\+send\+\_\+service\+\_\+update (
+\begin{DoxyParamCaption}
+\item[{{\bf Uloop\+Service}}]{ulservice}
+\end{DoxyParamCaption}
+)}}\label{interfacelib_1_1api_1_1UloopMessageAPI_ad39bbf025b74e84cc9f09f92e52eda45}
+
+
+Implemented in \hyperlink{classlib_1_1api_1_1UloopMessageAPIImp_af7ec5f2c6b544c327fb66c4e2c471dbe}{lib.\+api.\+Uloop\+Message\+A\+P\+I\+Imp}.
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/lib/api/\hyperlink{UloopMessageAPI_8java}{Uloop\+Message\+A\+P\+I.\+java}\end{DoxyCompactItemize}

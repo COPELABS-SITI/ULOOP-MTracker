@@ -1,0 +1,13 @@
+\hypertarget{UloopServiceUpdate_8java}{\section{src/lib/api/\+Uloop\+Service\+Update.java File Reference}
+\label{UloopServiceUpdate_8java}\index{src/lib/api/\+Uloop\+Service\+Update.\+java@{src/lib/api/\+Uloop\+Service\+Update.\+java}}
+}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classlib_1_1api_1_1UloopServiceUpdate}{lib.\+api.\+Uloop\+Service\+Update}
+\end{DoxyCompactItemize}
+\subsection*{Packages}
+\begin{DoxyCompactItemize}
+\item 
+package \hyperlink{namespacelib_1_1api}{lib.\+api}
+\end{DoxyCompactItemize}

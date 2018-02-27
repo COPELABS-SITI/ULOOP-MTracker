@@ -1,0 +1,103 @@
+\hypertarget{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1MTrackerMessageOrBuilder}{\section{eu.\+uloop.\+messages.\+Uloop\+Messages.\+M\+Tracker\+Message\+Or\+Builder Interface Reference}
+\label{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1MTrackerMessageOrBuilder}\index{eu.\+uloop.\+messages.\+Uloop\+Messages.\+M\+Tracker\+Message\+Or\+Builder@{eu.\+uloop.\+messages.\+Uloop\+Messages.\+M\+Tracker\+Message\+Or\+Builder}}
+}
+Inheritance diagram for eu.\+uloop.\+messages.\+Uloop\+Messages.\+M\+Tracker\+Message\+Or\+Builder\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1MTrackerMessageOrBuilder}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+boolean \hyperlink{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1MTrackerMessageOrBuilder_af2f9c1e18444debe7500fc178aad1ce0}{has\+Time\+For\+Next\+Move} ()
+\item 
+long \hyperlink{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1MTrackerMessageOrBuilder_abc9ab5835bd61341f2606c9c43234b50}{get\+Time\+For\+Next\+Move} ()
+\item 
+boolean \hyperlink{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1MTrackerMessageOrBuilder_af4d32fde029f9d69b0e04bccbd041fc3}{has\+Current\+Stationary\+Time} ()
+\item 
+long \hyperlink{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1MTrackerMessageOrBuilder_a1ad5dcd56e2b665921e99314d591a595}{get\+Current\+Stationary\+Time} ()
+\item 
+java.\+util.\+List\\*
+$<$ eu.\+uloop.\+messages.\+Uloop\+Messages.\+M\+Tracker\+Predicted\+Move $>$ \hyperlink{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1MTrackerMessageOrBuilder_a0eafcbd9531c7637a40a06e3c16bc69a}{get\+Next\+Gateway\+List\+List} ()
+\item 
+eu.\+uloop.\+messages.\+Uloop\+Messages.\+M\+Tracker\+Predicted\+Move \hyperlink{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1MTrackerMessageOrBuilder_aa762ee29bb176bc3aae345eb802ddcff}{get\+Next\+Gateway\+List} (int index)
+\item 
+int \hyperlink{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1MTrackerMessageOrBuilder_ab6cd4846488811dba1d7003404d68c1d}{get\+Next\+Gateway\+List\+Count} ()
+\item 
+java.\+util.\+List$<$?extends \\*
+\hyperlink{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1MTrackerPredictedMoveOrBuilder}{eu.\+uloop.\+messages.\+Uloop\+Messages.\+M\+Tracker\+Predicted\+Move\+Or\+Builder} $>$ \hyperlink{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1MTrackerMessageOrBuilder_a352dcd71d245033a6caaf574bbd15cf3}{get\+Next\+Gateway\+List\+Or\+Builder\+List} ()
+\item 
+\hyperlink{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1MTrackerPredictedMoveOrBuilder}{eu.\+uloop.\+messages.\+Uloop\+Messages.\+M\+Tracker\+Predicted\+Move\+Or\+Builder} \hyperlink{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1MTrackerMessageOrBuilder_a4142deeb4d926b48e9176a50d75ab871}{get\+Next\+Gateway\+List\+Or\+Builder} (int index)
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1MTrackerMessageOrBuilder_a1ad5dcd56e2b665921e99314d591a595}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+M\+Tracker\+Message\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+M\+Tracker\+Message\+Or\+Builder}!get\+Current\+Stationary\+Time@{get\+Current\+Stationary\+Time}}
+\index{get\+Current\+Stationary\+Time@{get\+Current\+Stationary\+Time}!eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+M\+Tracker\+Message\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+M\+Tracker\+Message\+Or\+Builder}}
+\subsubsection[{get\+Current\+Stationary\+Time}]{\setlength{\rightskip}{0pt plus 5cm}long eu.\+uloop.\+messages.\+Uloop\+Messages.\+M\+Tracker\+Message\+Or\+Builder.\+get\+Current\+Stationary\+Time (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1MTrackerMessageOrBuilder_a1ad5dcd56e2b665921e99314d591a595}
+\hypertarget{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1MTrackerMessageOrBuilder_aa762ee29bb176bc3aae345eb802ddcff}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+M\+Tracker\+Message\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+M\+Tracker\+Message\+Or\+Builder}!get\+Next\+Gateway\+List@{get\+Next\+Gateway\+List}}
+\index{get\+Next\+Gateway\+List@{get\+Next\+Gateway\+List}!eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+M\+Tracker\+Message\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+M\+Tracker\+Message\+Or\+Builder}}
+\subsubsection[{get\+Next\+Gateway\+List}]{\setlength{\rightskip}{0pt plus 5cm}eu.\+uloop.\+messages.\+Uloop\+Messages.\+M\+Tracker\+Predicted\+Move eu.\+uloop.\+messages.\+Uloop\+Messages.\+M\+Tracker\+Message\+Or\+Builder.\+get\+Next\+Gateway\+List (
+\begin{DoxyParamCaption}
+\item[{int}]{index}
+\end{DoxyParamCaption}
+)}}\label{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1MTrackerMessageOrBuilder_aa762ee29bb176bc3aae345eb802ddcff}
+\hypertarget{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1MTrackerMessageOrBuilder_ab6cd4846488811dba1d7003404d68c1d}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+M\+Tracker\+Message\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+M\+Tracker\+Message\+Or\+Builder}!get\+Next\+Gateway\+List\+Count@{get\+Next\+Gateway\+List\+Count}}
+\index{get\+Next\+Gateway\+List\+Count@{get\+Next\+Gateway\+List\+Count}!eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+M\+Tracker\+Message\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+M\+Tracker\+Message\+Or\+Builder}}
+\subsubsection[{get\+Next\+Gateway\+List\+Count}]{\setlength{\rightskip}{0pt plus 5cm}int eu.\+uloop.\+messages.\+Uloop\+Messages.\+M\+Tracker\+Message\+Or\+Builder.\+get\+Next\+Gateway\+List\+Count (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1MTrackerMessageOrBuilder_ab6cd4846488811dba1d7003404d68c1d}
+\hypertarget{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1MTrackerMessageOrBuilder_a0eafcbd9531c7637a40a06e3c16bc69a}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+M\+Tracker\+Message\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+M\+Tracker\+Message\+Or\+Builder}!get\+Next\+Gateway\+List\+List@{get\+Next\+Gateway\+List\+List}}
+\index{get\+Next\+Gateway\+List\+List@{get\+Next\+Gateway\+List\+List}!eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+M\+Tracker\+Message\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+M\+Tracker\+Message\+Or\+Builder}}
+\subsubsection[{get\+Next\+Gateway\+List\+List}]{\setlength{\rightskip}{0pt plus 5cm}java.\+util.\+List$<$eu.\+uloop.\+messages.\+Uloop\+Messages.\+M\+Tracker\+Predicted\+Move$>$ eu.\+uloop.\+messages.\+Uloop\+Messages.\+M\+Tracker\+Message\+Or\+Builder.\+get\+Next\+Gateway\+List\+List (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1MTrackerMessageOrBuilder_a0eafcbd9531c7637a40a06e3c16bc69a}
+\hypertarget{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1MTrackerMessageOrBuilder_a4142deeb4d926b48e9176a50d75ab871}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+M\+Tracker\+Message\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+M\+Tracker\+Message\+Or\+Builder}!get\+Next\+Gateway\+List\+Or\+Builder@{get\+Next\+Gateway\+List\+Or\+Builder}}
+\index{get\+Next\+Gateway\+List\+Or\+Builder@{get\+Next\+Gateway\+List\+Or\+Builder}!eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+M\+Tracker\+Message\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+M\+Tracker\+Message\+Or\+Builder}}
+\subsubsection[{get\+Next\+Gateway\+List\+Or\+Builder}]{\setlength{\rightskip}{0pt plus 5cm}{\bf eu.\+uloop.\+messages.\+Uloop\+Messages.\+M\+Tracker\+Predicted\+Move\+Or\+Builder} eu.\+uloop.\+messages.\+Uloop\+Messages.\+M\+Tracker\+Message\+Or\+Builder.\+get\+Next\+Gateway\+List\+Or\+Builder (
+\begin{DoxyParamCaption}
+\item[{int}]{index}
+\end{DoxyParamCaption}
+)}}\label{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1MTrackerMessageOrBuilder_a4142deeb4d926b48e9176a50d75ab871}
+\hypertarget{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1MTrackerMessageOrBuilder_a352dcd71d245033a6caaf574bbd15cf3}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+M\+Tracker\+Message\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+M\+Tracker\+Message\+Or\+Builder}!get\+Next\+Gateway\+List\+Or\+Builder\+List@{get\+Next\+Gateway\+List\+Or\+Builder\+List}}
+\index{get\+Next\+Gateway\+List\+Or\+Builder\+List@{get\+Next\+Gateway\+List\+Or\+Builder\+List}!eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+M\+Tracker\+Message\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+M\+Tracker\+Message\+Or\+Builder}}
+\subsubsection[{get\+Next\+Gateway\+List\+Or\+Builder\+List}]{\setlength{\rightskip}{0pt plus 5cm}java.\+util.\+List$<$? extends {\bf eu.\+uloop.\+messages.\+Uloop\+Messages.\+M\+Tracker\+Predicted\+Move\+Or\+Builder}$>$ eu.\+uloop.\+messages.\+Uloop\+Messages.\+M\+Tracker\+Message\+Or\+Builder.\+get\+Next\+Gateway\+List\+Or\+Builder\+List (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1MTrackerMessageOrBuilder_a352dcd71d245033a6caaf574bbd15cf3}
+\hypertarget{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1MTrackerMessageOrBuilder_abc9ab5835bd61341f2606c9c43234b50}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+M\+Tracker\+Message\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+M\+Tracker\+Message\+Or\+Builder}!get\+Time\+For\+Next\+Move@{get\+Time\+For\+Next\+Move}}
+\index{get\+Time\+For\+Next\+Move@{get\+Time\+For\+Next\+Move}!eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+M\+Tracker\+Message\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+M\+Tracker\+Message\+Or\+Builder}}
+\subsubsection[{get\+Time\+For\+Next\+Move}]{\setlength{\rightskip}{0pt plus 5cm}long eu.\+uloop.\+messages.\+Uloop\+Messages.\+M\+Tracker\+Message\+Or\+Builder.\+get\+Time\+For\+Next\+Move (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1MTrackerMessageOrBuilder_abc9ab5835bd61341f2606c9c43234b50}
+\hypertarget{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1MTrackerMessageOrBuilder_af4d32fde029f9d69b0e04bccbd041fc3}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+M\+Tracker\+Message\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+M\+Tracker\+Message\+Or\+Builder}!has\+Current\+Stationary\+Time@{has\+Current\+Stationary\+Time}}
+\index{has\+Current\+Stationary\+Time@{has\+Current\+Stationary\+Time}!eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+M\+Tracker\+Message\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+M\+Tracker\+Message\+Or\+Builder}}
+\subsubsection[{has\+Current\+Stationary\+Time}]{\setlength{\rightskip}{0pt plus 5cm}boolean eu.\+uloop.\+messages.\+Uloop\+Messages.\+M\+Tracker\+Message\+Or\+Builder.\+has\+Current\+Stationary\+Time (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1MTrackerMessageOrBuilder_af4d32fde029f9d69b0e04bccbd041fc3}
+\hypertarget{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1MTrackerMessageOrBuilder_af2f9c1e18444debe7500fc178aad1ce0}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+M\+Tracker\+Message\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+M\+Tracker\+Message\+Or\+Builder}!has\+Time\+For\+Next\+Move@{has\+Time\+For\+Next\+Move}}
+\index{has\+Time\+For\+Next\+Move@{has\+Time\+For\+Next\+Move}!eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+M\+Tracker\+Message\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+M\+Tracker\+Message\+Or\+Builder}}
+\subsubsection[{has\+Time\+For\+Next\+Move}]{\setlength{\rightskip}{0pt plus 5cm}boolean eu.\+uloop.\+messages.\+Uloop\+Messages.\+M\+Tracker\+Message\+Or\+Builder.\+has\+Time\+For\+Next\+Move (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1MTrackerMessageOrBuilder_af2f9c1e18444debe7500fc178aad1ce0}
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/eu/uloop/messages/\hyperlink{UloopMessages_8java}{Uloop\+Messages.\+java}\end{DoxyCompactItemize}

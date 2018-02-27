@@ -1,0 +1,38 @@
+\hypertarget{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1EnoughResourcesMessageReplyOrBuilder}{\section{eu.\+uloop.\+messages.\+Uloop\+Messages.\+Enough\+Resources\+Message\+Reply\+Or\+Builder Interface Reference}
+\label{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1EnoughResourcesMessageReplyOrBuilder}\index{eu.\+uloop.\+messages.\+Uloop\+Messages.\+Enough\+Resources\+Message\+Reply\+Or\+Builder@{eu.\+uloop.\+messages.\+Uloop\+Messages.\+Enough\+Resources\+Message\+Reply\+Or\+Builder}}
+}
+Inheritance diagram for eu.\+uloop.\+messages.\+Uloop\+Messages.\+Enough\+Resources\+Message\+Reply\+Or\+Builder\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1EnoughResourcesMessageReplyOrBuilder}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+boolean \hyperlink{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1EnoughResourcesMessageReplyOrBuilder_a980a1af33fe496b4ef122b0233d82052}{has\+Res} ()
+\item 
+boolean \hyperlink{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1EnoughResourcesMessageReplyOrBuilder_a7720d29323e2998eb7a72bb40dd876dc}{get\+Res} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1EnoughResourcesMessageReplyOrBuilder_a7720d29323e2998eb7a72bb40dd876dc}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Enough\+Resources\+Message\+Reply\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Enough\+Resources\+Message\+Reply\+Or\+Builder}!get\+Res@{get\+Res}}
+\index{get\+Res@{get\+Res}!eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Enough\+Resources\+Message\+Reply\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Enough\+Resources\+Message\+Reply\+Or\+Builder}}
+\subsubsection[{get\+Res}]{\setlength{\rightskip}{0pt plus 5cm}boolean eu.\+uloop.\+messages.\+Uloop\+Messages.\+Enough\+Resources\+Message\+Reply\+Or\+Builder.\+get\+Res (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1EnoughResourcesMessageReplyOrBuilder_a7720d29323e2998eb7a72bb40dd876dc}
+\hypertarget{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1EnoughResourcesMessageReplyOrBuilder_a980a1af33fe496b4ef122b0233d82052}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Enough\+Resources\+Message\+Reply\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Enough\+Resources\+Message\+Reply\+Or\+Builder}!has\+Res@{has\+Res}}
+\index{has\+Res@{has\+Res}!eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Enough\+Resources\+Message\+Reply\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Enough\+Resources\+Message\+Reply\+Or\+Builder}}
+\subsubsection[{has\+Res}]{\setlength{\rightskip}{0pt plus 5cm}boolean eu.\+uloop.\+messages.\+Uloop\+Messages.\+Enough\+Resources\+Message\+Reply\+Or\+Builder.\+has\+Res (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1EnoughResourcesMessageReplyOrBuilder_a980a1af33fe496b4ef122b0233d82052}
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/eu/uloop/messages/\hyperlink{UloopMessages_8java}{Uloop\+Messages.\+java}\end{DoxyCompactItemize}

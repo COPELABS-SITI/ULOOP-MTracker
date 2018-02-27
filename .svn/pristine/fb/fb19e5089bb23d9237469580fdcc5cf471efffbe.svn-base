@@ -1,0 +1,6 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/stopScanningMenuEntry" android:enabled="true" android:visible="true" android:title="@string/stopScanning" android:checkable="false" android:checked="false" android:menuCategory="container" android:showAsAction="always|withText">restartScanningMenuEntryrestartScanningMenuEntry</item>
+    <item android:id="@+id/restartScanningMenuEntry" android:menuCategory="container" android:title="@string/restartScanning" android:visible="true" android:checkable="false" android:enabled="true" android:checked="false"></item>
+    <item android:id="@+id/writeAPEntriesToFile" android:menuCategory="container" android:title="@string/writeAPToFile" android:enabled="true" android:visible="true" android:checkable="false" android:checked="false"></item>
+    <item android:id="@+id/writeVisitListToFile" android:enabled="true" android:visible="true" android:checkable="false" android:menuCategory="container" android:checked="false" android:title="@string/writeVisitToFile"></item>
+</menu>

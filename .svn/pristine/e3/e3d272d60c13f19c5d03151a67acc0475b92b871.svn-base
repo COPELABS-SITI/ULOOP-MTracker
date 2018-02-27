@@ -1,0 +1,205 @@
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerAP}{\section{eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+A\+P Class Reference}
+\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerAP}\index{eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+A\+P@{eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+A\+P}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+String \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerAP_a773c2889503a7bf8dd6468571280f0e9}{get\+S\+S\+I\+D} ()
+\item 
+String \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerAP_a81430f66ad88d53b3109c35e700d051e}{get\+B\+S\+S\+I\+D} ()
+\item 
+double \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerAP_ace5d72936022d4eb364a0a728e23d821}{get\+Attractiveness} ()
+\item 
+String \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerAP_a5ebfe543850723c6f0f6d928b8c91c83}{get\+Last\+Gateway\+Ip} ()
+\item 
+void \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerAP_ac3c8c048ff66a4552da92dd0d3c76749}{set\+S\+S\+I\+D} (String s\+S\+I\+D)
+\item 
+void \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerAP_a12ff31de9db1af6a1dc8e7fd7db5f5ea}{set\+B\+S\+S\+I\+D} (String b\+S\+S\+I\+D)
+\item 
+void \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerAP_aa9d709a1de1cdabc8459054ac871cec0}{set\+Attractiveness} (double \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerAP_a6dd4193c9a35b610e54d33f9b279439b}{attractiveness})
+\item 
+void \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerAP_a3bf426641e7bf18589a492e5c8b86dd8}{set\+Last\+Gateway\+Ip} (String \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerAP_a6c4d27c182eac0aaba0de6f2a7c9c109}{last\+Gateway\+Ip})
+\item 
+void \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerAP_a3ae2f392f79b6957a1d5166ddd0a7990}{set\+Last\+Gateway\+Ip} (int \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerAP_a6c4d27c182eac0aaba0de6f2a7c9c109}{last\+Gateway\+Ip})
+\item 
+\hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerAP_ad06da8a427b80f62e1fe05cecba3e0de}{M\+Tracker\+A\+P} ()
+\item 
+void \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerAP_a1ff1a92308cc59b93a3ff82540e658eb}{set\+To\+Default} (double uloop\+Dispositional\+Trust)
+\item 
+String \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerAP_a67b5859a4ec4beeeb20e8d4f3cf5165f}{to\+String} ()
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+String \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerAP_a7c07b1020257350bdfb1c7c5f3362dde}{S\+S\+I\+D}
+\item 
+String \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerAP_a8d33e20d0808888fb0d22341d7b1ffcf}{B\+S\+S\+I\+D}
+\item 
+double \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerAP_a6dd4193c9a35b610e54d33f9b279439b}{attractiveness}
+\item 
+String \hyperlink{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerAP_a6c4d27c182eac0aaba0de6f2a7c9c109}{last\+Gateway\+Ip}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This class represents what M\+Tracker considers an A\+P. The information kept in this object are S\+S\+I\+D, B\+S\+S\+I\+D, attractiveness, and last I\+P.
+
+\begin{DoxyAuthor}{Author}
+Jonnahtan Saltarin (U\+L\+H\+T) 
+
+Rute Sofia (U\+L\+H\+T) 
+
+Christian da Silva Pereira (U\+L\+H\+T) 
+
+Luis Amaral Lopes (U\+L\+H\+T)
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+3.\+0 
+\end{DoxyVersion}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerAP_ad06da8a427b80f62e1fe05cecba3e0de}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+A\+P@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+A\+P}!M\+Tracker\+A\+P@{M\+Tracker\+A\+P}}
+\index{M\+Tracker\+A\+P@{M\+Tracker\+A\+P}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+A\+P@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+A\+P}}
+\subsubsection[{M\+Tracker\+A\+P}]{\setlength{\rightskip}{0pt plus 5cm}eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+A\+P.\+M\+Tracker\+A\+P (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerAP_ad06da8a427b80f62e1fe05cecba3e0de}
+M\+Tracker A\+P Constructor 
+
+\subsection{Member Function Documentation}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerAP_ace5d72936022d4eb364a0a728e23d821}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+A\+P@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+A\+P}!get\+Attractiveness@{get\+Attractiveness}}
+\index{get\+Attractiveness@{get\+Attractiveness}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+A\+P@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+A\+P}}
+\subsubsection[{get\+Attractiveness}]{\setlength{\rightskip}{0pt plus 5cm}double eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+A\+P.\+get\+Attractiveness (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerAP_ace5d72936022d4eb364a0a728e23d821}
+Get the attractiveness of this A\+P \begin{DoxyReturn}{Returns}
+the attractiveness 
+\end{DoxyReturn}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerAP_a81430f66ad88d53b3109c35e700d051e}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+A\+P@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+A\+P}!get\+B\+S\+S\+I\+D@{get\+B\+S\+S\+I\+D}}
+\index{get\+B\+S\+S\+I\+D@{get\+B\+S\+S\+I\+D}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+A\+P@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+A\+P}}
+\subsubsection[{get\+B\+S\+S\+I\+D}]{\setlength{\rightskip}{0pt plus 5cm}String eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+A\+P.\+get\+B\+S\+S\+I\+D (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerAP_a81430f66ad88d53b3109c35e700d051e}
+Get the B\+S\+S\+I\+D of this A\+P \begin{DoxyReturn}{Returns}
+the b\+S\+S\+I\+D 
+\end{DoxyReturn}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerAP_a5ebfe543850723c6f0f6d928b8c91c83}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+A\+P@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+A\+P}!get\+Last\+Gateway\+Ip@{get\+Last\+Gateway\+Ip}}
+\index{get\+Last\+Gateway\+Ip@{get\+Last\+Gateway\+Ip}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+A\+P@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+A\+P}}
+\subsubsection[{get\+Last\+Gateway\+Ip}]{\setlength{\rightskip}{0pt plus 5cm}String eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+A\+P.\+get\+Last\+Gateway\+Ip (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerAP_a5ebfe543850723c6f0f6d928b8c91c83}
+Get the last I\+P shown by this A\+P \begin{DoxyReturn}{Returns}
+the last\+Gateway\+Ip 
+\end{DoxyReturn}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerAP_a773c2889503a7bf8dd6468571280f0e9}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+A\+P@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+A\+P}!get\+S\+S\+I\+D@{get\+S\+S\+I\+D}}
+\index{get\+S\+S\+I\+D@{get\+S\+S\+I\+D}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+A\+P@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+A\+P}}
+\subsubsection[{get\+S\+S\+I\+D}]{\setlength{\rightskip}{0pt plus 5cm}String eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+A\+P.\+get\+S\+S\+I\+D (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerAP_a773c2889503a7bf8dd6468571280f0e9}
+Get the S\+S\+I\+D of this A\+P \begin{DoxyReturn}{Returns}
+the s\+S\+I\+D 
+\end{DoxyReturn}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerAP_aa9d709a1de1cdabc8459054ac871cec0}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+A\+P@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+A\+P}!set\+Attractiveness@{set\+Attractiveness}}
+\index{set\+Attractiveness@{set\+Attractiveness}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+A\+P@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+A\+P}}
+\subsubsection[{set\+Attractiveness}]{\setlength{\rightskip}{0pt plus 5cm}void eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+A\+P.\+set\+Attractiveness (
+\begin{DoxyParamCaption}
+\item[{double}]{attractiveness}
+\end{DoxyParamCaption}
+)}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerAP_aa9d709a1de1cdabc8459054ac871cec0}
+Set the attractiveness of this A\+P 
+\begin{DoxyParams}{Parameters}
+{\em attractiveness} & the attractiveness to set \\
+\hline
+\end{DoxyParams}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerAP_a12ff31de9db1af6a1dc8e7fd7db5f5ea}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+A\+P@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+A\+P}!set\+B\+S\+S\+I\+D@{set\+B\+S\+S\+I\+D}}
+\index{set\+B\+S\+S\+I\+D@{set\+B\+S\+S\+I\+D}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+A\+P@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+A\+P}}
+\subsubsection[{set\+B\+S\+S\+I\+D}]{\setlength{\rightskip}{0pt plus 5cm}void eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+A\+P.\+set\+B\+S\+S\+I\+D (
+\begin{DoxyParamCaption}
+\item[{String}]{b\+S\+S\+I\+D}
+\end{DoxyParamCaption}
+)}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerAP_a12ff31de9db1af6a1dc8e7fd7db5f5ea}
+Set the B\+S\+S\+I\+D of this A\+P 
+\begin{DoxyParams}{Parameters}
+{\em b\+S\+S\+I\+D} & the b\+S\+S\+I\+D to set \\
+\hline
+\end{DoxyParams}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerAP_a3bf426641e7bf18589a492e5c8b86dd8}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+A\+P@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+A\+P}!set\+Last\+Gateway\+Ip@{set\+Last\+Gateway\+Ip}}
+\index{set\+Last\+Gateway\+Ip@{set\+Last\+Gateway\+Ip}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+A\+P@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+A\+P}}
+\subsubsection[{set\+Last\+Gateway\+Ip}]{\setlength{\rightskip}{0pt plus 5cm}void eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+A\+P.\+set\+Last\+Gateway\+Ip (
+\begin{DoxyParamCaption}
+\item[{String}]{last\+Gateway\+Ip}
+\end{DoxyParamCaption}
+)}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerAP_a3bf426641e7bf18589a492e5c8b86dd8}
+Set the last I\+P shown by this A\+P 
+\begin{DoxyParams}{Parameters}
+{\em last\+Gateway\+Ip} & String representing the last gateway I\+P to set \\
+\hline
+\end{DoxyParams}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerAP_a3ae2f392f79b6957a1d5166ddd0a7990}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+A\+P@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+A\+P}!set\+Last\+Gateway\+Ip@{set\+Last\+Gateway\+Ip}}
+\index{set\+Last\+Gateway\+Ip@{set\+Last\+Gateway\+Ip}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+A\+P@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+A\+P}}
+\subsubsection[{set\+Last\+Gateway\+Ip}]{\setlength{\rightskip}{0pt plus 5cm}void eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+A\+P.\+set\+Last\+Gateway\+Ip (
+\begin{DoxyParamCaption}
+\item[{int}]{last\+Gateway\+Ip}
+\end{DoxyParamCaption}
+)}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerAP_a3ae2f392f79b6957a1d5166ddd0a7990}
+Set the last I\+P shown by this A\+P 
+\begin{DoxyParams}{Parameters}
+{\em last\+Gateway\+Ip} & Integer representing the last gateway I\+P to set \\
+\hline
+\end{DoxyParams}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerAP_ac3c8c048ff66a4552da92dd0d3c76749}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+A\+P@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+A\+P}!set\+S\+S\+I\+D@{set\+S\+S\+I\+D}}
+\index{set\+S\+S\+I\+D@{set\+S\+S\+I\+D}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+A\+P@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+A\+P}}
+\subsubsection[{set\+S\+S\+I\+D}]{\setlength{\rightskip}{0pt plus 5cm}void eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+A\+P.\+set\+S\+S\+I\+D (
+\begin{DoxyParamCaption}
+\item[{String}]{s\+S\+I\+D}
+\end{DoxyParamCaption}
+)}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerAP_ac3c8c048ff66a4552da92dd0d3c76749}
+Set the S\+S\+I\+D of this A\+P 
+\begin{DoxyParams}{Parameters}
+{\em s\+S\+I\+D} & the s\+S\+I\+D to set \\
+\hline
+\end{DoxyParams}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerAP_a1ff1a92308cc59b93a3ff82540e658eb}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+A\+P@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+A\+P}!set\+To\+Default@{set\+To\+Default}}
+\index{set\+To\+Default@{set\+To\+Default}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+A\+P@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+A\+P}}
+\subsubsection[{set\+To\+Default}]{\setlength{\rightskip}{0pt plus 5cm}void eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+A\+P.\+set\+To\+Default (
+\begin{DoxyParamCaption}
+\item[{double}]{uloop\+Dispositional\+Trust}
+\end{DoxyParamCaption}
+)}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerAP_a1ff1a92308cc59b93a3ff82540e658eb}
+Set some parameters to default \hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerAP_a67b5859a4ec4beeeb20e8d4f3cf5165f}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+A\+P@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+A\+P}!to\+String@{to\+String}}
+\index{to\+String@{to\+String}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+A\+P@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+A\+P}}
+\subsubsection[{to\+String}]{\setlength{\rightskip}{0pt plus 5cm}String eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+A\+P.\+to\+String (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerAP_a67b5859a4ec4beeeb20e8d4f3cf5165f}
+Return a string containing the S\+S\+I\+D, B\+S\+S\+I\+D and the Attractiveness. 
+
+\subsection{Member Data Documentation}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerAP_a6dd4193c9a35b610e54d33f9b279439b}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+A\+P@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+A\+P}!attractiveness@{attractiveness}}
+\index{attractiveness@{attractiveness}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+A\+P@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+A\+P}}
+\subsubsection[{attractiveness}]{\setlength{\rightskip}{0pt plus 5cm}double eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+A\+P.\+attractiveness\hspace{0.3cm}{\ttfamily [private]}}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerAP_a6dd4193c9a35b610e54d33f9b279439b}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerAP_a8d33e20d0808888fb0d22341d7b1ffcf}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+A\+P@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+A\+P}!B\+S\+S\+I\+D@{B\+S\+S\+I\+D}}
+\index{B\+S\+S\+I\+D@{B\+S\+S\+I\+D}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+A\+P@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+A\+P}}
+\subsubsection[{B\+S\+S\+I\+D}]{\setlength{\rightskip}{0pt plus 5cm}String eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+A\+P.\+B\+S\+S\+I\+D\hspace{0.3cm}{\ttfamily [private]}}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerAP_a8d33e20d0808888fb0d22341d7b1ffcf}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerAP_a6c4d27c182eac0aaba0de6f2a7c9c109}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+A\+P@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+A\+P}!last\+Gateway\+Ip@{last\+Gateway\+Ip}}
+\index{last\+Gateway\+Ip@{last\+Gateway\+Ip}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+A\+P@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+A\+P}}
+\subsubsection[{last\+Gateway\+Ip}]{\setlength{\rightskip}{0pt plus 5cm}String eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+A\+P.\+last\+Gateway\+Ip\hspace{0.3cm}{\ttfamily [private]}}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerAP_a6c4d27c182eac0aaba0de6f2a7c9c109}
+\hypertarget{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerAP_a7c07b1020257350bdfb1c7c5f3362dde}{\index{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+A\+P@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+A\+P}!S\+S\+I\+D@{S\+S\+I\+D}}
+\index{S\+S\+I\+D@{S\+S\+I\+D}!eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+A\+P@{eu\+::uloop\+::mobilitytracker\+::\+M\+Tracker\+A\+P}}
+\subsubsection[{S\+S\+I\+D}]{\setlength{\rightskip}{0pt plus 5cm}String eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+A\+P.\+S\+S\+I\+D\hspace{0.3cm}{\ttfamily [private]}}}\label{classeu_1_1uloop_1_1mobilitytracker_1_1MTrackerAP_a7c07b1020257350bdfb1c7c5f3362dde}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/eu/uloop/mobilitytracker/\hyperlink{MTrackerAP_8java}{M\+Tracker\+A\+P.\+java}\end{DoxyCompactItemize}

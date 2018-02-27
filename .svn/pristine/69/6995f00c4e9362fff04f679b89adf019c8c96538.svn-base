@@ -1,0 +1,76 @@
+\hypertarget{interfaceeu_1_1uloop_1_1mobilitytracker_1_1WifiChangeListener}{\section{eu.\+uloop.\+mobilitytracker.\+Wifi\+Change\+Listener Interface Reference}
+\label{interfaceeu_1_1uloop_1_1mobilitytracker_1_1WifiChangeListener}\index{eu.\+uloop.\+mobilitytracker.\+Wifi\+Change\+Listener@{eu.\+uloop.\+mobilitytracker.\+Wifi\+Change\+Listener}}
+}
+
+
+Inherited by eu.\+uloop.\+mobilitytracker.\+M\+Tracker\+Service.\+M\+Tracker\+Service\+Wifi\+Listener.
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{interfaceeu_1_1uloop_1_1mobilitytracker_1_1WifiChangeListener_adaaef9d32d4cb835b49b5d3c0bf2aebe}{on\+Wifi\+State\+Disabled} (boolean valid, String bssid, String ssid, long visit\+Id, long connection\+Start, long connection\+End)
+\item 
+void \hyperlink{interfaceeu_1_1uloop_1_1mobilitytracker_1_1WifiChangeListener_af05047c30f56bcd75c08b703faf3cb18}{on\+Wifi\+State\+Enabled} ()
+\item 
+void \hyperlink{interfaceeu_1_1uloop_1_1mobilitytracker_1_1WifiChangeListener_a0e93d004d3c09bf2622fad80f9f85fb6}{on\+Wifi\+Connection\+Down} (boolean valid, String bssid, String ssid, long visit\+Id, long connection\+Start, long connection\+End)
+\item 
+long \hyperlink{interfaceeu_1_1uloop_1_1mobilitytracker_1_1WifiChangeListener_a6a0aacf2d36131d7a49f29bf56e4b3e2}{on\+Wifi\+Connection\+Up} (String bssid, String ssid, List$<$ Scan\+Result $>$ last\+Scan\+Results)
+\item 
+void \hyperlink{interfaceeu_1_1uloop_1_1mobilitytracker_1_1WifiChangeListener_aa7914e455b236cb3187024011b7660a2}{on\+Wifi\+Available\+Networks\+Change} (String bssid, List$<$ Scan\+Result $>$ results)
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{interfaceeu_1_1uloop_1_1mobilitytracker_1_1WifiChangeListener_aa7914e455b236cb3187024011b7660a2}{\index{eu\+::uloop\+::mobilitytracker\+::\+Wifi\+Change\+Listener@{eu\+::uloop\+::mobilitytracker\+::\+Wifi\+Change\+Listener}!on\+Wifi\+Available\+Networks\+Change@{on\+Wifi\+Available\+Networks\+Change}}
+\index{on\+Wifi\+Available\+Networks\+Change@{on\+Wifi\+Available\+Networks\+Change}!eu\+::uloop\+::mobilitytracker\+::\+Wifi\+Change\+Listener@{eu\+::uloop\+::mobilitytracker\+::\+Wifi\+Change\+Listener}}
+\subsubsection[{on\+Wifi\+Available\+Networks\+Change}]{\setlength{\rightskip}{0pt plus 5cm}void eu.\+uloop.\+mobilitytracker.\+Wifi\+Change\+Listener.\+on\+Wifi\+Available\+Networks\+Change (
+\begin{DoxyParamCaption}
+\item[{String}]{bssid, }
+\item[{List$<$ Scan\+Result $>$}]{results}
+\end{DoxyParamCaption}
+)}}\label{interfaceeu_1_1uloop_1_1mobilitytracker_1_1WifiChangeListener_aa7914e455b236cb3187024011b7660a2}
+\hypertarget{interfaceeu_1_1uloop_1_1mobilitytracker_1_1WifiChangeListener_a0e93d004d3c09bf2622fad80f9f85fb6}{\index{eu\+::uloop\+::mobilitytracker\+::\+Wifi\+Change\+Listener@{eu\+::uloop\+::mobilitytracker\+::\+Wifi\+Change\+Listener}!on\+Wifi\+Connection\+Down@{on\+Wifi\+Connection\+Down}}
+\index{on\+Wifi\+Connection\+Down@{on\+Wifi\+Connection\+Down}!eu\+::uloop\+::mobilitytracker\+::\+Wifi\+Change\+Listener@{eu\+::uloop\+::mobilitytracker\+::\+Wifi\+Change\+Listener}}
+\subsubsection[{on\+Wifi\+Connection\+Down}]{\setlength{\rightskip}{0pt plus 5cm}void eu.\+uloop.\+mobilitytracker.\+Wifi\+Change\+Listener.\+on\+Wifi\+Connection\+Down (
+\begin{DoxyParamCaption}
+\item[{boolean}]{valid, }
+\item[{String}]{bssid, }
+\item[{String}]{ssid, }
+\item[{long}]{visit\+Id, }
+\item[{long}]{connection\+Start, }
+\item[{long}]{connection\+End}
+\end{DoxyParamCaption}
+)}}\label{interfaceeu_1_1uloop_1_1mobilitytracker_1_1WifiChangeListener_a0e93d004d3c09bf2622fad80f9f85fb6}
+\hypertarget{interfaceeu_1_1uloop_1_1mobilitytracker_1_1WifiChangeListener_a6a0aacf2d36131d7a49f29bf56e4b3e2}{\index{eu\+::uloop\+::mobilitytracker\+::\+Wifi\+Change\+Listener@{eu\+::uloop\+::mobilitytracker\+::\+Wifi\+Change\+Listener}!on\+Wifi\+Connection\+Up@{on\+Wifi\+Connection\+Up}}
+\index{on\+Wifi\+Connection\+Up@{on\+Wifi\+Connection\+Up}!eu\+::uloop\+::mobilitytracker\+::\+Wifi\+Change\+Listener@{eu\+::uloop\+::mobilitytracker\+::\+Wifi\+Change\+Listener}}
+\subsubsection[{on\+Wifi\+Connection\+Up}]{\setlength{\rightskip}{0pt plus 5cm}long eu.\+uloop.\+mobilitytracker.\+Wifi\+Change\+Listener.\+on\+Wifi\+Connection\+Up (
+\begin{DoxyParamCaption}
+\item[{String}]{bssid, }
+\item[{String}]{ssid, }
+\item[{List$<$ Scan\+Result $>$}]{last\+Scan\+Results}
+\end{DoxyParamCaption}
+)}}\label{interfaceeu_1_1uloop_1_1mobilitytracker_1_1WifiChangeListener_a6a0aacf2d36131d7a49f29bf56e4b3e2}
+\hypertarget{interfaceeu_1_1uloop_1_1mobilitytracker_1_1WifiChangeListener_adaaef9d32d4cb835b49b5d3c0bf2aebe}{\index{eu\+::uloop\+::mobilitytracker\+::\+Wifi\+Change\+Listener@{eu\+::uloop\+::mobilitytracker\+::\+Wifi\+Change\+Listener}!on\+Wifi\+State\+Disabled@{on\+Wifi\+State\+Disabled}}
+\index{on\+Wifi\+State\+Disabled@{on\+Wifi\+State\+Disabled}!eu\+::uloop\+::mobilitytracker\+::\+Wifi\+Change\+Listener@{eu\+::uloop\+::mobilitytracker\+::\+Wifi\+Change\+Listener}}
+\subsubsection[{on\+Wifi\+State\+Disabled}]{\setlength{\rightskip}{0pt plus 5cm}void eu.\+uloop.\+mobilitytracker.\+Wifi\+Change\+Listener.\+on\+Wifi\+State\+Disabled (
+\begin{DoxyParamCaption}
+\item[{boolean}]{valid, }
+\item[{String}]{bssid, }
+\item[{String}]{ssid, }
+\item[{long}]{visit\+Id, }
+\item[{long}]{connection\+Start, }
+\item[{long}]{connection\+End}
+\end{DoxyParamCaption}
+)}}\label{interfaceeu_1_1uloop_1_1mobilitytracker_1_1WifiChangeListener_adaaef9d32d4cb835b49b5d3c0bf2aebe}
+\hypertarget{interfaceeu_1_1uloop_1_1mobilitytracker_1_1WifiChangeListener_af05047c30f56bcd75c08b703faf3cb18}{\index{eu\+::uloop\+::mobilitytracker\+::\+Wifi\+Change\+Listener@{eu\+::uloop\+::mobilitytracker\+::\+Wifi\+Change\+Listener}!on\+Wifi\+State\+Enabled@{on\+Wifi\+State\+Enabled}}
+\index{on\+Wifi\+State\+Enabled@{on\+Wifi\+State\+Enabled}!eu\+::uloop\+::mobilitytracker\+::\+Wifi\+Change\+Listener@{eu\+::uloop\+::mobilitytracker\+::\+Wifi\+Change\+Listener}}
+\subsubsection[{on\+Wifi\+State\+Enabled}]{\setlength{\rightskip}{0pt plus 5cm}void eu.\+uloop.\+mobilitytracker.\+Wifi\+Change\+Listener.\+on\+Wifi\+State\+Enabled (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfaceeu_1_1uloop_1_1mobilitytracker_1_1WifiChangeListener_af05047c30f56bcd75c08b703faf3cb18}
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/eu/uloop/mobilitytracker/\hyperlink{WifiChangeListener_8java}{Wifi\+Change\+Listener.\+java}\end{DoxyCompactItemize}

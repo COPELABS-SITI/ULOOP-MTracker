@@ -1,0 +1,56 @@
+\hypertarget{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1NetworkStatusMessageReplyOrBuilder}{\section{eu.\+uloop.\+messages.\+Uloop\+Messages.\+Network\+Status\+Message\+Reply\+Or\+Builder Interface Reference}
+\label{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1NetworkStatusMessageReplyOrBuilder}\index{eu.\+uloop.\+messages.\+Uloop\+Messages.\+Network\+Status\+Message\+Reply\+Or\+Builder@{eu.\+uloop.\+messages.\+Uloop\+Messages.\+Network\+Status\+Message\+Reply\+Or\+Builder}}
+}
+Inheritance diagram for eu.\+uloop.\+messages.\+Uloop\+Messages.\+Network\+Status\+Message\+Reply\+Or\+Builder\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1NetworkStatusMessageReplyOrBuilder}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+boolean \hyperlink{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1NetworkStatusMessageReplyOrBuilder_a0509c8ec0f76840337cb8b7ee5f2595b}{has\+Uplink} ()
+\item 
+long \hyperlink{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1NetworkStatusMessageReplyOrBuilder_a556bcbf86c58885d8e1c48fc5173f3ff}{get\+Uplink} ()
+\item 
+boolean \hyperlink{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1NetworkStatusMessageReplyOrBuilder_a204ce529f1f0f41b246fea62d5f993ab}{has\+Available} ()
+\item 
+long \hyperlink{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1NetworkStatusMessageReplyOrBuilder_a4059b5bf18655f2f119a0d6c26cec204}{get\+Available} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1NetworkStatusMessageReplyOrBuilder_a4059b5bf18655f2f119a0d6c26cec204}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Network\+Status\+Message\+Reply\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Network\+Status\+Message\+Reply\+Or\+Builder}!get\+Available@{get\+Available}}
+\index{get\+Available@{get\+Available}!eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Network\+Status\+Message\+Reply\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Network\+Status\+Message\+Reply\+Or\+Builder}}
+\subsubsection[{get\+Available}]{\setlength{\rightskip}{0pt plus 5cm}long eu.\+uloop.\+messages.\+Uloop\+Messages.\+Network\+Status\+Message\+Reply\+Or\+Builder.\+get\+Available (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1NetworkStatusMessageReplyOrBuilder_a4059b5bf18655f2f119a0d6c26cec204}
+\hypertarget{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1NetworkStatusMessageReplyOrBuilder_a556bcbf86c58885d8e1c48fc5173f3ff}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Network\+Status\+Message\+Reply\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Network\+Status\+Message\+Reply\+Or\+Builder}!get\+Uplink@{get\+Uplink}}
+\index{get\+Uplink@{get\+Uplink}!eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Network\+Status\+Message\+Reply\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Network\+Status\+Message\+Reply\+Or\+Builder}}
+\subsubsection[{get\+Uplink}]{\setlength{\rightskip}{0pt plus 5cm}long eu.\+uloop.\+messages.\+Uloop\+Messages.\+Network\+Status\+Message\+Reply\+Or\+Builder.\+get\+Uplink (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1NetworkStatusMessageReplyOrBuilder_a556bcbf86c58885d8e1c48fc5173f3ff}
+\hypertarget{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1NetworkStatusMessageReplyOrBuilder_a204ce529f1f0f41b246fea62d5f993ab}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Network\+Status\+Message\+Reply\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Network\+Status\+Message\+Reply\+Or\+Builder}!has\+Available@{has\+Available}}
+\index{has\+Available@{has\+Available}!eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Network\+Status\+Message\+Reply\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Network\+Status\+Message\+Reply\+Or\+Builder}}
+\subsubsection[{has\+Available}]{\setlength{\rightskip}{0pt plus 5cm}boolean eu.\+uloop.\+messages.\+Uloop\+Messages.\+Network\+Status\+Message\+Reply\+Or\+Builder.\+has\+Available (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1NetworkStatusMessageReplyOrBuilder_a204ce529f1f0f41b246fea62d5f993ab}
+\hypertarget{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1NetworkStatusMessageReplyOrBuilder_a0509c8ec0f76840337cb8b7ee5f2595b}{\index{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Network\+Status\+Message\+Reply\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Network\+Status\+Message\+Reply\+Or\+Builder}!has\+Uplink@{has\+Uplink}}
+\index{has\+Uplink@{has\+Uplink}!eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Network\+Status\+Message\+Reply\+Or\+Builder@{eu\+::uloop\+::messages\+::\+Uloop\+Messages\+::\+Network\+Status\+Message\+Reply\+Or\+Builder}}
+\subsubsection[{has\+Uplink}]{\setlength{\rightskip}{0pt plus 5cm}boolean eu.\+uloop.\+messages.\+Uloop\+Messages.\+Network\+Status\+Message\+Reply\+Or\+Builder.\+has\+Uplink (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfaceeu_1_1uloop_1_1messages_1_1UloopMessages_1_1NetworkStatusMessageReplyOrBuilder_a0509c8ec0f76840337cb8b7ee5f2595b}
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/eu/uloop/messages/\hyperlink{UloopMessages_8java}{Uloop\+Messages.\+java}\end{DoxyCompactItemize}
